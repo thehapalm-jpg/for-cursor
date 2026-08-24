@@ -30,13 +30,42 @@
 
 ### 2. Настроить проект
 
+Сначала проверь, что Python установлен. В терминале VS Code:
+
+```bash
+python --version
+```
+
+или
+
+```bash
+python3 --version
+```
+
+Если пишет `command not found` / «не является внутренней командой» — поставь Python с [python.org](https://www.python.org/downloads/)  
+(на Windows при установке включи галочку **Add python.exe to PATH**), затем **закрой и снова открой** терминал.
+
+Дальше в папке проекта:
+
+**Windows (PowerShell / cmd):**
+```bat
+cd путь\к\for-cursor
+python -m venv .venv
+.venv\Scripts\activate
+python -m pip install -r requirements.txt
+copy .env.example .env
+```
+
+**Mac / Linux:**
 ```bash
 cd /path/to/for-cursor
 python3 -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
+source .venv/bin/activate
+python3 -m pip install -r requirements.txt
 cp .env.example .env
 ```
+
+> Если `pip` не находится — всегда используй `python -m pip` (или `python3 -m pip`). Так надёжнее.
 
 В файл `.env` вставь:
 
@@ -49,6 +78,8 @@ BOT_TOKEN=твой_токен_от_BotFather
 ```bash
 python -m bot.main
 ```
+
+(на Mac/Linux, если `python` не найден: `python3 -m bot.main`)
 
 Пока терминал открыт — бот живой. Настя пишет боту `/start` и тыкает кнопки.
 В конце бот выдаст карточку ответов — её можно переслать тебе.
