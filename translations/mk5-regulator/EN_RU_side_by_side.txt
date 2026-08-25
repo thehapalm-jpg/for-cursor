@@ -44,19 +44,19 @@ RU: отличается от тех, что были
 
 12
 EN: past. So as soon as you look at the
-RU: раньше. Как только вы посмотрите на
+RU: раньше. Как только взглянете на
 
 13
 EN: regulator, you'll see it now says
-RU: редуктор, сразу заметите надпись
+RU: редуктор, сразу увидите надпись
 
 14
 EN: patented tool free. And we've made this
-RU: patented tool free. И мы сделали его
+RU: patented tool free. Конструкцию мы сделали
 
 15
 EN: as tool free as possible because who
-RU: максимально без инструментов, потому что кому
+RU: максимально удобной без ключей: кому
 
 16
 EN: wants to have to go and get a shift up
@@ -64,7 +64,7 @@ RU: охота бегать за гаечным ключом,
 
 17
 EN: when you can just do the regulator up by
-RU: если можно просто затянуть редуктор
+RU: если редуктор можно просто затянуть
 
 18
 EN: hand. If you look at the older regulators
@@ -192,11 +192,11 @@ RU: вот так. И вы наверняка спросите: а как
 
 49
 EN: can I get the torque required to do this
-RU: набрать нужный момент, чтобы
+RU: набрать нужное усилие,
 
 50
 EN: up tight enough to seal and that's
-RU: затянуть достаточно для герметичности? Всё дело
+RU: чтобы затянуть до герметичности? Всё дело
 
 51
 EN: because we've changed the spigot design
@@ -216,15 +216,15 @@ RU: Само уплотнительное кольцо, как видно, вс�
 
 55
 EN: into the brass spigot here So if you
-RU: в латунный штуцер. Так что если
+RU: в латунный штуцер. Если
 
 56
 EN: needed to change this you could pick it
-RU: его понадобится заменить, можно вынуть
+RU: кольцо понадобится заменить, его можно вынуть
 
 57
 EN: out and then put another one in but
-RU: и поставить другое, но
+RU: и поставить новое, но
 
 58
 EN: honestly you should never be able to
@@ -276,7 +276,7 @@ RU: сопротивление — ещё пол-оборота,
 
 70
 EN: turn and then it's done. So that's now
-RU: и готово. Теперь оно
+RU: и готово. Теперь соединение
 
 71
 EN: holding pressure can turn the cylinder.
@@ -312,11 +312,11 @@ RU: ключ на это соединение
 
 79
 EN: tweak it up with the spanner if you
-RU: и слегка подтянуть ключом, если
+RU: и слегка подтянуть ключом,
 
 80
 EN: really needed to. But really a lot of
-RU: совсем необходимо. Но большую часть
+RU: если совсем необходимо. Но большую часть
 
 81
 EN: that temptation for damaging the seal is
@@ -684,11 +684,11 @@ RU: поставим два кольца — силикон и EPDM.
 
 172
 EN: So you get the best of both worlds with
-RU: Так вы получаете лучшее из обоих миров
+RU: Так вы получаете лучшее
 
 173
 EN: with regards to its ceiling performance.
-RU: по качеству уплотнения.
+RU: уплотнение сразу по двум параметрам.
 
 174
 EN: But really the check valve does make a
@@ -696,19 +696,19 @@ RU: Но именно обратный клапан даёт
 
 175
 EN: massive difference. It's just something
-RU: огромную разницу. Только помните:
+RU: огромную разницу. Важно помнить:
 
 176
 EN: you have to remember that, you know, if
-RU: если вы
+RU: если
 
 177
 EN: you crank the gas up like this and if you
-RU: поднимете давление вот так и
+RU: поднять давление вот так и
 
 178
 EN: pull the pressure release valve here,
-RU: дёрнете предохранительный клапан здесь,
+RU: дёрнуть предохранительный клапан здесь,
 
 179
 EN: that is only releasing the gas pressure
@@ -820,7 +820,7 @@ RU: бывает немного коррозии
 
 206
 EN: from the metal inside the cylinder. Now
-RU: с металла стенок. А если
+RU: с металла стенок. А если взять
 
 207
 EN: if you've got a really big cylinder like
@@ -868,7 +868,7 @@ RU: лежит внутри. Но у домашнего пивовара,
 
 218
 EN: because you've got a small cylinder, you
-RU: потому что баллон маленький, его
+RU: потому что баллон маленький — его
 
 219
 EN: probably sometimes put it sideways.
@@ -904,11 +904,11 @@ RU: намного выше. Кроме того,
 
 227
 EN: home Brewers is we're connecting these
-RU: домашние пивовары подключают эти
+RU: домашние пивовары подключают редукторы
 
 228
 EN: two things. Like, you know, overly full
-RU: две вещи: например, переполненные
+RU: к разному: например, к переполненным
 
 229
 EN: beer kegs and stuff like that. Some
@@ -936,11 +936,11 @@ RU: Это тоже частая беда. Ещё
 
 235
 EN: thing is some people have these
-RU: некоторые держат эти
+RU: некоторые держат редукторы
 
 236
 EN: regulators in fridges in high moisture
-RU: редукторы в холодильниках с высокой влажностью.
+RU: в холодильниках с высокой влажностью.
 
 237
 EN: environment. Moisture gets in there so
@@ -960,11 +960,11 @@ RU: когда редуктор выкручивают
 
 241
 EN: up to full. Pressure like this and
-RU: на полное давление вот так и
+RU: на полное давление вот так
 
 242
 EN: you do force carbonation and you
-RU: делают принудительную карбонизацию, то
+RU: и делают принудительную карбонизацию,
 
 243
 EN: increasing and decreasing the pressure.
@@ -1000,15 +1000,15 @@ RU: две латунные детали сотрутся и
 
 251
 EN: bits of bits, small flakes of brass
-RU: проходят через редуктор и
+RU: мелкие чешуйки латуни
 
 252
 EN: coming through the regulator and getting
-RU: застревают
+RU: пройдут через редуктор и
 
 253
 EN: stuck under the seat and seat cap. So
-RU: под седлом и seat cap. Поэтому
+RU: застрянут под седлом и seat cap.
 
 254
 EN: honestly, home Brewers are far tougher on
@@ -1180,7 +1180,7 @@ RU: «не работал», забавно. Открываем —
 
 296
 EN: and there's corrosion everywhere because
-RU: везде коррозия, потому что
+RU: везде коррозия —
 
 297
 EN: there's been liquid get inside this
@@ -1264,7 +1264,7 @@ RU: сделали: у нас есть
 
 317
 EN: This knob here, and if I unscrew the knob
-RU: вот эта ручка — откручиваю её
+RU: вот эта ручка. Откручиваю её
 
 318
 EN: from the front of the regulator, you turn
@@ -1352,11 +1352,11 @@ RU: заднюю часть — вот отверстие 8 мм.
 
 339
 EN: You basically just go like that and you
-RU: Вставляю вот так и
+RU: Вставляю вот так
 
 340
 EN: take the back of the regulator out. So
-RU: вынимаю задний узел. Очень
+RU: и вынимаю задний узел. Очень
 
 341
 EN: really easy, no tools required. I could
@@ -1484,7 +1484,7 @@ RU: этого отверстия. И если латунь
 
 372
 EN: rubbing up against brass, especially if
-RU: трётся о латунь, особенно если
+RU: трётся о латунь — особенно если
 
 373
 EN: there's any corrosion or contamination
@@ -1584,7 +1584,7 @@ RU: Снимаю деталь и
 
 397
 EN: this off and I can clean this off with a
-RU: протираю её
+RU: протираю
 
 398
 EN: bit of a cloth or something like that and
@@ -1604,7 +1604,7 @@ RU: снова собран, pressure creep устранён —
 
 402
 EN: pressure creep situation without even
-RU: и даже ключ
+RU: и даже гаечный ключ
 
 403
 EN: having to reach for a spanner or anything
@@ -1616,27 +1616,27 @@ RU: Супер удобно в полевых условиях.
 
 405
 EN: easy out in the field. You could do this
-RU: Можно обойтись чем угодно под рукой — и дальше
+RU: Супер удобно в полевых условиях.
 
 406
 EN: with really anything at all and then away
-RU: работаете. Закручиваю,
+RU: Можно обойтись чем угодно под рукой —
 
 407
 EN: you go. So screw that on and then go back
-RU: возвращаюсь к передней части редуктора, ставлю
+RU: и дальше работаете. Закручиваю,
 
 408
 EN: to the front of the regulator put. Knob
-RU: ручку
+RU: возвращаюсь к передней части, ставлю
 
 409
 EN: back in and, you know, back up and
-RU: обратно — и снова в строю
+RU: ручку обратно — и снова
 
 410
 EN: running with really hard beady fuss.
-RU: без лишней возни.
+RU: в строю без лишней возни.
 
 411
 EN: Honestly, that's a 32nd job. Now, a
@@ -1688,7 +1688,7 @@ RU: шланг — и баллон
 
 423
 EN: cylinder sideways and boom, if this
-RU: падает набок, и бах: если
+RU: падает набок. И бах: если
 
 424
 EN: cylinder falls over sideways, all it has
@@ -1704,11 +1704,11 @@ RU: манометр будет повреждён. Дома у многих
 
 427
 EN: home don't have the tools to really
-RU: клиентов нет инструмента, чтобы
+RU: клиентов нет инструмента,
 
 428
 EN: easily change and gauge themselves. So
-RU: спокойно заменить манометр самим. Так что
+RU: чтобы спокойно заменить манометр самим. Так что
 
 429
 EN: look for the sake of like such a cheap
@@ -1728,11 +1728,11 @@ RU: На сайте, по‑моему, есть нержавеющие вари
 
 433
 EN: think on the website. We're also thinking
-RU: Думаем и о
+RU: Думаем ещё
 
 434
 EN: about doing these black powder coated
-RU: чёрных порошковых
+RU: о чёрных порошковых
 
 435
 EN: steel ones as well, but they fit onto the
@@ -1780,7 +1780,7 @@ RU: если понадобится. Защита сидит
 
 446
 EN: the front. And then you've got these
-RU: спереди. А сзади эти
+RU: спереди. А сзади вот эти
 
 447
 EN: three little screws in here which you can
@@ -1800,7 +1800,7 @@ RU: Закручиваете эти три винта вот так —
 
 451
 EN: and then.
-RU: и дальше.
+RU: и готово.
 
 452
 EN: Boom and boom boom. And literally this
