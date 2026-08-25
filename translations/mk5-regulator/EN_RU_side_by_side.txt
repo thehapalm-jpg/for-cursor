@@ -4,15 +4,15 @@ RU: Всем привет, с вами Kee из Kegland. Сегодня
 
 2
 EN: we're talking about our new Mark 5
-RU: мы поговорим о наших новых редукторах MK5.
+RU: мы поговорим о наших новых
 
 3
 EN: regulators. Some of you guys will be
-RU: Многие из вас уже знакомы
+RU: редукторах MK5. Многие из вас уже
 
 4
 EN: familiar with our older model, which was
-RU: с предыдущей моделью —
+RU: знакомы с предыдущей моделью —
 
 5
 EN: the Mark 4. We've got several new
@@ -24,7 +24,7 @@ RU: важных улучшений, благодаря которым
 
 7
 EN: the whole regulator easy to use, easy to
-RU: редуктор стал удобнее в работе,
+RU: весь редуктор стал удобнее в работе,
 
 8
 EN: maintain and just more reliable in
@@ -36,15 +36,15 @@ RU: в целом. Давайте разберём
 
 10
 EN: features and show you how this regulator
-RU: ключевые особенности и я покажу,
+RU: особенности и я покажу, как этот редуктор
 
 11
 EN: is quite different to the ones in the
-RU: чем эта модель отличается от
+RU: отличается от тех, что были
 
 12
 EN: past. So as soon as you look at the
-RU: предыдущих. Как только вы посмотрите на
+RU: раньше. Как только вы посмотрите на
 
 13
 EN: regulator, you'll see it now says
@@ -52,23 +52,23 @@ RU: редуктор, сразу заметите надпись
 
 14
 EN: patented tool free. And we've made this
-RU: patented tool free — без инструментов.
+RU: patented tool free. И мы сделали его
 
 15
 EN: as tool free as possible because who
-RU: Мы сделали конструкцию максимально удобной,
+RU: максимально без инструментов, потому что кому
 
 16
 EN: wants to have to go and get a shift up
-RU: потому что кому охота бегать за ключом,
+RU: охота бегать за гаечным ключом,
 
 17
 EN: when you can just do the regulator up by
-RU: если редуктор можно просто
+RU: если можно просто затянуть редуктор
 
 18
 EN: hand. If you look at the older regulators
-RU: затянуть рукой. Если взять старые модели,
+RU: рукой. Если взять старые редукторы,
 
 19
 EN: like the Mark Fours for instance, or most
@@ -84,35 +84,35 @@ RU: их нужно затягивать гайкой вот здесь.
 
 22
 EN: And the reason why a nut is really
-RU: А гайка нужна по одной простой
+RU: А гайка нужна по простой
 
 23
 EN: required is because we use fairly hard
-RU: причине: раньше мы использовали
+RU: причине: раньше мы использовали довольно жёсткие
 
 24
 EN: nylon washers or we did in the past. So
-RU: довольно жёсткие нейлоновые шайбы.
+RU: нейлоновые шайбы — так было в прошлом.
 
 25
 EN: these nylon washers that are fairly hard
-RU: Эти нейлоновые шайбы из плотного
+RU: Эти нейлоновые шайбы из довольно плотного
 
 26
 EN: compound, they could be quite hard
-RU: материала хорошо служат
+RU: материала могут быть довольно твёрдыми,
 
 27
 EN: wearing and last a long time. However,
-RU: и долго не изнашиваются. Однако
+RU: износостойкими и служить долго. Однако
 
 28
 EN: from our experience, the reason why these
-RU: по нашему опыту они чаще всего
+RU: по нашему опыту причина, почему они
 
 29
 EN: wear out is generally because people over
-RU: выходят из строя из‑за того, что люди
+RU: изнашиваются, обычно в том, что люди
 
 30
 EN: tighten this. So as soon as you put a nut
@@ -124,27 +124,27 @@ RU: и её начинают закручивать,
 
 32
 EN: these up, the temptation is that people
-RU: возникает соблазн взять
+RU: возникает соблазн: люди
 
 33
 EN: get a spanner, get a lot of leverage and
-RU: гаечный ключ, дать больше рычага
+RU: берут ключ, дают большой рычаг
 
 34
 EN: they can do it up overly tight and then
-RU: и затянуть слишком сильно —
+RU: и затягивают слишком сильно — и тогда
 
 35
 EN: they damage this nylon washer. So we
-RU: в итоге нейлоновая шайба повреждается. Поэтому
+RU: повреждают эту нейлоновую шайбу. Поэтому
 
 36
 EN: generally always ship these with a spare
-RU: мы обычно кладём в комплект запасную
+RU: мы обычно кладём в комплект запасную —
 
 37
 EN: which is zip tied onto the regulator like
-RU: шайбу — она крепится стяжкой к редуктору
+RU: она крепится стяжкой к редуктору
 
 38
 EN: that. So you've got to back up just in
@@ -160,15 +160,15 @@ RU: решили, что пора
 
 41
 EN: address this because that was one of the
-RU: решить эту проблему: это как раз та
+RU: решить эту проблему, потому что это одна из
 
 42
 EN: parts that it's a bit annoying if you
-RU: деталь, которая особенно бесит,
+RU: тех деталей, которые особенно бесят,
 
 43
 EN: happen to be halfway through a party and
-RU: если отказывает посреди вечеринки,
+RU: если отказ случится посреди вечеринки,
 
 44
 EN: don't ever. Washer So what we do now is
@@ -180,11 +180,11 @@ RU: в конструкции tool free стоит
 
 46
 EN: hand wheel like this so really easy don't
-RU: вот такой маховик — очень удобно,
+RU: вот такой маховик — очень удобно, не
 
 47
 EN: need any tools and you can do it up like
-RU: никаких инструментов не нужно, затягиваете
+RU: нужны инструменты, затягиваете
 
 48
 EN: that and you're probably saying well how
@@ -192,11 +192,11 @@ RU: вот так. И вы наверняка спросите: а как
 
 49
 EN: can I get the torque required to do this
-RU: набрать нужный момент,
+RU: набрать нужный момент, чтобы
 
 50
 EN: up tight enough to seal and that's
-RU: чтобы соединение стало герметичным? Всё дело
+RU: затянуть достаточно для герметичности? Всё дело
 
 51
 EN: because we've changed the spigot design
@@ -212,263 +212,263 @@ RU: здесь гораздо более мягкий материал.
 
 54
 EN: actual you can see the o-ring is embedded
-RU: Видите — уплотнительное кольцо встроено
+RU: Само уплотнительное кольцо, как видно, встроено
 
 55
 EN: into the brass spigot here So if you
-RU: прямо в латунный штуцер. Если
+RU: в латунный штуцер. Так что если
 
 56
 EN: needed to change this you could pick it
-RU: кольцо всё же понадобится заменить, его можно
+RU: его понадобится заменить, можно вынуть
 
 57
 EN: out and then put another one in but
-RU: вынуть и поставить новое, но
+RU: и поставить другое, но
 
 58
 EN: honestly you should never be able to
-RU: по сути повредить его почти невозможно,
+RU: честно — повредить его почти
 
 59
 EN: damage this because as you can see. It's
-RU: потому что при сборке этих двух частей
+RU: невозможно, потому что, как видите,
 
 60
 EN: got when you actually do these two parts
-RU: латунь упирается в упор,
+RU: когда эти две части
 
 61
 EN: up together like that, the brass will
-RU: как только достигнута
+RU: сводят вместе вот так, латунь
 
 62
 EN: start to bottom out once you get to the
-RU: нужная степень сжатия. То есть
+RU: упирается в упор, как только достигнута
 
 63
 EN: correct level of compression. So you
-RU: пережать уплотнение здесь
+RU: нужная степень сжатия. То есть
 
 64
 EN: can't really over compress this one
-RU: почти нельзя — так устроена конструкция
+RU: пережать это уплотнение
 
 65
 EN: easily at all due to how it's designed
-RU: с более мягким уплотнителем. Достаточно
+RU: почти нельзя — так устроена конструкция
 
 66
 EN: being with that softer seal. All you need
-RU: просто затянуть маховик рукой
+RU: с более мягким уплотнителем. Достаточно
 
 67
 EN: is to basically do this up by hand like
-RU: вот так, а когда почувствуете
+RU: просто затянуть это рукой
 
 68
 EN: that and then once you feel a bit of
-RU: сопротивление — ещё пол-оборота,
+RU: вот так, а когда почувствуете
 
 69
 EN: resistance, give it another little half
-RU: и готово. Теперь соединение
+RU: сопротивление — ещё пол-оборота,
 
 70
 EN: turn and then it's done. So that's now
-RU: держит давление — можно открывать баллон.
+RU: и готово. Теперь оно
 
 71
 EN: holding pressure can turn the cylinder.
-RU: Как видите, на манометре полное
+RU: держит давление — можно открывать баллон.
 
 72
 EN: As you can see, I've got full bottle
-RU: давление баллона, утечек
+RU: Как видите, у меня полное
 
 73
 EN: pressure on that. It's not leaking at
-RU: нет. Отлично. Очень просто.
+RU: давление баллона, утечек
 
 74
 EN: all. So fantastic. Really, really easy
-RU: Если у вас слабый хват
+RU: нет. Отлично. Очень-очень просто.
 
 75
 EN: look, if you're really weak or for some
-RU: или по какой‑то причине плохо берётся,
+RU: Смотрите, если у вас слабый хват
 
 76
 EN: reason you don't have very good grip,
-RU: всё равно можно надеть
+RU: или по какой‑то причине плохо берётся,
 
 77
 EN: look, you could still get, you know, a
-RU: ключ на это соединение
+RU: всё равно можно надеть
 
 78
 EN: spanner onto this connection here and
-RU: и слегка подтянуть,
+RU: ключ на это соединение
 
 79
 EN: tweak it up with the spanner if you
-RU: если совсем необходимо. Но соблазн
+RU: и слегка подтянуть ключом, если
 
 80
 EN: really needed to. But really a lot of
-RU: повредить уплотнение
+RU: совсем необходимо. Но большую часть
 
 81
 EN: that temptation for damaging the seal is
-RU: существенно меньше благодаря этому
+RU: соблазна повредить уплотнение
 
 82
 EN: has been removed because of this hand
-RU: маховику. На MK5
+RU: мы убрали благодаря этому маховику
 
 83
 EN: wheel on there. So with the mark fives
-RU: и на MK4 мы всегда ставим
+RU: на корпусе. На MK5
 
 84
 EN: and the mark fours, we have always put
-RU: манометры класса 2.5. Хочу
+RU: и на MK4 мы всегда ставим
 
 85
 EN: the class 2.5 gauge on there. I should
-RU: отдельно это отметить: многие
+RU: манометр класса 2.5. Хочу
 
 86
 EN: make mention to that because a lot of
-RU: хотят хорошую
+RU: это отдельно отметить, потому что многие
 
 87
 EN: people want to get, you know, pretty good
-RU: точность показаний, а самые
+RU: хотят довольно хорошую
 
 88
 EN: accuracy on the gauges and the most
-RU: распространённые манометры для домашнего пивоварения
+RU: точность показаний, а самые
 
 89
 EN: common other homebrew gauges that you
-RU: обычно бывают класса 3.
+RU: распространённые манометры для домашнего пивоварения
 
 90
 EN: would get out there would be a class 3.
-RU: Разница не огромная, но
+RU: обычно бывают класса 3.
 
 91
 EN: Look, it's not a massive difference, but
-RU: когда говорят «класс два, три,
+RU: Разница не огромная, но
 
 92
 EN: when you say class two or three or four
-RU: четыре или пять» — это число как раз
+RU: когда говорят «класс два, три,
 
 93
 EN: or five, basically that number relates to
-RU: процент точности относительно шкалы
+RU: четыре или пять» — это число по сути
 
 94
 EN: its percentage accuracy over the gauge
-RU: манометра. Если манометр идёт,
+RU: процент точности относительно шкалы
 
 95
 EN: range. So if you've got a gauge that goes
-RU: скажем, до 100 PSI, то при
+RU: манометра. Если манометр идёт,
 
 96
 EN: up to let's say 100 PSI, then if it's a
-RU: классе 3 погрешность около ±3 PSI
+RU: скажем, до 100 PSI, то при
 
 97
 EN: class 3, then you get plus or. -3 PSI for
-RU: на весь диапазон. А при классе 2.5
+RU: классе 3 погрешность примерно ±3 PSI
 
 98
 EN: the gauge range. So if it's a class 2.5,
-RU: точность чуть выше: вы
+RU: на диапазон шкалы. А при классе 2.5
 
 99
 EN: it's slightly more accurate. You're
-RU: получаете ±2,5% шкалы, то есть
+RU: точность чуть выше: вы
 
 100
 EN: getting ±2 1/2% of the gauge range, so 2
-RU: примерно 2,5 PSI в этом примере. Если шкала
+RU: получаете ±2,5% шкалы, то есть 2
 
 101
 EN: 1/2 PSI in that instance. If it has less
-RU: на меньшее давление — точность
+RU: 1/2 PSI в этом примере. Если на шкале
 
 102
 EN: pressure on the gauge, obviously you get
-RU: на низких значениях выше,
+RU: меньшее давление, точность на
 
 103
 EN: higher accuracy at the lower pressures,
-RU: но и верхний предел на
+RU: низких значениях выше,
 
 104
 EN: but you can't go as high on the
-RU: редукторе меньше. Ещё важный момент,
+RU: но и верхний предел на
 
 105
 EN: regulator. One other thing to note, which
-RU: который многих путает и о котором
+RU: редукторе меньше. Ещё важный момент,
 
 106
 EN: some people get a bit confused and should
-RU: стоит помнить: стрелка
+RU: который многих путает и о котором
 
 107
 EN: be aware of is you should. The needle
-RU: не должна заходить дальше 80% шкалы.
+RU: стоит помнить: стрелка
 
 108
 EN: should never exceed more than 80% of the
-RU: Если давление постоянно высокое —
+RU: не должна заходить дальше 80% шкалы.
 
 109
 EN: gauge range either. So if you're ever
-RU: ставьте манометр на больший диапазон. Мы
+RU: Так что если давление постоянно высокое —
 
 110
 EN: getting really high, you should be
-RU: видим, как люди перекручивают регулятор,
+RU: ставьте манометр на больший диапазон. Мы
 
 111
 EN: upgrading to a higher pressure gauge. We
-RU: и домашние пивовары нередко уводят стрелку
+RU: видим, как люди перекручивают их,
 
 112
 EN: do. See people over crank these up even
-RU: за край шкалы — а это серьёзно
+RU: и я много раз видел, как домашние пивовары
 
 113
 EN: I've seen a lot of home Brewers go past
-RU: повреждает механизм внутри манометра.
+RU: уводят стрелку за край шкалы — а это
 
 114
 EN: the end of the gauge and then that really
-RU: Имейте это в виду. Ещё одно
+RU: за край шкалы — а это серьёзно
 
 115
 EN: damages the cogs inside the gauge as
-RU: повреждает механизм внутри манометра.
+RU: повреждает механизм внутри манометра
 
 116
 EN: well. So just be aware of that. So the
-RU: Имейте это в виду. Ещё одно
+RU: тоже. Так что имейте это в виду. Ещё
 
 117
 EN: other thing we've upgraded and I felt
-RU: важное обновление — и для MK5 я считаю
+RU: одно обновление — и я считаю,
 
 118
 EN: this was really important with the mark 5
-RU: его особенно важным —
+RU: оно действительно важно для MK5 —
 
 119
 EN: is the output here. So look, we undered
@@ -476,19 +476,19 @@ RU: это выходной узел. Мы долго
 
 120
 EN: about this because some people find this
-RU: думали над этим: новичкам
+RU: думали над этим, потому что некоторым
 
 121
 EN: a bit confusing when you're a new
-RU: иногда бывает непонятно.
+RU: это немного непонятно, когда вы новый
 
 122
 EN: homebrewer. And previously we didn't used
-RU: Раньше мы не ставили
+RU: домашний пивовар. А раньше мы не
 
 123
 EN: to put any ball valve to isolate the
-RU: шаровой кран, чтобы перекрывать
+RU: ставили шаровой кран, чтобы перекрывать
 
 124
 EN: gaslight on the output. We just used to
@@ -496,7 +496,7 @@ RU: газ на выходе. Был только
 
 125
 EN: have this duo type fitting and this would
-RU: фитинг duotight — шланг
+RU: фитинг duotight — и шланг
 
 126
 EN: essentially. Go on like that and push the
@@ -504,139 +504,139 @@ RU: просто вставлялся вот так.
 
 127
 EN: gas line in. So that was it. But we did
-RU: И всё. Но клиенты часто
+RU: И всё. Но мы
 
 128
 EN: get a number of customers say they kind
-RU: говорили, что им нравятся
+RU: получили немало отзывов: клиентам
 
 129
 EN: of like some of the other brands of
-RU: редукторы других брендов,
+RU: нравятся редукторы других брендов,
 
 130
 EN: regulated because they gave them a ball
-RU: где на выходе есть шаровой кран
+RU: потому что там на выходе есть шаровой
 
 131
 EN: valve on the output like this. So I know
-RU: вот такой — например, как у Taprite.
+RU: кран вот такой. Например,
 
 132
 EN: tap right do this for instance. The other
-RU: Плюс мы встроили обратный клапан
+RU: у Taprite так и сделано. Плюс
 
 133
 EN: thing was with integrated check valve
-RU: прямо в этот шаровой механизм. Одна из
+RU: встроенный обратный клапан
 
 134
 EN: into this ball valve mechanism. So one of
-RU: самых частых причин поломки
+RU: прямо в этот шаровой механизм. Одна из
 
 135
 EN: the most common areas where a homebrew
-RU: манометра у домашних пивоваров —
+RU: самых частых причин, почему у домашнего
 
 136
 EN: gauge will get damaged is because liquid
-RU: попадание жидкости вот отсюда.
+RU: пивовара портится манометр — жидкость
 
 137
 EN: ingress coming in through here. If liquid
-RU: Если жидкость заходит внутрь, начинается
+RU: заходит вот отсюда. Если жидкость
 
 138
 EN: gets in here, it starts to cause
-RU: коррозия, а она уже
+RU: попадает внутрь, начинается
 
 139
 EN: corrosion. That corrosion then starts to
-RU: портит сам редуктор
+RU: коррозия. А коррозия уже
 
 140
 EN: cause problem with the regulator
-RU: изнутри. Да, его можно
+RU: портит сам редуктор
 
 141
 EN: internally. Now certainly you can take it
-RU: разобрать и почистить, но это
+RU: изнутри. Да, его можно
 
 142
 EN: apart and clean it out, but it's a
-RU: настоящая головная боль, и часто такие
+RU: разобрать и почистить, но это
 
 143
 EN: massive pain and sadly a lot of those
-RU: редукторы после жидкости
+RU: настоящая головная боль, и часто такие
 
 144
 EN: regulators get liquid inside end up going
-RU: просто выбрасывают — людям лень,
+RU: редукторы после попадания жидкости
 
 145
 EN: to the bin because people can't bother
-RU: нет навыков
+RU: просто выбрасывают — людям лень,
 
 146
 EN: don't don't have the know how to fix it
-RU: или инструментов, чтобы починить дома. Поэтому
+RU: нет навыков,
 
 147
 EN: or the tools to fix it at home. So. You
-RU: мы решили, что обратный клапан
+RU: чтобы починить, или инструментов дома. Поэтому
 
 148
 EN: know, we thought it was important for us
-RU: здесь обязателен. Важно помнить:
+RU: мы решили, что важно
 
 149
 EN: to put a check valve in there. It's just
-RU: пользуясь этим редуктором,
+RU: поставить сюда обратный клапан. Важно
 
 150
 EN: one thing to remember that obviously, you
-RU: нужно не забывать открывать
+RU: помнить: пользуясь
 
 151
 EN: know when you're using this regulator,
-RU: шаровой кран. В положении 90 градусов
+RU: этим редуктором,
 
 152
 EN: you have to obviously remember to open
-RU: он закрыт — газ
+RU: нужно не забывать открывать
 
 153
 EN: the ball valve. So when it's in this nine
-RU: не идёт. А вот так —
+RU: шаровой кран. В положении 90 градусов
 
 154
 EN: degree, that means off. So no gas is
-RU: открыт. То есть просто
+RU: он закрыт — газ
 
 155
 EN: going to flow out when you go like that,
-RU: поворачиваете ручку. Ещё мы
+RU: не идёт. А вот так —
 
 156
 EN: it's turned on as well. So you can
-RU: обновили фитинг duotight:
+RU: открыт. То есть можно
 
 157
 EN: basically turn that on. The other thing
-RU: теперь он металлический
+RU: просто повернуть ручку. Ещё мы
 
 158
 EN: we've done is upgraded the duo type
-RU: и в стандарте идёт на 8 мм
+RU: обновили фитинг duotight.
 
 159
 EN: fitting. So this is now a metallic duo
-RU: прямо на редукторе. Подключить
+RU: Теперь он металлический
 
 160
 EN: type fitting and it comes with an 8mm as
-RU: и в стандарте идёт на 8 мм
+RU: фитинг, и в стандарте идёт на 8 мм
 
 161
 EN: standard on the regulator. Makes it
@@ -644,23 +644,23 @@ RU: прямо на редукторе. Подключить
 
 162
 EN: really, really easy to fit the gas line.
-RU: газовый шланг очень просто:
+RU: газовый шланг очень просто.
 
 163
 EN: So literally all I do is just push that
-RU: буквально вставляете его
+RU: Буквально просто вставляю
 
 164
 EN: in there and then I'm done. It's giving
-RU: до щелчка — и готово.
+RU: его сюда — и готово. Герметичность
 
 165
 EN: me a good airtight seal being a duo tight
-RU: Герметичность отличная — это duotight
+RU: отличная, потому что это duotight
 
 166
 EN: fitting. It's also good double O-ring in
-RU: с двойным уплотнительным кольцом
+RU: с хорошим двойным уплотнительным кольцом
 
 167
 EN: there as well. So if you take this out,
@@ -668,27 +668,27 @@ RU: внутри. Если вынуть фитинг,
 
 168
 EN: you can see in there we actually use the
-RU: внутри видно новый
+RU: внутри видно: мы используем новый
 
 169
 EN: new Gen. 2 duo type fitting. So these are
-RU: duotight второго поколения.
+RU: duotight второго поколения. Это
 
 170
 EN: the Gen. 2 Geo type fittings where we've
-RU: В Gen 2 стоят два кольца —
+RU: фитинги Gen 2, где мы
 
 171
 EN: put. Two O rings with a silicon and EPDM.
-RU: силиконовое и EPDM,
+RU: поставим два кольца — силикон и EPDM.
 
 172
 EN: So you get the best of both worlds with
-RU: чтобы получить лучшее
+RU: Так вы получаете лучшее из обоих миров
 
 173
 EN: with regards to its ceiling performance.
-RU: уплотнение по всем параметрам.
+RU: по качеству уплотнения.
 
 174
 EN: But really the check valve does make a
@@ -700,311 +700,311 @@ RU: огромную разницу. Только помните:
 
 176
 EN: you have to remember that, you know, if
-RU: если вы поднимете давление вот так
+RU: если вы
 
 177
 EN: you crank the gas up like this and if you
-RU: и дёрнете предохранительный клапан здесь,
+RU: поднимете давление вот так и
 
 178
 EN: pull the pressure release valve here,
-RU: сбросится только давление
+RU: дёрнете предохранительный клапан здесь,
 
 179
 EN: that is only releasing the gas pressure
-RU: до обратного клапана, а не дальше.
+RU: сбросится только давление газа
 
 180
 EN: from the check valve upstream. Obviously
-RU: Из‑за обратного клапана
+RU: до обратного клапана, а не дальше.
 
 181
 EN: it can't with the check valve in there.
-RU: газ из кега вниз по линии
+RU: Из‑за обратного клапана
 
 182
 EN: You're not releasing gas downstream in
-RU: не сбросится. Зато по той же причине
+RU: газ из кега вниз по линии
 
 183
 EN: the keg itself. But for that same reason,
-RU: нет риска засосать
+RU: не сбросится. Зато по той же причине
 
 184
 EN: you don't have that risk of sucking
-RU: жидкость обратно внутрь. Просто помните:
+RU: нет риска засосать
 
 185
 EN: liquid back up in there. Just remember
-RU: в работе, особенно если вы
+RU: жидкость обратно внутрь. Просто помните:
 
 186
 EN: that when you're using it, or if you're a
-RU: новичок и нужно сбросить давление
+RU: в работе, особенно если вы
 
 187
 EN: newbie, if you need to release pressure
-RU: из кега — тяните предохранительный
+RU: новичок и нужно сбросить давление
 
 188
 EN: from the keg, go and pull the pressure
-RU: клапан на самом кеге,
+RU: из кега — тяните предохранительный
 
 189
 EN: release valve on the top of the keg
-RU: а не на редукторе. Например,
+RU: клапан на крышке самого кега,
 
 190
 EN: itself. So let's say I've got, for
-RU: вот этот кег Oxebar на 8
+RU: а не на редукторе. Например,
 
 191
 EN: instance, this. Oxy bar 8
-RU: литров — сбрасываю давление здесь,
+RU: вот этот Oxebar на 8
 
 192
 EN: liter keg. I'm going to pull it here.
-RU: вот этим клапаном на кеге,
+RU: литров. Сбрасываю давление здесь.
 
 193
 EN: Pull this pressure release valve here.
-RU: а не тем, что на редукторе. Теперь
+RU: Вот этим предохранительным клапаном.
 
 194
 EN: Not that one on the regulator. Now,
-RU: вторая причина, почему конструкция
+RU: Не тем, что на редукторе. Теперь
 
 195
 EN: the other reason why it's a tool free
-RU: tool free так важна —
+RU: вторая причина, почему конструкция
 
 196
 EN: design is really because of the
-RU: обслуживание. Если взять
+RU: tool free так важна —
 
 197
 EN: maintenance. So if you were to get one of
-RU: старые редукторы или почти любой
+RU: обслуживание. Если взять один из
 
 198
 EN: these older regulators or really any
-RU: редуктор в отрасли — домашние пивовары
+RU: старых редукторов или почти любой
 
 199
 EN: regulator in industry, home Brewers are
-RU: особенно жёстко нагружают их
+RU: редуктор в отрасли — домашние пивовары
 
 200
 EN: particularly tough on regulators for a
-RU: по нескольким причинам. Во‑первых, обычно
+RU: особенно жёстко нагружают редукторы по
 
 201
 EN: few reasons. Firstly, home Brewers are
-RU: используют небольшие баллоны вроде
+RU: нескольким причинам. Во‑первых, домашние пивовары
 
 202
 EN: generally using small cylinders like
-RU: этого. Если вы когда‑нибудь открывали
+RU: обычно используют небольшие баллоны вроде
 
 203
 EN: this. Now if you've ever opened one of
-RU: такой баллон, внутри очень часто
+RU: этого. Если вы когда‑нибудь открывали
 
 204
 EN: these cylinders, it's very common for
-RU: бывает немного коррозии
+RU: такой баллон, внутри очень часто
 
 205
 EN: them to have a little bit of corrosion
-RU: с металла стенок. А если
+RU: бывает немного коррозии
 
 206
 EN: from the metal inside the cylinder. Now
-RU: баллон большой, как вот этот,
+RU: с металла стенок. А если
 
 207
 EN: if you've got a really big cylinder like
-RU: его почти никогда не переворачивают
+RU: баллон большой, как вот этот,
 
 208
 EN: this, it probably never gets inverted,
-RU: и не кладут набок.
+RU: его почти никогда не переворачивают,
 
 209
 EN: tipped upside down or something like
-RU: Поэтому ржавчина или
+RU: не кладут вверх дном и так далее.
 
 210
 EN: that. So therefore all that rust or you
-RU: оксид алюминия — если баллон
+RU: Поэтому вся ржавчина или
 
 211
 EN: know. Or aluminum oxide, If it's an
-RU: алюминиевый — оседает на дне.
+RU: оксид алюминия — если баллон
 
 212
 EN: aluminum cylinder, we'll sit at the
-RU: Так бывает всегда. У таких баллонов
+RU: алюминиевый — оседает на
 
 213
 EN: bottom of the cylinder. It always
-RU: клапан могут не вынимать по десять лет
+RU: дне баллона. Так бывает
 
 214
 EN: happens. These cylinders basically don't
-RU: подряд, и вся грязь просто
+RU: всегда. У этих баллонов часто
 
 215
 EN: have a valve taken out for 10 years at a
-RU: лежит внутри. Но у домашнего пивовара
+RU: клапан не вынимают по десять лет
 
 216
 EN: time. So any contamination just sits
-RU: баллон маленький, поэтому его
+RU: подряд. И любое загрязнение просто
 
 217
 EN: there. But if you're a home Brewer,
-RU: то кладут набок,
+RU: лежит внутри. Но у домашнего пивовара,
 
 218
 EN: because you've got a small cylinder, you
-RU: то ставят вверх дном за
+RU: потому что баллон маленький, его
 
 219
 EN: probably sometimes put it sideways.
-RU: сиденьем в машине,
+RU: иногда кладут набок.
 
 220
 EN: Sometimes it goes upside down inside the
-RU: возят туда‑сюда — и из‑за
+RU: Иногда ставят вверх дном за
 
 221
 EN: back of a car seat or something like
-RU: компактных баллонов шанс,
+RU: сиденьем в машине,
 
 222
 EN: that. You're driving around and because
-RU: что загрязнения попадут
+RU: возят туда‑сюда — и из‑за того,
 
 223
 EN: of the we're using these small cylinders,
-RU: из баллона в редуктор,
+RU: что баллоны маленькие,
 
 224
 EN: the chance of contamination coming out
-RU: намного выше. Кроме того,
+RU: шанс, что загрязнения выйдут
 
 225
 EN: through the cylinder into the regulator
-RU: домашние пивовары подключают редукторы
+RU: из баллона в редуктор,
 
 226
 EN: is way, way higher. The other thing with
-RU: к переполненным кегам
+RU: намного выше. Кроме того,
 
 227
 EN: home Brewers is we're connecting these
-RU: и подобному. У кого‑то
+RU: домашние пивовары подключают эти
 
 228
 EN: two things. Like, you know, overly full
-RU: нет обратных клапанов,
+RU: две вещи: например, переполненные
 
 229
 EN: beer kegs and stuff like that. Some
-RU: и при сбросе давления
+RU: пивные кеги и тому подобное. У кого‑то
 
 230
 EN: people don't have check valves in place
-RU: жидкость часто засасывается
+RU: нет обратных клапанов,
 
 231
 EN: and people are pulling pressure release
-RU: обратно в редуктор —
+RU: и люди дёргают предохранительные
 
 232
 EN: valves like this and often sucking liquid
-RU: это тоже частая беда. Ещё
+RU: клапаны вот так и часто засасывают жидкость
 
 233
 EN: back up into the regulator. You know,
-RU: редукторы ставят в холодильники
+RU: обратно в редуктор.
 
 234
 EN: often a big problem as well. The other
-RU: с высокой влажностью,
+RU: Это тоже частая беда. Ещё
 
 235
 EN: thing is some people have these
-RU: влага заходит внутрь, латунь
+RU: некоторые держат эти
 
 236
 EN: regulators in fridges in high moisture
-RU: корродирует и даёт загрязнения.
+RU: редукторы в холодильниках с высокой влажностью.
 
 237
 EN: environment. Moisture gets in there so
-RU: И последнее: когда редуктор
+RU: Влага заходит внутрь, и
 
 238
 EN: you get brass corrosion can cause
-RU: выкручивают на полное давление
+RU: коррозия латуни тоже даёт
 
 239
 EN: contamination as well. The other last
-RU: для принудительной карбонизации,
+RU: загрязнения. И последнее:
 
 240
 EN: thing as well is when you turn regulators
-RU: то поднимают и опускают давление,
+RU: когда редуктор выкручивают
 
 241
 EN: up to full. Pressure like this and
-RU: то дёргают предохранительный клапан
+RU: на полное давление вот так и
 
 242
 EN: you do force carbonation and you
-RU: и стрелка скачет вверх‑вниз —
+RU: делают принудительную карбонизацию, то
 
 243
 EN: increasing and decreasing the pressure.
-RU: при такой агрессивной работе
+RU: поднимают и опускают давление,
 
 244
 EN: Or if you're pulling the pressure release
-RU: седло и узел seat cap внутри
+RU: или дёргают предохранительный
 
 245
 EN: valve and you see that needle jumping up
-RU: постоянно бьются друг о друга.
+RU: клапан и стрелка скачет вверх‑вниз —
 
 246
 EN: and down, that aggressive use of the
-RU: Шанс, что две латунные детали
+RU: при такой агрессивной работе
 
 247
 EN: regulator where you've got the seat and
-RU: сотрутся и мелкие
+RU: редуктора, где седло и
 
 248
 EN: seat cap internally bouncing up and down.
-RU: чешуйки латуни пройдут через редуктор
+RU: seat cap внутри бьются вверх‑вниз.
 
 249
 EN: Has a much much higher chance of those
-RU: Шанс гораздо выше,
+RU: Шанс намного выше, что эти
 
 250
 EN: two brass components wearing off and the
-RU: что две латунные детали сотрутся,
+RU: две латунные детали сотрутся и
 
 251
 EN: bits of bits, small flakes of brass
-RU: и мелкие чешуйки латуни
+RU: проходят через редуктор и
 
 252
 EN: coming through the regulator and getting
-RU: пройдут через редуктор и застрянут
+RU: застревают
 
 253
 EN: stuck under the seat and seat cap. So
@@ -1012,391 +1012,391 @@ RU: под седлом и seat cap. Поэтому
 
 254
 EN: honestly, home Brewers are far tougher on
-RU: честно говоря, домашние пивовары
+RU: честно говоря, домашние пивовары гораздо жёстче
 
 255
 EN: regulators than even a lot of commercial.
-RU: нагружают редукторы жёстче,
+RU: нагружают редукторы, чем многие коммерческие
 
 256
 EN: Applications where regulators are used
-RU: чем многие коммерческие применения.
+RU: применения, где редукторы тоже стоят.
 
 257
 EN: and sadly enough, a lot of those types
-RU: И к сожалению, при таком загрязнении
+RU: И к сожалению, во многих таких
 
 258
 EN: of instances with contamination, the
-RU: достаточно крошечной частицы ржавчины,
+RU: случаях при загрязнении
 
 259
 EN: smallest flake of dirt rusts, you know,
-RU: оксида алюминия или даже жидкости —
+RU: достаточно крошечной частицы грязи, ржавчины,
 
 260
 EN: aluminium oxide or even, you know, liquid
-RU: если она попадёт
+RU: оксида алюминия или даже жидкости —
 
 261
 EN: getting in there. If it gets under the
-RU: под седло и seat cap, начинается
+RU: если она попадёт под
 
 262
 EN: seat and seat cap, it can cause what we
-RU: то, что мы называем
+RU: седло и seat cap, начинается то, что мы
 
 263
 EN: call pressure creep. Now I don't know if
-RU: pressure creep, ползучим давлением.
+RU: называем pressure creep. Не знаю,
 
 264
 EN: you guys seen this before, but pressure
-RU: Если вы с этим сталкивались:
+RU: сталкивались ли вы с этим: pressure
 
 265
 EN: creep is when you essentially set a
-RU: выставляете давление по манометру,
+RU: creep — это когда выставляете
 
 266
 EN: pressure on the gauge and then gradually
-RU: а оно постепенно
+RU: давление по манометру, а оно постепенно
 
 267
 EN: the pressure keeps building and building
-RU: растёт и растёт,
+RU: растёт и растёт
 
 268
 EN: and building and then it blows the
-RU: пока не сработает предохранительный
+RU: и растёт, пока не сработает
 
 269
 EN: pressure release valve. So no matter what
-RU: клапан. Какой бы бренд ни был,
+RU: предохранительный клапан. Какой бы
 
 270
 EN: brand of regulator you got, if moisture
-RU: если внутрь попала влага
+RU: бренд редуктора ни был, если влага
 
 271
 EN: gets in there even, it's like you know,
-RU: или жидкость — даже у самого
+RU: попала внутрь — даже
 
 272
 EN: you can get the world's most expensive
-RU: дорогого редуктора будет та же
+RU: самый дорогой
 
 273
 EN: brand, you're going to get this problem
-RU: проблема, и это настоящий кошмар.
+RU: бренд даст ту же проблему,
 
 274
 EN: if liquid gets in there and it's a real
-RU: Обычно тогда приходится
+RU: если внутрь попала жидкость. Это настоящий
 
 275
 EN: nightmare. So typically what you would be
-RU: как‑то закрепить корпус,
+RU: кошмар. Обычно тогда приходится
 
 276
 EN: required to do is you're required to
-RU: зажать в тиски — у нас есть специальная
+RU: как‑то закрепить корпус,
 
 277
 EN: either mount. To something somehow get
-RU: люлька, которая держит
+RU: зажать в тиски — у нас есть специальная
 
 278
 EN: into advice look, we've got this special
-RU: редуктор, чтобы снять
+RU: зажать в тиски — смотрите, у нас есть специальная
 
 279
 EN: cradle that we use to hold on to this
-RU: всю крышку‑bonnet. Я уже ослабил
+RU: люлька, которой мы держим
 
 280
 EN: regulator allowing us to take off the
-RU: эту, так что откручиваю рукой
+RU: редуктор, чтобы снять
 
 281
 EN: whole bonnet. Now I've already loosened
-RU: вот так. Разобрать это
+RU: всю крышку‑bonnet. Я уже ослабил
 
 282
 EN: this one so I can just undo it by hand
-RU: умеет далеко не каждый —
+RU: эту, так что откручиваю рукой
 
 283
 EN: like that. Now when you take this apart,
-RU: честно, занятие то ещё,
+RU: вот так. Когда разбираете,
 
 284
 EN: it's not a job which everybody can do to
-RU: да и тисков с инструментом дома
+RU: это умеет далеко не каждый —
 
 285
 EN: be honest with you it's a bit of a pain
-RU: может не быть. А если вы
+RU: честно, занятие то ещё,
 
 286
 EN: in the bum and some people don't have the
-RU: на выезде, на вечеринке или мероприятии,
+RU: и у кого‑то дома нет
 
 287
 EN: tools or no advice at home and if you're
-RU: такого оборудования точно нет.
+RU: инструментов или тисков. А если вы
 
 288
 EN: in the field or in a party or an event,
-RU: Приходится снимать крышку
+RU: на выезде, на вечеринке или мероприятии,
 
 289
 EN: you certainly don't have this type of
-RU: и узел целиком вот так.
+RU: такого оборудования точно нет,
 
 290
 EN: equipment to do this type of job but it
-RU: И вот как раз возвращённый нам
+RU: чтобы делать такую работу. Но
 
 291
 EN: would require you to take this apart take
-RU: редуктор, который «не работал».
+RU: пришлось бы разобрать,
 
 292
 EN: the. Wanted assembly off like that you
-RU: Открываем — внутри везде коррозия,
+RU: снять узел целиком вот так.
 
 293
 EN: would then and this is actually one that
-RU: потому что внутрь попала жидкость.
+RU: И вот как раз тот, что
 
 294
 EN: has been returned to us. A regulator's
-RU: К сожалению, такое
+RU: вернули нам — редуктор
 
 295
 EN: not working funnily enough. Open it up
-RU: встречается регулярно:
+RU: «не работал», забавно. Открываем —
 
 296
 EN: and there's corrosion everywhere because
-RU: многие просто не ставят обратные
+RU: везде коррозия, потому что
 
 297
 EN: there's been liquid get inside this
-RU: клапаны. Достану узел —
+RU: внутрь попала жидкость.
 
 298
 EN: regulator and this is unfortunately quite
-RU: видно, что всё седло и seat cap
+RU: И это, к сожалению, довольно
 
 299
 EN: common. We'd see this from time to time
-RU: сильно покрыты
+RU: часто бывает. Мы видим такое время от времени,
 
 300
 EN: because many, many people don't use check
-RU: коррозией вот так. Не уверен,
+RU: потому что очень многие не ставят обратные
 
 301
 EN: valves anyway, I'll take this out. You
-RU: насколько это видно в камере —
+RU: клапаны. Ладно, достану узел —
 
 302
 EN: can see that this whole seat and seat cap
-RU: потом, может, приближу — но по сути
+RU: видно: весь этот seat и seat cap
 
 303
 EN: assembly has quite a lot of you know,
-RU: именно эта коррозия
+RU: assembly довольно сильно
 
 304
 EN: corrosion on it like that. So I'm not
-RU: и вызвала pressure creep.
+RU: покрыт коррозией вот так. Не уверен,
 
 305
 EN: sure if you can see in the camera there I
-RU: Клиент уже собирался
+RU: насколько это видно в камере —
 
 306
 EN: might do a zoom in later, but essentially
-RU: выбросить редуктор, а с новыми
+RU: потом, может, приближу, но по сути
 
 307
 EN: that corrosion. Has caused this to
-RU: MK5 обслуживать такое
+RU: именно эта коррозия и привела
 
 308
 EN: essentially become a pressure creep
-RU: намного проще. Даже если проблема
+RU: к pressure creep.
 
 309
 EN: scenario now this one for the customer
-RU: всё же случится,
+RU: В этой ситуации клиент уже
 
 310
 EN: they were going to throw it out but with
-RU: её можно устранить прямо на месте
+RU: собирался выбросить редуктор, но с
 
 311
 EN: the new mark fives there's so much easier
-RU: без каких‑либо инструментов. Что мы
+RU: новыми MK5 обслуживать такое
 
 312
 EN: to maintain and for this type of issue
-RU: сделали: вот эта
+RU: намного проще, и для такой проблемы,
 
 313
 EN: which you know it's still possible to
-RU: ручка — откручиваю её
+RU: которая, конечно, всё ещё может
 
 314
 EN: happen it now can be done in the field
-RU: с передней части редуктора, переворачиваю
+RU: случиться, теперь это можно сделать в поле
 
 315
 EN: with no tools whatsoever So what we've
-RU: и вижу удобный
+RU: без каких‑либо инструментов. Что мы
 
 316
 EN: done is we've actually got.
-RU: шестигранник M8, метрический 8 мм.
+RU: сделали: у нас есть
 
 317
 EN: This knob here, and if I unscrew the knob
-RU: Этим ключом Allen
+RU: вот эта ручка — откручиваю её
 
 318
 EN: from the front of the regulator, you turn
-RU: можно открутить заднюю часть
+RU: с передней части редуктора, переворачиваю
 
 319
 EN: it upside down and you can see I've got a
-RU: редуктора. Сзади больше не нужно
+RU: вверх дном и вижу удобный
 
 320
 EN: handy little M8 on 8 or metric. 8mm hex
-RU: снимать весь bonnet —
+RU: шестигранник M8, метрический 8 мм.
 
 321
 EN: here and that basically Allen key there
-RU: а это была мука, и у многих
+RU: По сути ключ Allen,
 
 322
 EN: is so you can undo the back of the
-RU: не было люльки или тисков.
+RU: чтобы открутить заднюю часть
 
 323
 EN: regulator. So at the back here, instead
-RU: Теперь просто снимаете это.
+RU: редуктора. Сзади, вместо того
 
 324
 EN: of us having to remove this whole bonnet,
-RU: Даже от баллона отключать не обязательно.
+RU: чтобы снимать весь bonnet,
 
 325
 EN: which is real pain and a lot of people
-RU: Если редуктор на баллоне —
+RU: а это была мука, и у многих
 
 326
 EN: didn't have the tools or a cradle or vice
-RU: сначала перекройте CO₂, но
+RU: не было инструментов, люльки или тисков,
 
 327
 EN: to do that, you basically just take this
-RU: сам корпус может оставаться
+RU: чтобы это сделать, — теперь просто снимаете это.
 
 328
 EN: off. You don't even have to disconnect
-RU: на месте, и за пару секунд я
+RU: Даже от баллона отключать не обязательно.
 
 329
 EN: this from the cylinder. Obviously if you
-RU: откручиваю заднюю крышку
+RU: Если редуктор на баллоне —
 
 330
 EN: have it connected cylinder, you've got to
-RU: тем самым шестигранником 8 мм,
+RU: сначала перекройте CO₂, но
 
 331
 EN: make sure the CO2 is turned off, but you
-RU: который спрятан под ручкой.
+RU: сам корпус может оставаться
 
 332
 EN: can basically still have this on the
-RU: Беру ручку спереди
+RU: на месте, и за пару секунд я
 
 333
 EN: cylinder and within a few seconds I can
-RU: редуктора и откручиваю
+RU: откручиваю заднюю крышку редуктора
 
 334
 EN: just under the back of the regulator like
-RU: заднюю часть — вот отверстие 8 мм.
+RU: вот так — шестигранником 8 мм,
 
 335
 EN: this with that 8mm hex or Allen. That
-RU: Вставляю вот так
+RU: или Allen — тем,
 
 336
 EN: you've got under here. Use this knob from
-RU: и вынимаю задний узел. Очень
+RU: который спрятан под ручкой. Беру ручку с
 
 337
 EN: the front of the regulator and undo this
-RU: просто, инструменты не нужны. Могу
+RU: передней части редуктора и откручиваю
 
 338
 EN: **** so you can see that 8mm hole there.
-RU: сделать это в поле буквально на коленке.
+RU: заднюю часть — вот отверстие 8 мм.
 
 339
 EN: You basically just go like that and you
-RU: Выпадает пружина
+RU: Вставляю вот так и
 
 340
 EN: take the back of the regulator out. So
-RU: вот так. Если пальцы тонкие,
+RU: вынимаю задний узел. Очень
 
 341
 EN: really easy, no tools required. I could
-RU: уплотнитель можно подцепить руками,
+RU: просто, инструменты не нужны. Могу
 
 342
 EN: do this in the field with really nothing
-RU: но удобнее чем‑то острым —
+RU: сделать это в поле буквально
 
 343
 EN: at all. A spring is going to fall out
-RU: зубочисткой, например.
+RU: на коленке. Выпадает пружина
 
 344
 EN: like that. Look, if you've got small
-RU: Вот маленькое уплотнение для седла,
+RU: вот так. Если пальцы тонкие,
 
 345
 EN: fingers, you can probably just pick this
-RU: оно садится вот сюда. И наконец
+RU: уплотнитель можно подцепить руками.
 
 346
 EN: out. It is a little bit easier if you
-RU: вот эта деталь здесь —
+RU: Чуть удобнее, если есть
 
 347
 EN: have something sharp like a toothpick or
-RU: то, что мы называем seat cap assembly,
+RU: что‑то острое — зубочистка или
 
 348
 EN: something like that. Then I've got the
-RU: узел седла. Она сделана из
+RU: что‑то подобное. Дальше вот
 
 349
 EN: this little seal for that **** which goes
-RU: Вот маленькое уплотнение для седла,
+RU: маленькое уплотнение для седла — оно
 
 350
 EN: on there. And then last but not least,
-RU: оно садится вот сюда. И наконец
+RU: садится вот сюда. И наконец
 
 351
 EN: I've got this part here, which is this.
@@ -1404,15 +1404,15 @@ RU: эта деталь —
 
 352
 EN: Is what we call the seat cap assembly. So
-RU: то, что мы называем seat cap assembly,
+RU: то, что мы называем seat cap assembly.
 
 353
 EN: this here you can see is made out of
-RU: узел седла. Она сделана из
+RU: Она, как видите, сделана из
 
 354
 EN: ultra high molecular weight polyethylene
-RU: сверхвысокомолекулярного полиэтилена,
+RU: сверхвысокомолекулярного полиэтилена UHMW‑PE,
 
 355
 EN: and this is the only regulator which I've
@@ -1420,391 +1420,391 @@ RU: и это единственный редуктор,
 
 356
 EN: ever seen where we've designed it the
-RU: где весь seat cap целиком
+RU: который я видел, где мы сделали
 
 357
 EN: entire seat cap out of ultra high
-RU: из UHMW‑PE. Мы так сделали
+RU: весь seat cap из сверхвысокомолекулярного
 
 358
 EN: molecule 8 PE. The reason why we've done
-RU: не случайно: у других
+RU: полиэтилена. Мы так сделали
 
 359
 EN: this is because if you get other
-RU: редукторов эта деталь обычно латунная.
+RU: не случайно: у других
 
 360
 EN: regulators, this is usually a brass part.
-RU: А если латунная часть
+RU: редукторов эта деталь обычно латунная.
 
 361
 EN: Now obviously if you've got a brass part
-RU: скачет вверх‑вниз внутри
+RU: А если латунная часть
 
 362
 EN: which is bouncing up and down inside this
-RU: этого канала — а при работе
+RU: скачет вверх‑вниз внутри этого
 
 363
 EN: hole so you know when you're using a
-RU: редуктора, как я говорил, домашние пивовары
+RU: канала — а при работе
 
 364
 EN: regulator as I was saying homebrewers
-RU: то дёргают предохранительный клапан,
+RU: редуктора, как я говорил, домашние пивовары
 
 365
 EN: sometimes. This is pressure release
-RU: то стрелка скачет —
+RU: иногда дёргают предохранительный
 
 366
 EN: valve, the needles jumping up and down
-RU: в таких режимах седло и seat cap
+RU: клапан, стрелка скачет вверх‑вниз
 
 367
 EN: and stuff like that. Those types of
-RU: постоянно бьются внутри
+RU: и всё такое. В таких
 
 368
 EN: instances will mean the seat and seat cap
-RU: отверстия. Латунь по латуни,
+RU: режимах седло и seat cap
 
 369
 EN: assembly, like this piece here is
-RU: особенно при коррозии или грязи,
+RU: assembly, вот эта деталь,
 
 370
 EN: basically bouncing up and down inside
-RU: легко даёт микроскопическую
+RU: по сути бьётся вверх‑вниз внутри
 
 371
 EN: this hole. And if you've got brass
-RU: чешуйку на поверхность seat cap —
+RU: этого отверстия. И если латунь
 
 372
 EN: rubbing up against brass, especially if
-RU: риск намного выше. Поэтому
+RU: трётся о латунь, особенно если
 
 373
 EN: there's any corrosion or contamination
-RU: износ при трении латунь‑латунь
+RU: есть коррозия или загрязнения
 
 374
 EN: around, the chance of a tiny flake of
-RU: гораздо серьёзнее, и
+RU: рядом, шанс, что крошечная чешуйка
 
 375
 EN: brass ending up on this seat cap is way,
-RU: pressure creep возникает куда чаще —
+RU: латуни окажется на seat cap, намного,
 
 376
 EN: way higher. So, you know, the failure
-RU: это почти неизбежно,
+RU: намного выше. Поэтому износ
 
 377
 EN: rate when you got brass on brass rubbing
-RU: потому что так сейчас сделаны
+RU: при трении латунь‑латунь
 
 378
 EN: components is much, much higher. You're
-RU: почти все редукторы. Но проблему
+RU: гораздо серьёзнее. Вы
 
 379
 EN: much more likely to pressure creep
-RU: можно сильно снизить,
+RU: куда чаще получите pressure creep —
 
 380
 EN: situation and that's sort of unavoidable.
-RU: если пара будет пластик по латуни.
+RU: и это почти неизбежно,
 
 381
 EN: Because that's how all other regulators
-RU: Раз деталь целиком из пластика,
+RU: потому что так сейчас сделаны
 
 382
 EN: are made at the moment. But one thing you
-RU: при трении о внутреннюю стенку
+RU: почти все редукторы. Но проблему
 
 383
 EN: can do is to greatly reduce the issues is
-RU: редуктора шанс содрать
+RU: можно сильно снизить,
 
 384
 EN: simply go a plastic on brass type of
-RU: чешуйку латуни гораздо меньше. А даже
+RU: если пара будет пластик по латуни.
 
 385
 EN: fitting. So because it's entirely molded
-RU: если кусочек латуни
+RU: Раз деталь целиком отлита
 
 386
 EN: out of plastic, when this is rubbing up
-RU: и попадёт на верх seat cap,
+RU: из пластика, при трении
 
 387
 EN: and down on the inside bore of the
-RU: он уже не помешает
+RU: вверх‑вниз о внутреннюю стенку
 
 388
 EN: regulator, the chance of rubbing off a
-RU: плотно закрыть седло на дне
+RU: редуктора шанс содрать
 
 389
 EN: flake of brass is way, way less. But even
-RU: канала. А значит,
+RU: чешуйку латуни гораздо меньше. А даже
 
 390
 EN: in the instance that some bit of brass
-RU: чистить очень просто:
+RU: если кусочек латуни
 
 391
 EN: does get caught on the, you know, top of
-RU: снимаю деталь, протираю
+RU: и попадёт на верх
 
 392
 EN: the seat gap here, it's not going to
-RU: тряпочкой или салфеткой
+RU: seat cap, он уже не помешает
 
 393
 EN: prevent this from sealing up against the
-RU: и ставлю обратно. Буквально
+RU: плотно закрыть седло на
 
 394
 EN: face at the bottom of this hole. Which
-RU: за несколько секунд редуктор
+RU: дне этого канала. А значит,
 
 395
 EN: means that you know, it's super easy to
-RU: снова собран, pressure creep устранён —
+RU: чистить очень просто.
 
 396
 EN: clean out. So I can basically just take
-RU: и даже ключ из мастерской
+RU: Снимаю деталь и
 
 397
 EN: this off and I can clean this off with a
-RU: доставать не пришлось. Супер
+RU: протираю её
 
 398
 EN: bit of a cloth or something like that and
-RU: удобно в полевых условиях: можно
+RU: тряпкой или чем‑то подобным и
 
 399
 EN: then just jam it back in there. So
-RU: обойтись чем угодно под рукой,
+RU: просто ставлю обратно.
 
 400
 EN: literally within a few seconds, I've put
-RU: закрутить, вернуть
+RU: Буквально за несколько секунд редуктор
 
 401
 EN: my regulator back together, fixed the
-RU: переднюю ручку на место —
+RU: снова собран, pressure creep устранён —
 
 402
 EN: pressure creep situation without even
-RU: и снова в строю без лишней возни.
+RU: и даже ключ
 
 403
 EN: having to reach for a spanner or anything
-RU: Честно, минутная работа, секунд тридцать.
+RU: из мастерской доставать не пришлось.
 
 404
 EN: like that from the workshop. So super
-RU: Очень рекомендую аксессуар,
+RU: Супер удобно в полевых условиях.
 
 405
 EN: easy out in the field. You could do this
-RU: если берёте хороший
+RU: Можно обойтись чем угодно под рукой — и дальше
 
 406
 EN: with really anything at all and then away
-RU: редуктор — защиту манометров, gauge guard.
+RU: работаете. Закручиваю,
 
 407
 EN: you go. So screw that on and then go back
-RU: Она стоит недорого, а повредить
+RU: возвращаюсь к передней части редуктора, ставлю
 
 408
 EN: to the front of the regulator put. Knob
-RU: манометр — огромная головная боль. Мы
+RU: ручку
 
 409
 EN: back in and, you know, back up and
-RU: видим кучу домашних пивоваров: купили
+RU: обратно — и снова в строю
 
 410
 EN: running with really hard beady fuss.
-RU: манометры, поставили на
+RU: без лишней возни.
 
 411
 EN: Honestly, that's a 32nd job. Now, a
-RU: баллон, думают — всё отлично,
+RU: Честно, минутная работа, секунд тридцать. А теперь
 
 412
 EN: highly recommended accessory for you
-RU: всё под контролем. Потом ребёнок
+RU: очень рекомендую аксессуар:
 
 413
 EN: guys, if you're going to get a good
-RU: задел шланг, споткнулись о линию —
+RU: если берёте хороший
 
 414
 EN: regulator, is get yourself a gauge guard.
-RU: баллон падает набок,
+RU: редуктор — возьмите себе gauge guard.
 
 415
 EN: They're really not expensive and it is
-RU: и достаточно одного раза,
+RU: Стоит недорого, а
 
 416
 EN: such a pain when you damage a gauge. We
-RU: чтобы убить манометр. Дома у многих
+RU: повредить манометр — огромная головная боль. Мы
 
 417
 EN: see so many homebrewers who buy these
-RU: нет инструмента, чтобы
+RU: видим кучу домашних пивоваров: купили
 
 418
 EN: gauges like this. They put them on a
-RU: спокойно заменить манометр самим. Так что
+RU: манометры вот такие, поставили на
 
 419
 EN: cylinder, think, Oh yeah, it's all hunky
-RU: ради такой дешёвой
+RU: баллон, думают — всё отлично,
 
 420
 EN: Dory, I'm all good. They've got a kid
-RU: защиты возьмите gauge guard —
+RU: всё под контролем. Потом ребёнок
 
 421
 EN: that comes along or they trip over a gas
-RU: ставить её проще простого.
+RU: задел или споткнулись о газовый
 
 422
 EN: line or something. Like that sends this
-RU: На сайте есть нержавеющие варианты,
+RU: шланг — и баллон
 
 423
 EN: cylinder sideways and boom, if this
-RU: думаем и о чёрных
+RU: падает набок, и бах: если
 
 424
 EN: cylinder falls over sideways, all it has
-RU: порошковых стальных. Надеваются на
+RU: баллон опрокинулся, достаточно
 
 425
 EN: to do is happen once, it's going to
-RU: манометры вот так. И даже
+RU: одного раза —
 
 426
 EN: damage the gauge. A lot of customers at
-RU: с установленной защитой
+RU: манометр будет повреждён. Дома у многих
 
 427
 EN: home don't have the tools to really
-RU: новые модели gauge guard
+RU: клиентов нет инструмента, чтобы
 
 428
 EN: easily change and gauge themselves. So
-RU: оставляют отверстие сзади,
+RU: спокойно заменить манометр самим. Так что
 
 429
 EN: look for the sake of like such a cheap
-RU: чтобы можно было снять
+RU: ради такой дешёвой
 
 430
 EN: accessory, get yourself one of these
-RU: ручку и обслуживать
+RU: защиты возьмите себе одну из этих
 
 431
 EN: gauge guards because they're so cheap to
-RU: седло с seat cap,
+RU: gauge guard — ставить их проще простого.
 
 432
 EN: fit. We've got stainless steel ones, I
-RU: если понадобится. Защита сидит
+RU: На сайте, по‑моему, есть нержавеющие варианты.
 
 433
 EN: think on the website. We're also thinking
-RU: спереди, а сзади три
+RU: Думаем и о
 
 434
 EN: about doing these black powder coated
-RU: маленьких винта крепят
+RU: чёрных порошковых
 
 435
 EN: steel ones as well, but they fit onto the
-RU: её к корпусу редуктора вот так.
+RU: стальных. Но они надеваются на
 
 436
 EN: gauges like this. Like that. And the
-RU: Закручиваете эти три винта
+RU: манометры вот так. И
 
 437
 EN: other thing is even with the gauge guard
-RU: вот так, по очереди —
+RU: даже с установленной защитой
 
 438
 EN: fitted, these new models of gauge guards
-RU: и готово. Такая
+RU: новые модели gauge guard,
 
 439
 EN: that were starting to make now still have
-RU: защита выдерживает довольно
+RU: которые мы сейчас делаем, всё равно оставляют
 
 440
 EN: that hole at the back of the gauge guard.
-RU: серьёзный удар. Мы тестировали даже на
+RU: отверстие сзади на защите.
 
 441
 EN: So you can still, you know, even get
-RU: баллонах 6 кг: роняли
+RU: Так что доступ всё ещё есть:
 
 442
 EN: access like take that knob off and get
-RU: на бетон вместе с gauge guard —
+RU: снимаете ручку и
 
 443
 EN: access to the back to service and
-RU: манометры оставались целы.
+RU: добираетесь сзади, чтобы обслуживать
 
 444
 EN: maintain the seat and seat cap assembly
-RU: Небольшая инвестиция, которая
+RU: и поддерживать седло и seat cap assembly,
 
 445
 EN: if you needed to. But that just sits on
-RU: экономит кучу нервов. Кто думает наперёд —
+RU: если понадобится. Защита сидит
 
 446
 EN: the front. And then you've got these
-RU: сразу берёт защиту. И прежде чем
+RU: спереди. А сзади эти
 
 447
 EN: three little screws in here which you can
-RU: закончить, скажу про контроль
+RU: три маленьких винта, которыми
 
 448
 EN: fit to the back of the regulator that
-RU: качества этих редукторов. Каждый
+RU: крепите её к корпусу редуктора —
 
 449
 EN: attaches the gauge guard on here like so.
-RU: её к корпусу редуктора вот так.
+RU: gauge guard садится вот так.
 
 450
 EN: So you have to do these three. Like that
-RU: Закручиваете эти три винта
+RU: Закручиваете эти три винта вот так —
 
 451
 EN: and then.
-RU: вот так —
+RU: и дальше.
 
 452
 EN: Boom and boom boom. And literally this
-RU: и готово. Такая
+RU: Бах, бах, бах. И буквально эта
 
 453
 EN: gauge guard here, it can handle a fairly
@@ -1812,232 +1812,232 @@ RU: защита выдерживает довольно
 
 454
 EN: large wax. So if you're got even a larger
-RU: серьёзный удар. Мы тестировали даже на
+RU: серьёзный удар. Даже на более крупном
 
 455
 EN: 6K gas cylinder, we tested these gauge
-RU: баллонах 6 кг: роняли
+RU: баллоне 6 кг мы тестировали эти gauge
 
 456
 EN: guards on the cylinders falling over onto
-RU: на бетон вместе с gauge guard —
+RU: guard: роняли баллоны на
 
 457
 EN: concrete and the gauges were perfectly
-RU: манометры оставались целы.
+RU: бетон — и манометры оставались совершенно
 
 458
 EN: fine. So look, small investment. Save
-RU: Небольшая инвестиция, которая
+RU: целы. Небольшая инвестиция. Сэкономите
 
 459
 EN: yourself the heck in the long run. People
-RU: экономит кучу нервов. Кто думает наперёд —
+RU: себе кучу нервов вдолгую. Кто
 
 460
 EN: who think ahead, get the gauge guard. Now
-RU: сразу берёт защиту. И прежде чем
+RU: думает наперёд — сразу берёт gauge guard. И
 
 461
 EN: before I disappear, I'm also going to say
-RU: закончить, скажу про контроль
+RU: прежде чем закончить, скажу:
 
 462
 EN: we go to a high level of QC when
-RU: качества этих редукторов. Каждый
+RU: у нас очень жёсткий контроль качества
 
 463
 EN: it comes to these regions. There's every
-RU: редуктор в такой коробке
+RU: этих редукторов. Каждый
 
 464
 EN: single regulator that you find in a box
-RU: проходит как минимум два теста.
+RU: редуктор, который вы найдёте в коробке
 
 465
 EN: like this will basically have two tests
-RU: Сначала — на полтора рабочих давления
+RU: вот такой, проходит как минимум два теста.
 
 466
 EN: done on it at least. So first let me go
-RU: и на входе, и на выходе,
+RU: Сначала — на полтора рабочих давления
 
 467
 EN: to 1 1/2 times the working pressure, both
-RU: чтобы манометр держал
+RU: и на входе, и на выходе,
 
 468
 EN: on the inlet side and the outlet side to
-RU: максимум. Второй тест —
+RU: чтобы манометр держал
 
 469
 EN: make sure that the gauge holds its
-RU: на падение давления: у нас
+RU: максимум. Второй тест —
 
 470
 EN: maximum pressure. The other thing we do
-RU: большой коллектор на 3000 PSI.
+RU: на падение давления: у нас
 
 471
 EN: is a pressure decay test. So we've got a
-RU: Подаём давление на манометры и выход,
+RU: большой коллектор на 3000
 
 472
 EN: large manifold which is set up with 3000
-RU: перекрываем газ и смотрим,
+RU: PSI. Подаём давление на все
 
 473
 EN: PSI. What we do is pressureize all the
-RU: не падает ли стрелка. То есть измеряем
+RU: манометры и на выход, перекрываем
 
 474
 EN: gauges and pressurize the output, turn
-RU: утечку; если она есть —
+RU: газ и смотрим, чтобы давление
 
 475
 EN: the gas off and make sure the pressure
-RU: разбираем редуктор и устраняем
+RU: не падало. То есть измеряем
 
 476
 EN: doesn't drop. So we basically measure
-RU: проблему. Поэтому, открывая коробку
+RU: утечку; если она есть —
 
 477
 EN: that pressure decay if it gets picked up.
-RU: вот такую, вы знаете: редуктор
+RU: разбираем редуктор и устраняем
 
 478
 EN: Will take apart the regulator and fix
-RU: уже проверен и
+RU: проблему. Поэтому, открывая коробку
 
 479
 EN: that problem. So when you get a box like
-RU: заработает сразу. А ещё
+RU: вот такую, вы знаете: редуктор
 
 480
 EN: this, you know that the regulator has
-RU: за счёт такого жёсткого
+RU: уже проверен,
 
 481
 EN: been tested, you open it up and it's
-RU: тестирования и уверенности в манометрах
+RU: открываете — и он
 
 482
 EN: going to work straight away. The other
-RU: мы даём на эти редукторы
+RU: заработает сразу. А ещё
 
 483
 EN: thing is, you know, because we do such
-RU: гарантию 10 лет. То есть на
+RU: за счёт такого жёсткого
 
 484
 EN: high level of testing and we're sure that
-RU: любой фирменный редуктор KegLand
+RU: тестирования и уверенности, что
 
 485
 EN: the gauges are great, we give a five year
-RU: у вас есть устройство, которое
+RU: манометры отличные, мы даём гарантию 10 лет
 
 486
 EN: warranty on these regulators. So now with
-RU: прослужит много лет
+RU: на эти редукторы. То есть на
 
 487
 EN: any of the Kegland branded ones, you know
-RU: и будет стабильно работать.
+RU: любой фирменный KegLand вы знаете:
 
 488
 EN: you've got a regulator, it's going to
-RU: На этом, в общем, всё. Если
+RU: у вас есть редуктор, который
 
 489
 EN: last you many, many years to come and
-RU: есть идеи по новым продуктам
+RU: прослужит много‑много лет и
 
 490
 EN: going to give you lots of reliable
-RU: или по доработкам редукторов —
+RU: будет стабильно
 
 491
 EN: service. That is pretty much it. If you
-RU: пишите в комментариях.
+RU: работать. На этом, в общем, всё. Если
 
 492
 EN: guys got any other requests for new stuff
-RU: Нам всегда интересно слышать
+RU: есть идеи по новым продуктам
 
 493
 EN: you want to make or changes to
-RU: клиентов: многие улучшения
+RU: или по доработкам
 
 494
 EN: regulators, definitely put it in the
-RU: мы делаем именно по отзывам
+RU: редукторов — пишите в
 
 495
 EN: comments below. We always love to hear
-RU: таких ценных покупателей, как вы.
+RU: комментариях. Нам всегда интересно слышать
 
 496
 EN: from our customers. A lot of the ideas
-RU: Ещё будем рады, если
+RU: клиентов. Многие идеи
 
 497
 EN: and changes we make are really from
-RU: вы вступите в нашу Facebook‑группу
+RU: и изменения мы делаем именно по
 
 498
 EN: feedback from our valuable customers like
-RU: домашних пивоваров. Найдите на
+RU: отзывам таких ценных покупателей, как
 
 499
 EN: yourself. The other thing we'd love you
-RU: Facebook «Kegland homebrew
+RU: вы. Ещё будем рады, если
 
 500
 EN: to do is sign up to our Facebook homebrew
-RU: community group» — она находится
+RU: вы вступите в нашу Facebook‑группу
 
 501
 EN: community group. So go to that on
-RU: сразу — и присоединяйтесь. И конечно,
+RU: домашних пивоваров. Зайдите на
 
 502
 EN: Facebook search Kegland homebrew
-RU: подпишитесь на YouTube‑канал:
+RU: Facebook, найдите Kegland homebrew
 
 503
 EN: community group. You'll find it straight
-RU: кнопка справа внизу — Subscribe,
+RU: community group — она находится сразу,
 
 504
 EN: away and join that one. And of course,
-RU: нажмите подписку сейчас.
+RU: и присоединяйтесь. И конечно,
 
 505
 EN: sign up to the to the YouTube channel
-RU: И колокольчик уведомлений —
+RU: подпишитесь на YouTube‑канал:
 
 506
 EN: bottom right hand corner. Hit subscribe
-RU: бинь‑бинь — тогда вы
+RU: кнопка справа внизу — Subscribe
 
 507
 EN: now. Of course, hit the notification
-RU: узнаете сразу, как только выходят
+RU: сейчас. И колокольчик уведомлений —
 
 508
 EN: bell, Bing, Bing and that way you will
-RU: новые продукты или такие обзоры.
+RU: бинь‑бинь — тогда вы
 
 509
 EN: get notified as soon as we launch new
-RU: На этом пока всё,
+RU: узнаете сразу, как только выходят новые
 
 510
 EN: products or do videos like this. That's
-RU: увидимся в следующем видео.
+RU: продукты или такие обзоры. На этом
 
 511
 EN: it and I'll see you guys next time. Bye.
-RU: Пока!
+RU: всё, увидимся в следующем видео. Пока!
