@@ -29,4 +29,9 @@ English source is auto-generated SRT. Corrections used while translating:
 Product reference: [Type 30 MK5 Tool-Free Dual Gauge](https://kegland.com.au/products/type-30-mk5-tool-free-co2-dual-gauge-regulator-6-5bar-prv-100psi-gauge)
 
 Translation style follows the client’s prior Duotight Mini vs Core 360 VO SRT:
-same cue numbers and timings; meaning may slide across adjacent cues; conversational male tone; brands kept.
+same cue numbers and timings; conversational male tone; brands kept.
+
+**Sync rule (rev. 2):** Russian cue N stays on the meaning of English cue N
+(± at most one neighbor for grammar). Proper nouns (Oxebar, Taprite, M8, Allen,
+gauge guard, Facebook, YouTube, bonnet, seat cap, pressure creep) land on the
+same cue index as in English — no several-second lead.
