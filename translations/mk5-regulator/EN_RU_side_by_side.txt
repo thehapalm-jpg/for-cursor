@@ -84,15 +84,15 @@ RU: их нужно затягивать гайкой вот здесь.
 
 22
 EN: And the reason why a nut is really
-RU: А гайка нужна по простой
+RU: А гайка нужна по простой причине:
 
 23
 EN: required is because we use fairly hard
-RU: причине: раньше мы использовали довольно жёсткие
+RU: раньше мы использовали довольно жёсткие
 
 24
 EN: nylon washers or we did in the past. So
-RU: нейлоновые шайбы — так было в прошлом.
+RU: нейлоновые шайбы — так было и раньше.
 
 25
 EN: these nylon washers that are fairly hard
@@ -108,11 +108,11 @@ RU: износостойкими и служить долго. Однако
 
 28
 EN: from our experience, the reason why these
-RU: по нашему опыту причина, почему они
+RU: по нашему опыту они чаще всего
 
 29
 EN: wear out is generally because people over
-RU: изнашиваются, обычно в том, что люди
+RU: изнашиваются из‑за того, что люди
 
 30
 EN: tighten this. So as soon as you put a nut
@@ -124,11 +124,11 @@ RU: и её начинают закручивать,
 
 32
 EN: these up, the temptation is that people
-RU: возникает соблазн: люди
+RU: возникает соблазн взять
 
 33
 EN: get a spanner, get a lot of leverage and
-RU: берут ключ, дают большой рычаг
+RU: гаечный ключ, дать большой рычаг
 
 34
 EN: they can do it up overly tight and then
@@ -160,7 +160,7 @@ RU: решили, что пора
 
 41
 EN: address this because that was one of the
-RU: решить эту проблему, потому что это одна из
+RU: решить эту проблему: это как раз одна из
 
 42
 EN: parts that it's a bit annoying if you
@@ -236,11 +236,11 @@ RU: невозможно, потому что, как видите,
 
 60
 EN: got when you actually do these two parts
-RU: когда эти две части
+RU: когда сводите эти две части
 
 61
 EN: up together like that, the brass will
-RU: сводят вместе вот так, латунь
+RU: вместе вот так, латунь
 
 62
 EN: start to bottom out once you get to the
@@ -324,11 +324,11 @@ RU: соблазна повредить уплотнение
 
 82
 EN: has been removed because of this hand
-RU: мы убрали благодаря этому маховику
+RU: мы убрали благодаря этому маховику.
 
 83
 EN: wheel on there. So with the mark fives
-RU: на корпусе. На MK5
+RU: На MK5
 
 84
 EN: and the mark fours, we have always put
