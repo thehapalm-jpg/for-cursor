@@ -35,3 +35,22 @@ same cue numbers and timings; conversational male tone; brands kept.
 (± at most one neighbor for grammar). Proper nouns (Oxebar, Taprite, M8, Allen,
 gauge guard, Facebook, YouTube, bonnet, seat cap, pressure creep) land on the
 same cue index as in English — no several-second lead.
+
+
+## Glossary aligned with Beermachines.ru
+
+Source: https://www.beermachines.ru/catalog/kegging/gas/regulator-kegland-mk5/
+
+| Prefer | Avoid / was |
+|---|---|
+| шаровый кран | шаровой кран |
+| подключение / конструкция без ключа | tool free (кроме надписи patented tool free) |
+| маховик | — |
+| прокладка | нейлоновая шайба |
+| обновлённая система уплотнения / входное соединение | штуцер (spigot) |
+| манометры класса точности 2.5 | просто «класса 2.5» |
+| седло клапана | seat cap / seat cap assembly |
+| задняя крышка | bonnet |
+| регулировочная ручка | просто «ручка» (где речь о регуляторе давления) |
+| шестигранник 8 мм | Allen key |
+| защитный кожух | gauge guard |

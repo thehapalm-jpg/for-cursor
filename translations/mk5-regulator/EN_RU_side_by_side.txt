@@ -56,11 +56,11 @@ RU: patented tool free. Конструкцию мы сделали
 
 15
 EN: as tool free as possible because who
-RU: максимально удобной без ключей: кому
+RU: patented tool free. Конструкцию мы сделали
 
 16
 EN: wants to have to go and get a shift up
-RU: охота бегать за гаечным ключом,
+RU: максимально удобной без ключа: кому
 
 17
 EN: when you can just do the regulator up by
@@ -92,11 +92,11 @@ RU: раньше мы использовали довольно жёсткие
 
 24
 EN: nylon washers or we did in the past. So
-RU: нейлоновые шайбы.
+RU: нейлоновые прокладки.
 
 25
 EN: these nylon washers that are fairly hard
-RU: Эти нейлоновые шайбы из довольно плотного
+RU: Эти нейлоновые прокладки из довольно плотного
 
 26
 EN: compound, they could be quite hard
@@ -136,7 +136,7 @@ RU: и затянуть слишком сильно — и тогда
 
 35
 EN: they damage this nylon washer. So we
-RU: повреждают эту нейлоновую шайбу. Поэтому
+RU: повреждают эту нейлоновую прокладку. Поэтому
 
 36
 EN: generally always ship these with a spare
@@ -172,11 +172,11 @@ RU: если отказ случится посреди вечеринки,
 
 44
 EN: don't ever. Washer So what we do now is
-RU: а запасной шайбы нет. Поэтому теперь
+RU: а запасной прокладки нет. Поэтому теперь
 
 45
 EN: now with the tool free design it's all a
-RU: в конструкции tool free стоит
+RU: в конструкции без ключа стоит
 
 46
 EN: hand wheel like this so really easy don't
@@ -200,11 +200,11 @@ RU: чтобы затянуть до герметичности? Всё дело
 
 51
 EN: because we've changed the spigot design
-RU: в изменённой конструкции штуцера.
+RU: в обновлённой системе уплотнения.
 
 52
 EN: So if you look at the spigot design, this
-RU: Посмотрите на штуцер: теперь
+RU: Посмотрите на входное соединение: теперь
 
 53
 EN: now uses a much softer compound here. The
@@ -212,15 +212,15 @@ RU: здесь гораздо более мягкий материал.
 
 54
 EN: actual you can see the o-ring is embedded
-RU: Само уплотнительное кольцо встроено
+RU: Сама прокладка, как видно, утоплена
 
 55
 EN: into the brass spigot here So if you
-RU: в латунный штуцер. Если
+RU: в латунное соединение. Если
 
 56
 EN: needed to change this you could pick it
-RU: кольцо понадобится заменить, его можно вынуть
+RU: её понадобится заменить, можно вынуть
 
 57
 EN: out and then put another one in but
@@ -336,7 +336,7 @@ RU: и на MK4 мы всегда ставим
 
 85
 EN: the class 2.5 gauge on there. I should
-RU: манометр класса 2.5. Хочу
+RU: манометры класса точности 2.5. Хочу
 
 86
 EN: make mention to that because a lot of
@@ -356,7 +356,7 @@ RU: распространённые манометры для домашнег�
 
 90
 EN: would get out there would be a class 3.
-RU: обычно бывают класса 3.
+RU: обычно бывают класса точности 3.
 
 91
 EN: Look, it's not a massive difference, but
@@ -388,7 +388,7 @@ RU: классе 3 погрешность примерно ±3 PSI
 
 98
 EN: the gauge range. So if it's a class 2.5,
-RU: на диапазон шкалы. А при классе 2.5
+RU: на диапазон шкалы. А при классе точности 2.5
 
 99
 EN: it's slightly more accurate. You're
@@ -488,7 +488,7 @@ RU: домашний пивовар. А раньше мы не
 
 123
 EN: to put any ball valve to isolate the
-RU: ставили шаровой кран, чтобы перекрывать
+RU: ставили шаровый кран, чтобы перекрывать
 
 124
 EN: gaslight on the output. We just used to
@@ -516,7 +516,7 @@ RU: нравятся редукторы других брендов,
 
 130
 EN: regulated because they gave them a ball
-RU: потому что там на выходе есть шаровой
+RU: потому что там на выходе есть шаровый
 
 131
 EN: valve on the output like this. So I know
@@ -532,7 +532,7 @@ RU: встроенный обратный клапан
 
 134
 EN: into this ball valve mechanism. So one of
-RU: прямо в этот шаровой механизм. Одна из
+RU: прямо в этот шаровый механизм. Одна из
 
 135
 EN: the most common areas where a homebrew
@@ -608,7 +608,7 @@ RU: нужно не забывать открывать
 
 153
 EN: the ball valve. So when it's in this nine
-RU: шаровой кран. В положении 90 градусов
+RU: шаровый кран. В положении 90 градусов
 
 154
 EN: degree, that means off. So no gas is
@@ -780,7 +780,7 @@ RU: Теперь вторая причина, почему
 
 196
 EN: design is really because of the
-RU: конструкция tool free так важна —
+RU: конструкция без ключа так важна —
 
 197
 EN: maintenance. So if you were to get one of
@@ -980,15 +980,15 @@ RU: клапан и стрелка скачет вверх‑вниз —
 
 246
 EN: and down, that aggressive use of the
-RU: редуктора седло и
+RU: при такой агрессивной работе
 
 247
 EN: regulator where you've got the seat and
-RU: seat cap внутри бьются вверх‑вниз.
+RU: седло клапана
 
 248
 EN: seat cap internally bouncing up and down.
-RU: Шанс намного выше, что эти
+RU: внутри бьётся вверх‑вниз.
 
 249
 EN: Has a much much higher chance of those
@@ -1008,7 +1008,7 @@ RU: пройдут через редуктор и
 
 253
 EN: stuck under the seat and seat cap. So
-RU: застрянут под седлом и seat cap.
+RU: застрянут под седлом клапана.
 
 254
 EN: honestly, home Brewers are far tougher on
@@ -1044,7 +1044,7 @@ RU: если она попадёт под
 
 262
 EN: seat and seat cap, it can cause what we
-RU: седло и seat cap, начинается то, что мы
+RU: седло клапана, начинается то, что мы
 
 263
 EN: call pressure creep. Now I don't know if
@@ -1116,11 +1116,11 @@ RU: редуктор, чтобы снять
 
 280
 EN: regulator allowing us to take off the
-RU: всю верхнюю крышку —
+RU: всю заднюю крышку.
 
 281
 EN: whole bonnet. Now I've already loosened
-RU: bonnet. Я уже ослабил эту,
+RU: Я уже ослабил эту,
 
 282
 EN: this one so I can just undo it by hand
@@ -1204,11 +1204,11 @@ RU: клапаны. Ладно, достану узел —
 
 302
 EN: can see that this whole seat and seat cap
-RU: видно: весь этот seat и seat cap
+RU: видно: весь узел седла клапана
 
 303
 EN: assembly has quite a lot of you know,
-RU: assembly довольно сильно
+RU: довольно сильно
 
 304
 EN: corrosion on it like that. So I'm not
@@ -1264,7 +1264,7 @@ RU: сделали. У нас есть
 
 317
 EN: This knob here, and if I unscrew the knob
-RU: вот эта ручка. Откручиваю её
+RU: вот эта регулировочная ручка. Откручиваю её
 
 318
 EN: from the front of the regulator, you turn
@@ -1276,23 +1276,23 @@ RU: вверх дном — и вижу удобный
 
 320
 EN: handy little M8 on 8 or metric. 8mm hex
-RU: шестигранник M8, метрический 8 мм.
+RU: шестигранник 8 мм.
 
 321
 EN: here and that basically Allen key there
-RU: По сути ключ Allen,
+RU: Им как раз откручивают
 
 322
 EN: is so you can undo the back of the
-RU: чтобы открутить заднюю часть
+RU: заднюю часть редуктора.
 
 323
 EN: regulator. So at the back here, instead
-RU: редуктора. Сзади вместо того,
+RU: Сзади вместо того,
 
 324
 EN: of us having to remove this whole bonnet,
-RU: чтобы снимать весь bonnet —
+RU: чтобы снимать всю заднюю крышку —
 
 325
 EN: which is real pain and a lot of people
@@ -1336,7 +1336,7 @@ RU: вот так шестигранником 8 мм
 
 335
 EN: this with that 8mm hex or Allen. That
-RU: или ключом Allen — тем,
+RU: или тем же шестигранником —
 
 336
 EN: you've got under here. Use this knob from
@@ -1344,7 +1344,7 @@ RU: что спрятан под ручкой.
 
 337
 EN: the front of the regulator and undo this
-RU: Беру ручку с
+RU: Беру регулировочную ручку с
 
 338
 EN: **** so you can see that 8mm hole there.
@@ -1404,7 +1404,7 @@ RU: вот эта деталь —
 
 352
 EN: Is what we call the seat cap assembly. So
-RU: то, что мы называем seat cap assembly.
+RU: то, что мы называем седлом клапана.
 
 353
 EN: this here you can see is made out of
@@ -1420,11 +1420,11 @@ RU: и это единственный редуктор,
 
 356
 EN: ever seen where we've designed it the
-RU: который я видел, где весь
+RU: который я видел, где
 
 357
 EN: entire seat cap out of ultra high
-RU: seat cap сделан из сверхвысокомолекулярного
+RU: седло клапана целиком из сверхвысокомолекулярного
 
 358
 EN: molecule 8 PE. The reason why we've done
@@ -1468,7 +1468,7 @@ RU: и всё такое. В таких
 
 368
 EN: instances will mean the seat and seat cap
-RU: режимах седло и seat cap —
+RU: режимах седло клапана —
 
 369
 EN: assembly, like this piece here is
@@ -1496,7 +1496,7 @@ RU: рядом, шанс, что крошечная чешуйка
 
 375
 EN: brass ending up on this seat cap is way,
-RU: латуни окажется на seat cap, намного,
+RU: латуни окажется на седле клапана, намного,
 
 376
 EN: way higher. So, you know, the failure
@@ -1564,7 +1564,7 @@ RU: и попадёт на верх
 
 392
 EN: the seat gap here, it's not going to
-RU: seat cap, он уже не помешает
+RU: седло клапана, оно уже не помешает
 
 393
 EN: prevent this from sealing up against the
@@ -1652,7 +1652,7 @@ RU: если берёте хороший
 
 414
 EN: regulator, is get yourself a gauge guard.
-RU: редуктор — возьмите себе gauge guard.
+RU: редуктор — возьмите защитный кожух.
 
 415
 EN: They're really not expensive and it is
@@ -1720,7 +1720,7 @@ RU: защиты возьмите себе
 
 431
 EN: gauge guards because they're so cheap to
-RU: gauge guard — ставить их проще простого.
+RU: защитный кожух — ставить их проще простого.
 
 432
 EN: fit. We've got stainless steel ones, I
@@ -1748,7 +1748,7 @@ RU: даже с установленной защитой
 
 438
 EN: fitted, these new models of gauge guards
-RU: новые модели gauge guard,
+RU: новые модели защитных кожухов,
 
 439
 EN: that were starting to make now still have
@@ -1772,7 +1772,7 @@ RU: добираетесь сзади, чтобы обслуживать
 
 444
 EN: maintain the seat and seat cap assembly
-RU: седло и seat cap assembly,
+RU: седло клапана,
 
 445
 EN: if you needed to. But that just sits on
@@ -1792,7 +1792,7 @@ RU: крепите её к корпусу редуктора —
 
 449
 EN: attaches the gauge guard on here like so.
-RU: gauge guard садится вот так.
+RU: кожух садится вот так.
 
 450
 EN: So you have to do these three. Like that
@@ -1836,7 +1836,7 @@ RU: сэкономите кучу нервов вдолгую. Кто
 
 460
 EN: who think ahead, get the gauge guard. Now
-RU: думает наперёд — сразу берёт gauge guard. И
+RU: думает наперёд — сразу берёт защитный кожух. И
 
 461
 EN: before I disappear, I'm also going to say
