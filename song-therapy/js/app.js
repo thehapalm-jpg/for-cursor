@@ -8,6 +8,8 @@ import {
   setCheckboxValues,
   exportAll,
   defaultState,
+  saveQuickSession,
+  formatSessionDate,
 } from "./storage.js";
 
 const $ = (sel, root = document) => root.querySelector(sel);
@@ -43,6 +45,7 @@ const els = {
   btnExport: $("#btn-export"),
   btnReset: $("#btn-reset"),
   progressText: $("#progress-text"),
+  quickPanel: $("#quick-panel"),
 };
 
 function getActiveProgram() {
@@ -120,9 +123,82 @@ function renderTheses(theses) {
   });
 }
 
+function renderQuickHistory() {
+  if (!els.quickPanel) return;
+  els.quickPanel.innerHTML = "";
+
+  const inWritePhase = state.mode === "quick" && getCurrentPhase()?.id === "write";
+  if (!inWritePhase) {
+    els.quickPanel.hidden = true;
+    return;
+  }
+
+  els.quickPanel.hidden = false;
+
+  const header = document.createElement("div");
+  header.className = "quick-panel-header";
+  header.innerHTML = `<h3>Сохранённые сессии</h3><p>Новое поле ниже — всегда пустое. Старое не трогай.</p>`;
+  els.quickPanel.appendChild(header);
+
+  if (!state.quickSessions.length) {
+    const empty = document.createElement("p");
+    empty.className = "quick-empty";
+    empty.textContent = "Пока нет сохранённых сессий — после песни нажми «Сохранить сессию».";
+    els.quickPanel.appendChild(empty);
+  } else {
+    const list = document.createElement("div");
+    list.className = "quick-sessions";
+    state.quickSessions.forEach((session, index) => {
+      const card = document.createElement("details");
+      card.className = "quick-session";
+      const num = state.quickSessions.length - index;
+      const preview = session.song.split("\n")[0] || "—";
+      card.innerHTML = `<summary><span class="quick-session-num">#${num}</span> <span class="quick-session-date">${formatSessionDate(session.savedAt)}</span> <span class="quick-session-mood">${session.mood || "без слова"}</span> <span class="quick-session-preview">${preview}</span></summary>`;
+      const body = document.createElement("div");
+      body.className = "quick-session-body";
+      if (session.mood) {
+        const moodLine = document.createElement("p");
+        moodLine.innerHTML = `<strong>Настроение:</strong> ${session.mood}`;
+        body.appendChild(moodLine);
+      }
+      const pre = document.createElement("pre");
+      pre.textContent = session.song || "";
+      body.appendChild(pre);
+      card.appendChild(body);
+      list.appendChild(card);
+    });
+    els.quickPanel.appendChild(list);
+  }
+
+  const saveRow = document.createElement("div");
+  saveRow.className = "quick-save-row";
+  const btnSave = document.createElement("button");
+  btnSave.type = "button";
+  btnSave.className = "btn-save-session";
+  btnSave.textContent = "Сохранить сессию и начать новую";
+  btnSave.addEventListener("click", () => {
+    const saved = saveQuickSession(state);
+    if (!saved) {
+      alert("Напиши хотя бы слово настроения или строку песни — тогда сохраним.");
+      return;
+    }
+    persist();
+    render();
+  });
+  saveRow.appendChild(btnSave);
+  els.quickPanel.appendChild(saveRow);
+}
+
 function renderFields(phase) {
   els.fields.innerHTML = "";
   const dayKey = state.mode === "quick" ? 0 : state.currentDay;
+  const isQuickWrite = state.mode === "quick" && phase.id === "write";
+
+  if (isQuickWrite) {
+    renderQuickHistory();
+  } else if (els.quickPanel) {
+    els.quickPanel.hidden = true;
+  }
 
   phase.fields.forEach((field) => {
     const wrap = document.createElement("div");
@@ -164,26 +240,51 @@ function renderFields(phase) {
       const ta = document.createElement("textarea");
       ta.rows = 5;
       ta.placeholder = field.placeholder || "";
-      ta.value = getFieldValue(state, dayKey, phase.id, field.id);
-      ta.addEventListener("input", () => {
-        setFieldValue(state, dayKey, phase.id, field.id, ta.value);
-        persist();
-      });
+      if (isQuickWrite) {
+        ta.value = field.id === "mood" ? state.quickDraft.mood : state.quickDraft.song;
+        ta.addEventListener("input", () => {
+          if (field.id === "mood") state.quickDraft.mood = ta.value;
+          else state.quickDraft.song = ta.value;
+          persist();
+        });
+      } else {
+        ta.value = getFieldValue(state, dayKey, phase.id, field.id);
+        ta.addEventListener("input", () => {
+          setFieldValue(state, dayKey, phase.id, field.id, ta.value);
+          persist();
+        });
+      }
       wrap.appendChild(ta);
     } else {
       const input = document.createElement("input");
       input.type = "text";
       input.placeholder = field.placeholder || "";
-      input.value = getFieldValue(state, dayKey, phase.id, field.id);
-      input.addEventListener("input", () => {
-        setFieldValue(state, dayKey, phase.id, field.id, input.value);
-        persist();
-      });
+      if (isQuickWrite) {
+        input.value = field.id === "mood" ? state.quickDraft.mood : state.quickDraft.song;
+        input.addEventListener("input", () => {
+          if (field.id === "mood") state.quickDraft.mood = input.value;
+          else state.quickDraft.song = input.value;
+          persist();
+        });
+      } else {
+        input.value = getFieldValue(state, dayKey, phase.id, field.id);
+        input.addEventListener("input", () => {
+          setFieldValue(state, dayKey, phase.id, field.id, input.value);
+          persist();
+        });
+      }
       wrap.appendChild(input);
     }
 
     els.fields.appendChild(wrap);
   });
+
+  if (isQuickWrite) {
+    const note = document.createElement("p");
+    note.className = "quick-draft-note";
+    note.textContent = "Черновик внизу — только для сегодня. Нажми «Сохранить сессию», чтобы убрать в архив и очистить поля.";
+    els.fields.appendChild(note);
+  }
 }
 
 function isWritePhase(phase) {
@@ -254,7 +355,8 @@ function render() {
 
   if (state.mode === "quick") {
     els.dayBadge.textContent = "Быстрый вход";
-    els.progressText.textContent = "Без полного дня — якорь и песня";
+    const n = state.quickSessions?.length ?? 0;
+    els.progressText.textContent = `Сохранено сессий: ${n}. Поля ниже — новый черновик.`;
   } else {
     els.dayBadge.textContent = `День ${program.day} / 14`;
     const done = state.completedDays.length;

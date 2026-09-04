@@ -21,7 +21,7 @@ export const WRITE_REMINDERS = [
 
 export const QUICK_MODE = {
   title: "Быстрый вход",
-  goal: "Без подготовки — только якорь и песня.",
+  goal: "Якорь и песня. Каждая сессия сохраняется отдельно — новое поле всегда пустое.",
   phases: [
     {
       id: "anchor",
@@ -198,6 +198,17 @@ export const DAYS = [
             placeholder: "Можно бессмысленно, можно злость…",
             multiline: true,
           },
+        ],
+      },
+      {
+        id: "touch",
+        name: "Касание",
+        duration: 300,
+        theses: ["Не обязательно.", "Или «Быстрый вход» — новая сессия."],
+        hint: "5 минут. Песня здесь — или сохрани в «Быстром входе» отдельной сессией.",
+        fields: [
+          { id: "mood", label: "Одно слово — настроение", placeholder: "…", multiline: false },
+          { id: "song", label: "Если идёт — строки песни", placeholder: "Не обязательно.", multiline: true },
         ],
       },
     ],
