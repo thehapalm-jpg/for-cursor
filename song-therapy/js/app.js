@@ -10,6 +10,7 @@ import {
   defaultState,
   saveQuickSession,
   formatSessionDate,
+  deleteQuickSession,
 } from "./storage.js";
 
 const $ = (sel, root = document) => root.querySelector(sel);
@@ -164,6 +165,21 @@ function renderQuickHistory() {
       const pre = document.createElement("pre");
       pre.textContent = session.song || "";
       body.appendChild(pre);
+
+      const delBtn = document.createElement("button");
+      delBtn.type = "button";
+      delBtn.className = "btn-delete-session";
+      delBtn.textContent = "Удалить эту сессию";
+      delBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+        const label = session.mood || preview.slice(0, 40) || "сессию";
+        if (!confirm(`Удалить «${label}»? Текст не восстановится.`)) return;
+        deleteQuickSession(state, session.id);
+        persist();
+        render();
+      });
+      body.appendChild(delBtn);
+
       card.appendChild(body);
       list.appendChild(card);
     });

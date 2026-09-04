@@ -101,6 +101,13 @@ export function saveQuickSession(state) {
   return true;
 }
 
+export function deleteQuickSession(state, sessionId) {
+  const idx = state.quickSessions.findIndex((s) => s.id === sessionId);
+  if (idx === -1) return false;
+  state.quickSessions.splice(idx, 1);
+  return true;
+}
+
 export function formatSessionDate(iso) {
   try {
     return new Date(iso).toLocaleString("ru-RU", {

@@ -466,6 +466,22 @@ footer.note {
   color: var(--text-muted);
 }
 
+.btn-delete-session {
+  margin-top: 10px;
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid rgba(220, 100, 100, 0.4);
+  background: transparent;
+  color: #e8a0a0;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 0.78rem;
+}
+
+.btn-delete-session:hover {
+  background: rgba(220, 100, 100, 0.12);
+}
+
 .quick-save-row {
   margin-top: 8px;
 }
