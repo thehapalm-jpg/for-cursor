@@ -927,6 +927,10 @@ footer.note {
   margin-top: 16px;
 }
 
+.auth-resend-btn {
+  font-size: 0.85rem !important;
+}
+
 .btn-primary,
 .btn-secondary {
   font: inherit;
