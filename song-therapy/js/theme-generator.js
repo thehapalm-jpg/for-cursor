@@ -178,6 +178,7 @@ export function initThemeGenerator(container) {
 
   container.innerHTML = `
     <div class="theme-panel-inner">
+      <button type="button" class="panel-close" id="theme-panel-close" aria-label="Закрыть">← Назад</button>
       <h2 class="theme-panel-title">Тема для строки</h2>
       <p class="theme-panel-hint">Случайное словосочетание — зацепка для куплета или одной строчки. Не обязательно брать дословно.</p>
       <div class="theme-output" id="theme-output" aria-live="polite">
@@ -201,6 +202,12 @@ export function initThemeGenerator(container) {
     }
     copyBtn.hidden = false;
   }
+
+  container.querySelector('#theme-panel-close')?.addEventListener('click', () => {
+    container.classList.remove('theme-panel-open');
+    document.getElementById('mobile-btn-themes')?.classList.remove('active');
+    document.body.classList.remove('mobile-panel-open');
+  });
 
   container.querySelector('#theme-generate-btn').addEventListener('click', () => {
     const { phrase, template } = generateTheme(history);
