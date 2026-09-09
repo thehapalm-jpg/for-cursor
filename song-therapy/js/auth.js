@@ -1,4 +1,4 @@
-import { getSupabase, isCloudConfigured } from "./supabase-client.js";
+import { getSupabase, isCloudConfigured, isStorageAvailable } from "./supabase-client.js";
 import { translateAuthError } from "./errors-ru.js";
 
 let currentSession = null;
@@ -13,11 +13,31 @@ export function getUserId() {
 }
 
 function notifyAuthListeners(session, event = null) {
-  authListeners.forEach((fn) => fn(session, event));
+  authListeners.forEach((fn) => {
+    try {
+      fn(session, event);
+    } catch (err) {
+      console.error(err);
+    }
+  });
 }
 
 export function onSessionChange(callback) {
   authListeners.push(callback);
+}
+
+function setScreenMode(mode) {
+  const screen = document.getElementById("auth-screen");
+  const shell = document.getElementById("app-shell");
+  if (!screen || !shell) return;
+
+  if (mode === "app") {
+    screen.setAttribute("hidden", "");
+    shell.removeAttribute("hidden");
+  } else {
+    screen.removeAttribute("hidden");
+    shell.setAttribute("hidden", "");
+  }
 }
 
 async function refreshSession() {
@@ -34,9 +54,14 @@ export async function initAuth() {
     );
   }
 
+  if (!isStorageAvailable()) {
+    throw new Error(
+      "Браузер блокирует localStorage — без него вход не сохранится. Отключи режим инкогнито или блокировку cookies."
+    );
+  }
+
   const supabase = getSupabase();
 
-  // Токен из ссылки подтверждения email (#access_token=…) — дать клиенту распарсить hash
   if (window.location.hash.includes("access_token")) {
     await refreshSession();
     if (currentSession) {
@@ -47,8 +72,13 @@ export async function initAuth() {
   }
 
   supabase.auth.onAuthStateChange((event, session) => {
-    currentSession = session;
-    notifyAuthListeners(session, event);
+    if (session) {
+      currentSession = session;
+      notifyAuthListeners(session, event);
+    } else if (event === "SIGNED_OUT") {
+      currentSession = null;
+      notifyAuthListeners(null, event);
+    }
   });
 
   return currentSession;
@@ -56,19 +86,18 @@ export async function initAuth() {
 
 export async function signIn(email, password) {
   const supabase = getSupabase();
-  const { error } = await supabase.auth.signInWithPassword({ email, password });
+  const { data, error } = await supabase.auth.signInWithPassword({ email, password });
   if (error) throw error;
 
-  const session = await refreshSession();
-  if (!session) {
+  currentSession = data.session ?? (await refreshSession());
+  if (!currentSession) {
     const err = new Error("session missing");
     err.code = "session_missing";
     throw err;
   }
-  return session;
+  return currentSession;
 }
 
-/** Куда вернуть после клика по ссылке в письме — путь приложения на GitHub Pages. */
 export function getAuthRedirectUrl() {
   const { origin, pathname } = window.location;
   const dir = pathname.endsWith("/") ? pathname : `${pathname.replace(/\/[^/]*$/, "/")}`;
@@ -107,9 +136,7 @@ function isAlreadyRegistered(data) {
   return data?.user?.identities?.length === 0;
 }
 
-export function bindAuthUI() {
-  const screen = document.getElementById("auth-screen");
-  const shell = document.getElementById("app-shell");
+export function bindAuthUI({ onEnterApp } = {}) {
   const form = document.getElementById("auth-form");
   const emailInput = document.getElementById("auth-email");
   const passwordInput = document.getElementById("auth-password");
@@ -121,6 +148,7 @@ export function bindAuthUI() {
   let pendingConfirmEmail = null;
 
   function showMessage(text, isError = false) {
+    if (!message) return;
     message.textContent = text;
     message.className = isError ? "auth-message error" : "auth-message";
   }
@@ -136,21 +164,28 @@ export function bindAuthUI() {
   }
 
   function showAuth() {
-    screen.hidden = false;
-    shell.hidden = true;
+    setScreenMode("auth");
   }
 
   function showApp() {
-    screen.hidden = true;
-    shell.hidden = false;
+    setScreenMode("app");
     hideResendButton();
   }
 
-  function onLoginSuccess(session) {
-    if (!session) return;
+  async function onLoginSuccess(session) {
+    if (!session) {
+      showMessage(translateAuthError({ code: "session_missing" }), true);
+      return;
+    }
+    setScreenMode("app");
+    hideResendButton();
     showMessage("");
-    showApp();
-    notifyAuthListeners(session);
+    try {
+      await onEnterApp?.(session);
+    } catch (err) {
+      console.error(err);
+      showMessage("Вошли, но не удалось загрузить данные — обнови страницу", true);
+    }
   }
 
   form?.addEventListener("submit", async (e) => {
@@ -165,7 +200,7 @@ export function bindAuthUI() {
     showMessage("Вход…");
     try {
       const session = await signIn(email, password);
-      onLoginSuccess(session);
+      await onLoginSuccess(session);
     } catch (err) {
       showMessage(translateAuthError(err, { isRegister: false }), true);
     }
@@ -194,7 +229,7 @@ export function bindAuthUI() {
         return;
       }
       if (result.session || getSession()) {
-        onLoginSuccess(getSession());
+        await onLoginSuccess(getSession());
       } else {
         showResendButton(email);
         showMessage(
@@ -228,13 +263,12 @@ export function bindAuthUI() {
     notifyAuthListeners(null, "SIGNED_OUT");
   });
 
-  // Не скрывать приложение на session=null — иначе успешный вход сбрасывается ложным событием
   onSessionChange((session, event) => {
-    if (session) showApp();
+    if (session) setScreenMode("app");
     else if (event === "SIGNED_OUT") showAuth();
   });
 
-  if (currentSession) showApp();
+  if (currentSession) setScreenMode("app");
   else showAuth();
 
   return { showAuth, showApp };

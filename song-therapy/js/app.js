@@ -1,5 +1,5 @@
 import { DAYS, QUICK_MODE, WRITE_REMINDERS } from "./program.js";
-import { initAuth, bindAuthUI, onSessionChange, getSession } from "./auth.js";
+import { initAuth, bindAuthUI, getSession } from "./auth.js";
 import { translateAuthError } from "./errors-ru.js";
 import { renderSongPanel, updateSongPreview } from "./song-compiler.js";
 import { initThemeGenerator } from "./theme-generator.js";
@@ -557,23 +557,20 @@ async function bootstrap() {
     return;
   }
 
-  bindAuthUI();
-
-  onSessionChange(async (session) => {
-    if (!session) return;
+  async function enterApp() {
     try {
       state = await loadState();
-      render();
     } catch (err) {
       console.error(err);
       state = defaultState();
-      render();
     }
-  });
+    render();
+  }
+
+  bindAuthUI({ onEnterApp: enterApp });
 
   if (getSession()) {
-    state = await loadState();
-    render();
+    await enterApp();
   }
 }
 
