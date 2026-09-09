@@ -87,9 +87,15 @@ export function bindAuthUI() {
 
   form?.addEventListener("submit", async (e) => {
     e.preventDefault();
+    const email = emailInput.value.trim();
+    const password = passwordInput.value;
+    if (!email || !password) {
+      showMessage("Введи email и пароль.", true);
+      return;
+    }
     showMessage("Вход…");
     try {
-      await signIn(emailInput.value.trim(), passwordInput.value);
+      await signIn(email, password);
       showMessage("");
       showApp();
       notifyAuthListeners(getSession());
