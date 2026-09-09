@@ -7,7 +7,7 @@ name: Deploy song-therapy to Pages
 
 on:
   push:
-    branches: [main, cursor/song-therapy-interface-9c7d]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
