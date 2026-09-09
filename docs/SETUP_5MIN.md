@@ -26,8 +26,8 @@
 ## 3. GitHub Pages (~1 мин)
 
 1. **Settings** → **Pages** → **Build and deployment** → Source: **GitHub Actions**.
-2. **Actions** → workflow **Deploy song-therapy to Pages** → **Run workflow** (или дождись push в `main`).
-3. После зелёной галочки — **Settings → Pages** — появится URL сайта.
+2. Смержи изменения в ветку **`main`** (через Pull Request). Деплой запускается **только с `main`**, не с feature-веток.
+3. После зелёной галочки в **Actions** — **Settings → Pages** — появится URL сайта.
 
 ## 4. Первый вход
 
