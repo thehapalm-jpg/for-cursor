@@ -10,9 +10,9 @@
    `supabase/migrations/001_initial.sql` → скопируй всё → вставь в SQL → **Run**.
 4. **Authentication** → **Providers** → **Email** → включён.  
    Для себя одного: **Confirm email** → выключи (Settings внутри Email).
-5. **Authentication** → **URL Configuration** → **Site URL** →  
-   `https://thehapalm-jpg.github.io/for-cursor/`  
-   (именно Site URL задаёт redirect в письме подтверждения; Redirect URLs для регистрации не трогаем)
+5. **Authentication** → **URL Configuration**:
+   - **Site URL** → `https://thehapalm-jpg.github.io/for-cursor/` (**обязательно с `/for-cursor/`**, не корень `github.io`!)
+   - **Redirect URLs** → `https://thehapalm-jpg.github.io/for-cursor/**`
 6. **Project Settings** (шестерёнка) → **API** → скопируй:
    - **Project URL**
    - **anon public** (не service_role!)
@@ -56,7 +56,8 @@ copy js\config.example.js js\config.js
 - Сайт открывается, но alert «Supabase не настроен» → секреты не заданы или workflow не перезапускался.
 - «Invalid API key» → в секрет попал service_role вместо anon.
 - Регистрация просит подтвердить почту → выключи Confirm email в Supabase **или** смени **Site URL** (шаг 5).
-- Ссылка из письма ведёт на localhost → в Supabase **Site URL** = URL GitHub Pages, не localhost.
+- Ссылка из письма ведёт на localhost → **Site URL** = URL GitHub Pages, не localhost.
+- После клика по ссылке **404 на github.io** (без `/for-cursor/`) → в **Site URL** забыт путь `/for-cursor/`. Либо открой вручную: `https://thehapalm-jpg.github.io/for-cursor/` + хвост `#access_token=...` из адресной строки.
 - **Письмо не приходит** (самое частое):
   1. **Authentication → Providers → Email** → выключи **Confirm email** → регистрация без письма (рекомендуется для одного пользователя).
   2. Или подожди **1 час** — встроенная почта Supabase: ~**2 письма в час** на адрес; много попыток = тишина.
