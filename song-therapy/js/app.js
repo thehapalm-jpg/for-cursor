@@ -1,5 +1,6 @@
 import { DAYS, QUICK_MODE, WRITE_REMINDERS } from "./program.js";
 import { initAuth, bindAuthUI, onSessionChange, getSession } from "./auth.js";
+import { translateAuthError } from "./errors-ru.js";
 import { renderSongPanel, updateSongPreview } from "./song-compiler.js";
 import { initThemeGenerator } from "./theme-generator.js";
 import {
@@ -549,7 +550,10 @@ async function bootstrap() {
   try {
     await initAuth();
   } catch (err) {
-    alert(err.message);
+    const text = err?.code || err?.name === "AuthApiError"
+      ? translateAuthError(err)
+      : (err.message || "Ошибка запуска");
+    alert(text);
     return;
   }
 
