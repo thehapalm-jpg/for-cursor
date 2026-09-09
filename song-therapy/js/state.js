@@ -1,4 +1,5 @@
 import { LOCAL_LEGACY_KEY, LOCAL_STORAGE_KEY } from "./constants.js";
+import { formatCompiledSongs } from "./song-compiler.js";
 
 export function defaultState() {
   return {
@@ -10,6 +11,7 @@ export function defaultState() {
     completedDays: [],
     quickSessions: [],
     quickDraft: { mood: "", song: "" },
+    songStanzas: [],
   };
 }
 
@@ -18,6 +20,7 @@ export function migrateState(state) {
   if (!state.quickDraft) state.quickDraft = { mood: "", song: "" };
   if (!state.fields) state.fields = {};
   if (!state.completedDays) state.completedDays = [];
+  if (!state.songStanzas) state.songStanzas = [];
 
   const oldMood = state.fields?.["d0_write_mood"] ?? "";
   const oldSong = state.fields?.["d0_write_song"] ?? "";
@@ -71,6 +74,7 @@ export function stateHasContent(state) {
   if (state.completedDays?.length) return true;
   if (state.quickSessions?.length) return true;
   if (state.quickDraft?.mood?.trim() || state.quickDraft?.song?.trim()) return true;
+  if (state.songStanzas?.length) return true;
   if (Object.values(state.fields || {}).some((v) => String(v).trim())) return true;
   return false;
 }
@@ -161,6 +165,12 @@ export function exportAll(state) {
     lines.push("=== Быстрый вход — текущий черновик (не сохранён) ===");
     if (draftMood) lines.push(`Настроение: ${draftMood}`);
     lines.push(draftSong || "");
+    lines.push("");
+  }
+
+  if (state.songStanzas?.length) {
+    lines.push("=== Сборка песен ===");
+    lines.push(formatCompiledSongs(state.songStanzas));
     lines.push("");
   }
 

@@ -32,7 +32,7 @@
     </div>
 
     <div id="app-shell" hidden>
-      <header class="top">
+      <header class="top app-header">
         <span class="badge" id="day-badge">День 1 / 14</span>
         <h1 id="day-title">Карта барьера</h1>
         <p class="goal" id="day-goal"></p>
@@ -40,6 +40,7 @@
         <div class="toolbar">
           <span id="sync-status" class="sync-status" title="Синхронизация">●</span>
           <button type="button" id="btn-quick" title="Якорь + песня без полного дня">Быстрый вход</button>
+          <button type="button" id="btn-toggle-songs" class="btn-toggle-songs" type="button">Песни</button>
           <button type="button" id="btn-export">Экспорт текста</button>
           <button type="button" id="btn-reset">Сброс</button>
           <button type="button" id="btn-logout" class="btn-logout">Выйти</button>
@@ -47,6 +48,8 @@
         <div class="day-picker" id="day-picker" aria-label="Выбор дня программы"></div>
       </header>
 
+      <div class="app-layout">
+        <div class="app-main">
       <main>
         <section class="card">
           <nav class="phase-nav" id="phase-nav" aria-label="Шаги дня"></nav>
@@ -83,13 +86,17 @@
         </section>
       </main>
 
-      <div class="sticky-reminders" id="sticky-reminders" hidden>
-        <p id="sticky-text"></p>
-      </div>
-
       <footer class="note">
         Данные в облаке (Supabase), доступ только по твоему аккаунту. Это напоминание шагов, не замена врача.
       </footer>
+        </div>
+
+        <aside id="song-panel" class="song-panel" aria-label="Сборка песни"></aside>
+      </div>
+
+      <div class="sticky-reminders" id="sticky-reminders" hidden>
+        <p id="sticky-text"></p>
+      </div>
     </div>
 
     <script type="module" src="js/app.js"></script>

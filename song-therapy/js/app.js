@@ -1,5 +1,6 @@
 import { DAYS, QUICK_MODE, WRITE_REMINDERS } from "./program.js";
 import { initAuth, bindAuthUI, onSessionChange, getSession } from "./auth.js";
+import { renderSongPanel, updateSongPreview } from "./song-compiler.js";
 import {
   loadState,
   saveState,
@@ -51,6 +52,8 @@ const els = {
   progressText: $("#progress-text"),
   quickPanel: $("#quick-panel"),
   syncStatus: $("#sync-status"),
+  songPanel: $("#song-panel"),
+  btnToggleSongs: $("#btn-toggle-songs"),
 };
 
 function updateSyncStatus(status, detail = "") {
@@ -427,7 +430,27 @@ function render() {
   els.btnCompleteDay.hidden = !isLast || state.mode === "quick";
 
   els.btnQuick.classList.toggle("active", state.mode === "quick");
+
+  renderSongCompiler();
 }
+
+function renderSongCompiler() {
+  renderSongPanel(els.songPanel, state, {
+    onChange: (songStanzas, options = { fullRender: true }) => {
+      state.songStanzas = songStanzas;
+      persist();
+      if (options.fullRender) {
+        renderSongCompiler();
+      } else {
+        updateSongPreview(els.songPanel, songStanzas);
+      }
+    },
+  });
+}
+
+els.btnToggleSongs?.addEventListener("click", () => {
+  els.songPanel?.classList.toggle("song-panel-open");
+});
 
 function goNextPhase() {
   const phases = getPhases();

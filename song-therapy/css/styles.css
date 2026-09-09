@@ -30,10 +30,239 @@ body {
   padding: 0 16px 100px;
 }
 
+.app-header {
+  max-width: 1180px;
+}
+
 header.top {
-  max-width: 720px;
+  max-width: 1180px;
   margin: 0 auto;
   padding: 20px 0 12px;
+}
+
+.app-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  gap: 16px;
+  max-width: 1180px;
+  margin: 0 auto;
+  align-items: start;
+}
+
+.app-main main .card {
+  margin-top: 0;
+}
+
+.song-panel {
+  position: sticky;
+  top: 12px;
+  max-height: calc(100vh - 24px);
+  overflow: auto;
+  background: var(--surface);
+  border: 1px solid var(--surface2);
+  border-radius: var(--radius);
+  padding: 0;
+}
+
+.song-panel-inner {
+  padding: 16px;
+}
+
+.song-panel-head h2 {
+  margin: 0 0 4px;
+  font-size: 1.05rem;
+}
+
+.song-panel-lead {
+  margin: 0 0 12px;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.song-preview-wrap {
+  margin-bottom: 12px;
+}
+
+.song-preview-label {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+
+.song-preview {
+  margin: 0;
+  padding: 12px;
+  background: var(--bg);
+  border: 1px solid var(--surface2);
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  white-space: pre-wrap;
+  color: var(--text-muted);
+  max-height: 200px;
+  overflow: auto;
+}
+
+.btn-copy-compiled {
+  margin-top: 8px;
+  width: 100%;
+  font: inherit;
+  cursor: pointer;
+  border: none;
+  background: var(--surface2);
+  color: var(--text);
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+}
+
+.song-panel-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.btn-song-action {
+  font: inherit;
+  cursor: pointer;
+  border: none;
+  background: var(--accent-soft);
+  color: #fff;
+  padding: 10px 12px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.btn-song-action.secondary {
+  background: var(--surface2);
+  color: var(--text);
+  font-weight: 500;
+}
+
+.song-stanza-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.song-empty {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.song-stanza-card {
+  background: var(--bg);
+  border: 1px solid var(--surface2);
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.song-stanza-card.new-song-start {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px rgba(107, 159, 212, 0.25);
+}
+
+.song-stanza-meta {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.song-stanza-num {
+  font-weight: 600;
+  color: var(--accent);
+  font-size: 0.85rem;
+}
+
+.song-stanza-song-tag {
+  font-size: 0.72rem;
+  background: rgba(107, 159, 212, 0.15);
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+.song-stanza-scope {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.scope-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.82rem;
+  cursor: pointer;
+}
+
+.scope-option input {
+  accent-color: var(--accent);
+}
+
+.song-scope-note {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  margin: 4px 0 0;
+}
+
+.song-stanza-text {
+  width: 100%;
+  font: inherit;
+  background: var(--surface);
+  border: 1px solid var(--surface2);
+  color: var(--text);
+  border-radius: 8px;
+  padding: 10px;
+  resize: vertical;
+  font-size: 0.88rem;
+  line-height: 1.4;
+}
+
+.btn-delete-stanza {
+  margin-top: 8px;
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid rgba(220, 100, 100, 0.35);
+  background: transparent;
+  color: #e8a0a0;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+}
+
+.btn-toggle-songs {
+  display: none;
+}
+
+@media (max-width: 960px) {
+  .app-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .song-panel {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    max-height: none;
+    border-radius: 0;
+    padding-top: 48px;
+  }
+
+  .song-panel.song-panel-open {
+    display: block;
+  }
+
+  .btn-toggle-songs {
+    display: inline-block;
+  }
 }
 
 .badge {
@@ -121,8 +350,8 @@ h1 {
 }
 
 main {
-  max-width: 720px;
-  margin: 0 auto;
+  max-width: none;
+  margin: 0;
 }
 
 .card {
@@ -357,8 +586,8 @@ main {
 }
 
 footer.note {
-  max-width: 720px;
-  margin: 32px auto 0;
+  max-width: none;
+  margin: 32px 0 0;
   font-size: 0.78rem;
   color: var(--text-muted);
   text-align: center;
