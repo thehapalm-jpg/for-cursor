@@ -55,10 +55,23 @@ export async function signUp(email, password) {
   return data;
 }
 
+export async function resendSignupEmail(email) {
+  const supabase = getSupabase();
+  const { error } = await supabase.auth.resend({
+    type: "signup",
+    email,
+  });
+  if (error) throw error;
+}
+
 export async function signOut() {
   const supabase = getSupabase();
   await supabase.auth.signOut();
   currentSession = null;
+}
+
+function isAlreadyRegistered(data) {
+  return data?.user?.identities?.length === 0;
 }
 
 export function bindAuthUI() {
@@ -69,11 +82,24 @@ export function bindAuthUI() {
   const passwordInput = document.getElementById("auth-password");
   const message = document.getElementById("auth-message");
   const btnRegister = document.getElementById("auth-register");
+  const btnResend = document.getElementById("auth-resend");
   const btnLogout = document.getElementById("btn-logout");
+
+  let pendingConfirmEmail = null;
 
   function showMessage(text, isError = false) {
     message.textContent = text;
     message.className = isError ? "auth-message error" : "auth-message";
+  }
+
+  function showResendButton(email) {
+    pendingConfirmEmail = email;
+    if (btnResend) btnResend.hidden = false;
+  }
+
+  function hideResendButton() {
+    pendingConfirmEmail = null;
+    if (btnResend) btnResend.hidden = true;
   }
 
   function showAuth() {
@@ -84,6 +110,7 @@ export function bindAuthUI() {
   function showApp() {
     screen.hidden = true;
     shell.hidden = false;
+    hideResendButton();
   }
 
   form?.addEventListener("submit", async (e) => {
@@ -94,6 +121,7 @@ export function bindAuthUI() {
       showMessage("Введите email и пароль", true);
       return;
     }
+    hideResendButton();
     showMessage("Вход…");
     try {
       await signIn(email, password);
@@ -116,16 +144,43 @@ export function bindAuthUI() {
       showMessage("Пароль — минимум 6 символов", true);
       return;
     }
+    hideResendButton();
     showMessage("Регистрация…");
     try {
       const result = await signUp(email, password);
+      if (isAlreadyRegistered(result)) {
+        showMessage(
+          "Этот email уже зарегистрирован. Войди с паролем или удали пользователя в Supabase → Users",
+          true
+        );
+        return;
+      }
       if (result.session) {
         showMessage("");
         showApp();
         notifyAuthListeners(getSession());
       } else {
-        showMessage("Проверь почту — возможно, нужно подтвердить регистрацию");
+        showResendButton(email);
+        showMessage(
+          "Письмо отправлено (если не пришло за 2 мин — проверь «Спам» или нажми «Отправить письмо ещё раз»). Лимит Supabase: ~2 письма в час на адрес"
+        );
       }
+    } catch (err) {
+      showMessage(translateAuthError(err, { isRegister: true }), true);
+    }
+  });
+
+  btnResend?.addEventListener("click", async () => {
+    const email = pendingConfirmEmail || emailInput.value.trim();
+    if (!email) {
+      showMessage("Введите email", true);
+      return;
+    }
+    showMessage("Отправляем письмо…");
+    try {
+      await resendSignupEmail(email);
+      showResendButton(email);
+      showMessage("Письмо отправлено повторно. Проверь входящие и «Спам»");
     } catch (err) {
       showMessage(translateAuthError(err, { isRegister: true }), true);
     }

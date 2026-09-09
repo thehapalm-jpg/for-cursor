@@ -10,6 +10,7 @@ const AUTH_BY_CODE = {
   email_provider_disabled: "Вход по email отключён в настройках",
   weak_password: "Пароль слишком короткий — минимум 6 символов",
   over_request_rate_limit: "Слишком много попыток — подожди минуту",
+  over_email_send_rate_limit: "Лимит писем Supabase (~2 в час). Подожди или отключи Confirm email в дашборде",
   session_expired: "Сессия истекла — войди снова",
 };
 
@@ -22,6 +23,7 @@ const AUTH_BY_MESSAGE = [
   [/signup requires a valid password/i, "Пароль слишком короткий — минимум 6 символов"],
   [/unable to validate email address/i, "Некорректный email"],
   [/rate limit/i, "Слишком много попыток — подожди минуту"],
+  [/email rate limit/i, "Лимит писем Supabase (~2 в час). Подожди или отключи Confirm email в дашборде"],
   [/network/i, "Нет связи с сервером — проверь интернет"],
   [/fetch failed/i, "Нет связи с сервером — проверь интернет"],
 ];

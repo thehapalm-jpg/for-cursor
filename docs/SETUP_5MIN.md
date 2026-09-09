@@ -57,4 +57,9 @@ copy js\config.example.js js\config.js
 - «Invalid API key» → в секрет попал service_role вместо anon.
 - Регистрация просит подтвердить почту → выключи Confirm email в Supabase **или** смени **Site URL** (шаг 5).
 - Ссылка из письма ведёт на localhost → в Supabase **Site URL** = URL GitHub Pages, не localhost.
-- Письмо не приходит после регистрации → не добавляй `redirect_to` вручную; Site URL достаточно.
+- **Письмо не приходит** (самое частое):
+  1. **Authentication → Providers → Email** → выключи **Confirm email** → регистрация без письма (рекомендуется для одного пользователя).
+  2. Или подожди **1 час** — встроенная почта Supabase: ~**2 письма в час** на адрес; много попыток = тишина.
+  3. **Authentication → Users** — есть ли пользователь? Если да и не подтверждён — удали и зарегистрируйся снова.
+  4. **Authentication → Logs** — ищи `429` / `rate limit`.
+  5. Проверь папку **Спам** (отправитель часто `supabase.io`).
