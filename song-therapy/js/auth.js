@@ -12,12 +12,19 @@ export function getUserId() {
   return currentSession?.user?.id ?? null;
 }
 
-function notifyAuthListeners(session) {
-  authListeners.forEach((fn) => fn(session));
+function notifyAuthListeners(session, event = null) {
+  authListeners.forEach((fn) => fn(session, event));
 }
 
 export function onSessionChange(callback) {
   authListeners.push(callback);
+}
+
+async function refreshSession() {
+  const supabase = getSupabase();
+  const { data } = await supabase.auth.getSession();
+  currentSession = data.session;
+  return currentSession;
 }
 
 export async function initAuth() {
@@ -28,12 +35,20 @@ export async function initAuth() {
   }
 
   const supabase = getSupabase();
-  const { data } = await supabase.auth.getSession();
-  currentSession = data.session;
 
-  supabase.auth.onAuthStateChange((_event, session) => {
+  // Токен из ссылки подтверждения email (#access_token=…) — дать клиенту распарсить hash
+  if (window.location.hash.includes("access_token")) {
+    await refreshSession();
+    if (currentSession) {
+      history.replaceState(null, "", window.location.pathname + window.location.search);
+    }
+  } else {
+    await refreshSession();
+  }
+
+  supabase.auth.onAuthStateChange((event, session) => {
     currentSession = session;
-    notifyAuthListeners(session);
+    notifyAuthListeners(session, event);
   });
 
   return currentSession;
@@ -41,10 +56,16 @@ export async function initAuth() {
 
 export async function signIn(email, password) {
   const supabase = getSupabase();
-  const { data, error } = await supabase.auth.signInWithPassword({ email, password });
+  const { error } = await supabase.auth.signInWithPassword({ email, password });
   if (error) throw error;
-  currentSession = data.session;
-  return data.session;
+
+  const session = await refreshSession();
+  if (!session) {
+    const err = new Error("session missing");
+    err.code = "session_missing";
+    throw err;
+  }
+  return session;
 }
 
 /** Куда вернуть после клика по ссылке в письме — путь приложения на GitHub Pages. */
@@ -62,7 +83,7 @@ export async function signUp(email, password) {
     options: { emailRedirectTo: getAuthRedirectUrl() },
   });
   if (error) throw error;
-  currentSession = data.session;
+  currentSession = data.session ?? (await refreshSession());
   return data;
 }
 
@@ -125,6 +146,13 @@ export function bindAuthUI() {
     hideResendButton();
   }
 
+  function onLoginSuccess(session) {
+    if (!session) return;
+    showMessage("");
+    showApp();
+    notifyAuthListeners(session);
+  }
+
   form?.addEventListener("submit", async (e) => {
     e.preventDefault();
     const email = emailInput.value.trim();
@@ -136,10 +164,8 @@ export function bindAuthUI() {
     hideResendButton();
     showMessage("Вход…");
     try {
-      await signIn(email, password);
-      showMessage("");
-      showApp();
-      notifyAuthListeners(getSession());
+      const session = await signIn(email, password);
+      onLoginSuccess(session);
     } catch (err) {
       showMessage(translateAuthError(err, { isRegister: false }), true);
     }
@@ -167,10 +193,8 @@ export function bindAuthUI() {
         );
         return;
       }
-      if (result.session) {
-        showMessage("");
-        showApp();
-        notifyAuthListeners(getSession());
+      if (result.session || getSession()) {
+        onLoginSuccess(getSession());
       } else {
         showResendButton(email);
         showMessage(
@@ -201,12 +225,13 @@ export function bindAuthUI() {
   btnLogout?.addEventListener("click", async () => {
     await signOut();
     showAuth();
-    notifyAuthListeners(null);
+    notifyAuthListeners(null, "SIGNED_OUT");
   });
 
-  onSessionChange((session) => {
+  // Не скрывать приложение на session=null — иначе успешный вход сбрасывается ложным событием
+  onSessionChange((session, event) => {
     if (session) showApp();
-    else showAuth();
+    else if (event === "SIGNED_OUT") showAuth();
   });
 
   if (currentSession) showApp();
