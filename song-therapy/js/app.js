@@ -560,8 +560,13 @@ async function bootstrap() {
   bindAuthUI();
 
   onSessionChange(async (session) => {
-    if (session) {
+    if (!session) return;
+    try {
       state = await loadState();
+      render();
+    } catch (err) {
+      console.error(err);
+      state = defaultState();
       render();
     }
   });

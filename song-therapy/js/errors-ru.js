@@ -12,6 +12,7 @@ const AUTH_BY_CODE = {
   over_request_rate_limit: "Слишком много попыток — подожди минуту",
   over_email_send_rate_limit: "Лимит писем Supabase (~2 в час). Подожди или отключи Confirm email в дашборде",
   session_expired: "Сессия истекла — войди снова",
+  session_missing: "Вход выполнен, но сессия не сохранилась — обнови страницу (F5)",
 };
 
 const AUTH_BY_MESSAGE = [
