@@ -1,4 +1,5 @@
 import { getSupabase, isCloudConfigured } from "./supabase-client.js";
+import { translateAuthError } from "./errors-ru.js";
 
 let currentSession = null;
 const authListeners = [];
@@ -90,7 +91,7 @@ export function bindAuthUI() {
     const email = emailInput.value.trim();
     const password = passwordInput.value;
     if (!email || !password) {
-      showMessage("Введи email и пароль.", true);
+      showMessage("Введите email и пароль", true);
       return;
     }
     showMessage("Вход…");
@@ -100,7 +101,7 @@ export function bindAuthUI() {
       showApp();
       notifyAuthListeners(getSession());
     } catch (err) {
-      showMessage(err.message || "Ошибка входа", true);
+      showMessage(translateAuthError(err, { isRegister: false }), true);
     }
   });
 
@@ -108,11 +109,11 @@ export function bindAuthUI() {
     const email = emailInput.value.trim();
     const password = passwordInput.value;
     if (!email || !password) {
-      showMessage("Введи email и пароль.", true);
+      showMessage("Введите email и пароль для регистрации", true);
       return;
     }
     if (password.length < 6) {
-      showMessage("Пароль — минимум 6 символов.", true);
+      showMessage("Пароль — минимум 6 символов", true);
       return;
     }
     showMessage("Регистрация…");
@@ -123,10 +124,10 @@ export function bindAuthUI() {
         showApp();
         notifyAuthListeners(getSession());
       } else {
-        showMessage("Проверь почту — возможно, нужно подтвердить регистрацию.");
+        showMessage("Проверь почту — возможно, нужно подтвердить регистрацию");
       }
     } catch (err) {
-      showMessage(err.message || "Ошибка регистрации", true);
+      showMessage(translateAuthError(err, { isRegister: true }), true);
     }
   });
 
@@ -140,7 +141,6 @@ export function bindAuthUI() {
     if (session) showApp();
     else showAuth();
   });
-  // initial UI state after listeners registered
 
   if (currentSession) showApp();
   else showAuth();

@@ -1,4 +1,5 @@
 import { MODULE_ID } from "./constants.js";
+import { translateSyncError } from "./errors-ru.js";
 import { getSupabase, isCloudConfigured } from "./supabase-client.js";
 import { defaultState, migrateState, loadLocalState, saveLocalState, stateHasContent } from "./state.js";
 
@@ -56,7 +57,7 @@ export function scheduleCloudSave(userId, state) {
       await pushCloudState(userId, state);
     } catch (err) {
       console.error(err);
-      setStatus("error", err.message);
+      setStatus("error", translateSyncError(err));
     }
   }, 1200);
 }
