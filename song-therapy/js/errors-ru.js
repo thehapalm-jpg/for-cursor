@@ -24,6 +24,7 @@ const AUTH_BY_MESSAGE = [
   [/unable to validate email address/i, "Некорректный email"],
   [/rate limit/i, "Слишком много попыток — подожди минуту"],
   [/email rate limit/i, "Лимит писем Supabase (~2 в час). Подожди или отключи Confirm email в дашборде"],
+  [/redirect.*not allowed/i, "Добавь URL сайта в Supabase → Redirect URLs (for-cursor/**)"],
   [/network/i, "Нет связи с сервером — проверь интернет"],
   [/fetch failed/i, "Нет связи с сервером — проверь интернет"],
 ];

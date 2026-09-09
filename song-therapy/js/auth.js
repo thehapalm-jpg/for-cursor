@@ -47,9 +47,20 @@ export async function signIn(email, password) {
   return data.session;
 }
 
+/** Куда вернуть после клика по ссылке в письме — путь приложения на GitHub Pages. */
+export function getAuthRedirectUrl() {
+  const { origin, pathname } = window.location;
+  const dir = pathname.endsWith("/") ? pathname : `${pathname.replace(/\/[^/]*$/, "/")}`;
+  return `${origin}${dir}`;
+}
+
 export async function signUp(email, password) {
   const supabase = getSupabase();
-  const { data, error } = await supabase.auth.signUp({ email, password });
+  const { data, error } = await supabase.auth.signUp({
+    email,
+    password,
+    options: { emailRedirectTo: getAuthRedirectUrl() },
+  });
   if (error) throw error;
   currentSession = data.session;
   return data;
@@ -60,6 +71,7 @@ export async function resendSignupEmail(email) {
   const { error } = await supabase.auth.resend({
     type: "signup",
     email,
+    options: { emailRedirectTo: getAuthRedirectUrl() },
   });
   if (error) throw error;
 }
