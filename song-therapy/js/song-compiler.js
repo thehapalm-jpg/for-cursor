@@ -20,7 +20,7 @@ export function groupStanzasIntoSongs(stanzas) {
   stanzas.forEach((stanza, index) => {
     const isNew = index === 0 || stanza.startsNewSong;
     if (isNew || !current) {
-      current = { id: `song-${songs.length + 1}`, stanzas: [] };
+      current = { id: `song-${songs.length + 1}`, index: songs.length, stanzas: [] };
       songs.push(current);
     }
     current.stanzas.push(stanza);
@@ -29,16 +29,56 @@ export function groupStanzasIntoSongs(stanzas) {
   return songs;
 }
 
+export function getSongTitle(song) {
+  return song.stanzas[0]?.songTitle?.trim() || "";
+}
+
+export function formatSongBody(song) {
+  return song.stanzas.map((s) => s.text.trim()).filter(Boolean).join("\n\n");
+}
+
+export function formatSongForExport(song, index) {
+  const title = getSongTitle(song) || `Песня ${index + 1}`;
+  const body = formatSongBody(song);
+  const lines = [title, ""];
+  if (body) lines.push(body);
+  return lines.join("\n").trim() + "\n";
+}
+
 export function formatCompiledSongs(stanzas) {
   const songs = groupStanzasIntoSongs(stanzas);
   if (!songs.length) return "";
 
   return songs
     .map((song, i) => {
-      const body = song.stanzas.map((s) => s.text.trim()).filter(Boolean).join("\n\n");
-      return `── Песня ${i + 1} ──\n${body}`;
+      const title = getSongTitle(song) || `Песня ${i + 1}`;
+      const body = formatSongBody(song);
+      return `── ${title} ──\n${body}`;
     })
     .join("\n\n");
+}
+
+export function setSongTitle(stanzas, songIndex, title) {
+  const songs = groupStanzasIntoSongs(stanzas);
+  const first = songs[songIndex]?.stanzas[0];
+  if (!first) return stanzas;
+  return updateStanza(stanzas, first.id, { songTitle: title });
+}
+
+export function downloadSongTxt(song, index) {
+  const text = formatSongForExport(song, index);
+  const title = getSongTitle(song) || `pesnya-${index + 1}`;
+  const safeName = title
+    .replace(/[^\p{L}\p{N}\s_-]/gu, "")
+    .trim()
+    .replace(/\s+/g, "-")
+    .slice(0, 60) || `pesnya-${index + 1}`;
+  const blob = new Blob([text], { type: "text/plain;charset=utf-8" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = `${safeName}.txt`;
+  a.click();
+  URL.revokeObjectURL(a.href);
 }
 
 function splitIntoStanzas(text) {
@@ -90,6 +130,7 @@ export function importStanzasFromState(state, mode = "replace") {
         id: `imp-${Date.now()}-${chunkIndex}-${partIndex}`,
         text,
         startsNewSong: imported.length === 0,
+        songTitle: "",
         source: chunk.source,
       });
     });
@@ -113,6 +154,7 @@ export function addEmptyStanza(stanzas) {
       id: `st-${Date.now()}`,
       text: "",
       startsNewSong: isFirst,
+      songTitle: "",
       source: "manual",
     },
   ];
@@ -137,7 +179,7 @@ export function updateSongPreview(container, stanzas) {
   pre.textContent = preview || "Пока пусто — добавь четверостишие или подтяни из полей.";
 }
 
-export function renderSongPanel(container, state, { onChange }) {
+export function renderSongPanel(container, state, { onChange, getStanzas }) {
   if (!container) return;
 
   const stanzas = state.songStanzas || [];
@@ -156,6 +198,11 @@ export function renderSongPanel(container, state, { onChange }) {
         <button type="button" class="btn-copy-compiled" id="btn-copy-compiled">Копировать сводку</button>
       </div>
 
+      <div class="song-works-wrap" id="song-works-wrap" hidden>
+        <label class="song-preview-label">Песни</label>
+        <div class="song-works-list" id="song-works-list"></div>
+      </div>
+
       <div class="song-panel-actions">
         <button type="button" class="btn-song-action" id="btn-add-stanza">+ Четверостишие</button>
         <button type="button" class="btn-song-action secondary" id="btn-import-fields">Подтянуть из полей</button>
@@ -166,9 +213,45 @@ export function renderSongPanel(container, state, { onChange }) {
   `;
 
   const listEl = container.querySelector("#song-stanza-list");
+  const worksWrap = container.querySelector("#song-works-wrap");
+  const worksList = container.querySelector("#song-works-list");
 
   function emit(nextStanzas, options = { fullRender: true }) {
     onChange(nextStanzas, options);
+  }
+
+  function renderSongWorks() {
+    const songs = groupStanzasIntoSongs(stanzas);
+    if (!songs.length) {
+      worksWrap.hidden = true;
+      return;
+    }
+    worksWrap.hidden = false;
+    worksList.innerHTML = "";
+
+    songs.forEach((song, songIndex) => {
+      const row = document.createElement("div");
+      row.className = "song-work-row";
+      const title = getSongTitle(song);
+      row.innerHTML = `
+        <label class="song-work-label">Песня ${songIndex + 1}</label>
+        <input type="text" class="song-title-input" placeholder="Название песни…" value="${title.replace(/"/g, "&quot;")}" />
+        <button type="button" class="btn-download-song">Скачать .txt</button>
+      `;
+
+      const titleInput = row.querySelector(".song-title-input");
+      titleInput.addEventListener("input", () => {
+        const next = setSongTitle(stanzas, songIndex, titleInput.value);
+        emit(next, { fullRender: false });
+        updateSongPreview(container, next);
+      });
+
+      row.querySelector(".btn-download-song").addEventListener("click", () => {
+        downloadSongTxt(song, songIndex);
+      });
+
+      worksList.appendChild(row);
+    });
   }
 
   function renderList() {
@@ -226,6 +309,7 @@ export function renderSongPanel(container, state, { onChange }) {
           emit(
             updateStanza(stanzas, stanza.id, {
               startsNewSong: input.value === "new",
+              songTitle: input.value === "new" ? stanza.songTitle || "" : undefined,
             })
           );
         });
@@ -240,6 +324,7 @@ export function renderSongPanel(container, state, { onChange }) {
     });
   }
 
+  renderSongWorks();
   renderList();
 
   container.querySelector("#btn-add-stanza").addEventListener("click", () => {

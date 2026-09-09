@@ -436,6 +436,7 @@ function render() {
 
 function renderSongCompiler() {
   renderSongPanel(els.songPanel, state, {
+    getStanzas: () => state.songStanzas,
     onChange: (songStanzas, options = { fullRender: true }) => {
       state.songStanzas = songStanzas;
       persist();

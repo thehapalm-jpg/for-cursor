@@ -118,6 +118,61 @@ header.top {
   font-size: 0.8rem;
 }
 
+.song-works-wrap {
+  margin-bottom: 14px;
+}
+
+.song-works-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.song-work-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 10px;
+  background: var(--bg);
+  border: 1px solid var(--surface2);
+  border-radius: 10px;
+}
+
+.song-work-label {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.song-title-input {
+  width: 100%;
+  font: inherit;
+  background: var(--surface);
+  border: 1px solid var(--surface2);
+  color: var(--text);
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: 0.9rem;
+}
+
+.song-title-input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.btn-download-song {
+  font: inherit;
+  cursor: pointer;
+  border: none;
+  background: var(--success);
+  color: #0d1118;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
 .song-panel-actions {
   display: flex;
   flex-direction: column;
