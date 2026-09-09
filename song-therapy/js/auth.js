@@ -47,9 +47,22 @@ export async function signIn(email, password) {
   return data.session;
 }
 
+/** URL возврата после подтверждения email — текущий сайт, не localhost. */
+export function getAuthRedirectUrl() {
+  const { origin, pathname } = window.location;
+  const base = pathname.endsWith("/") ? pathname : `${pathname}/`;
+  return `${origin}${base}`;
+}
+
 export async function signUp(email, password) {
   const supabase = getSupabase();
-  const { data, error } = await supabase.auth.signUp({ email, password });
+  const { data, error } = await supabase.auth.signUp({
+    email,
+    password,
+    options: {
+      emailRedirectTo: getAuthRedirectUrl(),
+    },
+  });
   if (error) throw error;
   currentSession = data.session;
   return data;

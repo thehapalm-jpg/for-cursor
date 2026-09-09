@@ -10,7 +10,12 @@
    `supabase/migrations/001_initial.sql` → скопируй всё → вставь в SQL → **Run**.
 4. **Authentication** → **Providers** → **Email** → включён.  
    Для себя одного: **Confirm email** → выключи (Settings внутри Email).
-5. **Project Settings** (шестерёнка) → **API** → скопируй:
+5. **Authentication** → **URL Configuration**:
+   - **Site URL** → `https://thehapalm-jpg.github.io/for-cursor/`
+   - **Redirect URLs** → добавь:
+     - `https://thehapalm-jpg.github.io/for-cursor/**`
+     - `http://localhost:8080/**` (если тестируешь локально)
+6. **Project Settings** (шестерёнка) → **API** → скопируй:
    - **Project URL**
    - **anon public** (не service_role!)
 
@@ -52,4 +57,5 @@ copy js\config.example.js js\config.js
 
 - Сайт открывается, но alert «Supabase не настроен» → секреты не заданы или workflow не перезапускался.
 - «Invalid API key» → в секрет попал service_role вместо anon.
-- Регистрация просит подтвердить почту → выключи Confirm email в Supabase.
+- Регистрация просит подтвердить почту → выключи Confirm email в Supabase **или** настрой Site URL / Redirect URLs (шаг 5).
+- Ссылка из письма ведёт на localhost → в Supabase **Site URL** должен быть URL GitHub Pages, не localhost.
