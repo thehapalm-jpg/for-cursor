@@ -1,7 +1,10 @@
 import { DAYS, QUICK_MODE, WRITE_REMINDERS } from "./program.js";
+import { initAuth, bindAuthUI, onSessionChange, getSession } from "./auth.js";
 import {
   loadState,
   saveState,
+  resetState,
+  setSyncUI,
   getFieldValue,
   setFieldValue,
   getCheckboxValues,
@@ -15,7 +18,7 @@ import {
 
 const $ = (sel, root = document) => root.querySelector(sel);
 
-let state = loadState();
+let state = defaultState();
 let timerInterval = null;
 let timerRemaining = 0;
 let reminderInterval = null;
@@ -47,7 +50,22 @@ const els = {
   btnReset: $("#btn-reset"),
   progressText: $("#progress-text"),
   quickPanel: $("#quick-panel"),
+  syncStatus: $("#sync-status"),
 };
+
+function updateSyncStatus(status, detail = "") {
+  const el = els.syncStatus;
+  if (!el) return;
+  el.className = `sync-status sync-${status}`;
+  const labels = {
+    saved: "Сохранено",
+    saving: "Сохранение…",
+    error: "Ошибка",
+    offline: "Офлайн",
+  };
+  el.textContent = "●";
+  el.title = detail || labels[status] || status;
+}
 
 function getActiveProgram() {
   return state.mode === "quick" ? QUICK_MODE : DAYS.find((d) => d.day === state.currentDay);
@@ -482,13 +500,37 @@ els.btnExport.addEventListener("click", () => {
   URL.revokeObjectURL(a.href);
 });
 
-els.btnReset.addEventListener("click", () => {
+els.btnReset.addEventListener("click", async () => {
   if (!confirm("Сбросить прогресс и все поля? Тексты не восстановятся.")) return;
-  state = defaultState();
-  persist();
+  state = await resetState();
   stopTimer();
   stopStickyReminders();
   render();
 });
 
-render();
+async function bootstrap() {
+  setSyncUI(updateSyncStatus);
+
+  try {
+    await initAuth();
+  } catch (err) {
+    alert(err.message);
+    return;
+  }
+
+  bindAuthUI();
+
+  onSessionChange(async (session) => {
+    if (session) {
+      state = await loadState();
+      render();
+    }
+  });
+
+  if (getSession()) {
+    state = await loadState();
+    render();
+  }
+}
+
+bootstrap();

@@ -3,68 +3,94 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow, noarchive" />
     <meta name="description" content="Безопасное пространство для письма песен — 14 дней с таймером и короткими шагами" />
     <title>Песня — безопасный вход</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header class="top">
-      <span class="badge" id="day-badge">День 1 / 14</span>
-      <h1 id="day-title">Карта барьера</h1>
-      <p class="goal" id="day-goal"></p>
-      <p class="progress-line" id="progress-text"></p>
-      <div class="toolbar">
-        <button type="button" id="btn-quick" title="Якорь + песня без полного дня">Быстрый вход</button>
-        <button type="button" id="btn-export">Экспорт текста</button>
-        <button type="button" id="btn-reset">Сброс</button>
+    <div id="auth-screen" class="auth-screen" hidden>
+      <div class="auth-card">
+        <h1>Песня — безопасный вход</h1>
+        <p class="auth-lead">Вход по почте. Данные синхронизируются между устройствами.</p>
+        <form id="auth-form">
+          <label class="field">
+            <span>Email</span>
+            <input type="email" id="auth-email" autocomplete="email" required />
+          </label>
+          <label class="field">
+            <span>Пароль</span>
+            <input type="password" id="auth-password" autocomplete="current-password" minlength="6" required />
+          </label>
+          <div class="auth-actions">
+            <button type="submit" class="btn-primary">Войти</button>
+            <button type="button" id="auth-register" class="btn-secondary">Создать аккаунт</button>
+          </div>
+        </form>
+        <p id="auth-message" class="auth-message"></p>
       </div>
-      <div class="day-picker" id="day-picker" aria-label="Выбор дня программы"></div>
-    </header>
-
-    <main>
-      <section class="card">
-        <nav class="phase-nav" id="phase-nav" aria-label="Шаги дня"></nav>
-
-        <div class="phase-header">
-          <h2 id="phase-name">Якорь</h2>
-          <p class="phase-hint" id="phase-hint"></p>
-        </div>
-
-        <div class="theses" id="theses" aria-live="polite"></div>
-
-        <div class="timer-block">
-          <div class="timer-bar-wrap">
-            <div class="timer-bar" id="timer-bar"></div>
-          </div>
-          <div class="timer-row">
-            <span id="timer-display">0:00</span>
-            <div class="timer-buttons">
-              <button type="button" id="btn-timer-start">Старт</button>
-              <button type="button" id="btn-timer-pause">Пауза</button>
-              <button type="button" id="btn-timer-skip">Готово</button>
-            </div>
-          </div>
-        </div>
-
-        <div id="quick-panel" class="quick-panel" hidden></div>
-        <div id="fields"></div>
-
-        <div class="nav-row">
-          <button type="button" id="btn-prev-phase">← Шаг</button>
-          <button type="button" id="btn-next-phase">Шаг →</button>
-          <button type="button" id="btn-complete-day" hidden>День завершён →</button>
-        </div>
-      </section>
-    </main>
-
-    <div class="sticky-reminders" id="sticky-reminders" hidden>
-      <p id="sticky-text"></p>
     </div>
 
-    <footer class="note">
-      Данные сохраняются только на этом устройстве. Циталопрам и терапевт — ваши опоры;
-      этот интерфейс — напоминание шагов, не замена врача.
-    </footer>
+    <div id="app-shell" hidden>
+      <header class="top">
+        <span class="badge" id="day-badge">День 1 / 14</span>
+        <h1 id="day-title">Карта барьера</h1>
+        <p class="goal" id="day-goal"></p>
+        <p class="progress-line" id="progress-text"></p>
+        <div class="toolbar">
+          <span id="sync-status" class="sync-status" title="Синхронизация">●</span>
+          <button type="button" id="btn-quick" title="Якорь + песня без полного дня">Быстрый вход</button>
+          <button type="button" id="btn-export">Экспорт текста</button>
+          <button type="button" id="btn-reset">Сброс</button>
+          <button type="button" id="btn-logout" class="btn-logout">Выйти</button>
+        </div>
+        <div class="day-picker" id="day-picker" aria-label="Выбор дня программы"></div>
+      </header>
+
+      <main>
+        <section class="card">
+          <nav class="phase-nav" id="phase-nav" aria-label="Шаги дня"></nav>
+
+          <div class="phase-header">
+            <h2 id="phase-name">Якорь</h2>
+            <p class="phase-hint" id="phase-hint"></p>
+          </div>
+
+          <div class="theses" id="theses" aria-live="polite"></div>
+
+          <div class="timer-block">
+            <div class="timer-bar-wrap">
+              <div class="timer-bar" id="timer-bar"></div>
+            </div>
+            <div class="timer-row">
+              <span id="timer-display">0:00</span>
+              <div class="timer-buttons">
+                <button type="button" id="btn-timer-start">Старт</button>
+                <button type="button" id="btn-timer-pause">Пауза</button>
+                <button type="button" id="btn-timer-skip">Готово</button>
+              </div>
+            </div>
+          </div>
+
+          <div id="quick-panel" class="quick-panel" hidden></div>
+          <div id="fields"></div>
+
+          <div class="nav-row">
+            <button type="button" id="btn-prev-phase">← Шаг</button>
+            <button type="button" id="btn-next-phase">Шаг →</button>
+            <button type="button" id="btn-complete-day" hidden>День завершён →</button>
+          </div>
+        </section>
+      </main>
+
+      <div class="sticky-reminders" id="sticky-reminders" hidden>
+        <p id="sticky-text"></p>
+      </div>
+
+      <footer class="note">
+        Данные в облаке (Supabase), доступ только по твоему аккаунту. Это напоминание шагов, не замена врача.
+      </footer>
+    </div>
 
     <script type="module" src="js/app.js"></script>
   </body>

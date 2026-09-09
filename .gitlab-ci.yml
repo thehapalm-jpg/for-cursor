@@ -1,0 +1,23 @@
+# GitLab Pages: статика из song-therapy/
+# CI/CD variables (Settings → CI/CD → Variables):
+#   SUPABASE_URL
+#   SUPABASE_ANON_KEY
+
+pages:
+  image: alpine:3.20
+  stage: deploy
+  script:
+    - |
+      if [ -z "$SUPABASE_URL" ] || [ -z "$SUPABASE_ANON_KEY" ]; then
+        echo "WARNING: SUPABASE_URL or SUPABASE_ANON_KEY not set — config.js will be empty"
+      fi
+    - |
+      cat > song-therapy/js/config.js << EOF
+      export const SUPABASE_URL = "${SUPABASE_URL}";
+      export const SUPABASE_ANON_KEY = "${SUPABASE_ANON_KEY}";
+      EOF
+  artifacts:
+    paths:
+      - song-therapy
+  rules:
+    - if: $CI_COMMIT_BRANCH
