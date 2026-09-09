@@ -16,9 +16,10 @@ python -m http.server 8080
 
 3. Открой http://localhost:8080 → создай аккаунт (email + пароль)
 
-## GitLab Pages
+## Деплой (GitHub Pages)
 
-Push в GitLab + переменные `SUPABASE_URL` и `SUPABASE_ANON_KEY` в CI/CD. См. `docs/SUPABASE_SETUP.md`.
+Секреты `SUPABASE_URL` и `SUPABASE_ANON_KEY` в GitHub Actions → Pages source: GitHub Actions.  
+Пошагово: [`docs/SETUP_5MIN.md`](../docs/SETUP_5MIN.md)
 
 ## Возможности
 

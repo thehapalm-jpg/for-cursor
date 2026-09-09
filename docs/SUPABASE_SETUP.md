@@ -1,4 +1,13 @@
-# Настройка Supabase + GitLab Pages
+# Настройка Supabase + деплой
+
+**Быстрый путь с телефона:** [`SETUP_5MIN.md`](SETUP_5MIN.md)
+
+Репозиторий на **GitHub** — деплой через **GitHub Pages** (workflow `.github/workflows/pages.yml`).  
+GitLab CI (`.gitlab-ci.yml`) — если используешь зеркало на GitLab.
+
+---
+
+# Настройка Supabase + GitHub Pages
 
 ## 1. Supabase (бесплатно)
 
@@ -26,13 +35,19 @@ python -m http.server 8080
 
 Если в браузере уже были данные (старая версия), при **первом входе** они автоматически загрузятся в облако, если облако пустое.
 
-## 3. GitLab Pages
+## 3. GitHub Pages (основной способ)
 
-1. Репозиторий на GitLab → **Settings → CI/CD → Variables**:
-   - `SUPABASE_URL` — URL проекта
-   - `SUPABASE_ANON_KEY` — anon key (не service_role)
-2. Push в ветку — pipeline **pages** соберёт сайт.
-3. **Settings → Pages** — URL вида `https://username.gitlab.io/project/`.
+1. Репо → **Settings → Secrets and variables → Actions**:
+   - `SUPABASE_URL`
+   - `SUPABASE_ANON_KEY`
+2. **Settings → Pages** → Source: **GitHub Actions**.
+3. Push в `main` или **Actions → Deploy song-therapy to Pages → Run workflow**.
+4. URL в **Settings → Pages**.
+
+### GitLab Pages (альтернатива)
+
+1. Зеркало на GitLab → **CI/CD → Variables**: те же два ключа.
+2. Pipeline **pages** из `.gitlab-ci.yml`.
 
 ### Поисковики
 
