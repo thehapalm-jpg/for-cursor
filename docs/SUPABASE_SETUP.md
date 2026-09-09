@@ -14,7 +14,10 @@ GitLab CI (`.gitlab-ci.yml`) — если используешь зеркало 
 1. Зарегистрируйся на [supabase.com](https://supabase.com) → **New project**.
 2. **SQL Editor** → вставь содержимое `supabase/migrations/001_initial.sql` → **Run**.
 3. **Authentication → Providers → Email**: включи Email, при желании отключи «Confirm email» (для личного use проще).
-4. **Project Settings → API**: скопируй **Project URL** и **anon public** key.
+4. **Authentication → URL Configuration**:
+   - **Site URL**: `https://thehapalm-jpg.github.io/for-cursor/`
+   - **Redirect URLs**: `https://thehapalm-jpg.github.io/for-cursor/**`, `http://localhost:8080/**`
+5. **Project Settings → API**: скопируй **Project URL** и **anon public** key.
 
 ## 2. Локально (Windows / Mac)
 
