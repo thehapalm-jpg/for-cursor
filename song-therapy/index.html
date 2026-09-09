@@ -40,7 +40,8 @@
         <div class="toolbar">
           <span id="sync-status" class="sync-status" title="Синхронизация">●</span>
           <button type="button" id="btn-quick" title="Якорь + песня без полного дня">Быстрый вход</button>
-          <button type="button" id="btn-toggle-songs" class="btn-toggle-songs" type="button">Песни</button>
+          <button type="button" id="btn-toggle-themes" class="btn-toggle-themes">Темы</button>
+          <button type="button" id="btn-toggle-songs" class="btn-toggle-songs">Песни</button>
           <button type="button" id="btn-export">Экспорт текста</button>
           <button type="button" id="btn-reset">Сброс</button>
           <button type="button" id="btn-logout" class="btn-logout">Выйти</button>
@@ -49,6 +50,8 @@
       </header>
 
       <div class="app-layout">
+        <aside id="theme-panel" class="theme-panel" aria-label="Генератор тем"></aside>
+
         <div class="app-main">
       <main>
         <section class="card">

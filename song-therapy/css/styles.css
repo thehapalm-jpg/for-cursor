@@ -31,20 +31,20 @@ body {
 }
 
 .app-header {
-  max-width: 1180px;
+  max-width: 1440px;
 }
 
 header.top {
-  max-width: 1180px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 20px 0 12px;
 }
 
 .app-layout {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 340px;
+  grid-template-columns: 280px minmax(0, 1fr) 340px;
   gap: 16px;
-  max-width: 1180px;
+  max-width: 1440px;
   margin: 0 auto;
   align-items: start;
 }
@@ -292,15 +292,83 @@ header.top {
   font-size: 0.75rem;
 }
 
-.btn-toggle-songs {
+.theme-panel {
+  position: sticky;
+  top: 12px;
+  max-height: calc(100vh - 24px);
+  overflow: auto;
+  background: var(--surface);
+  border: 1px solid var(--surface2);
+  border-radius: var(--radius);
+}
+
+.theme-panel-inner {
+  padding: 16px;
+}
+
+.theme-panel-title {
+  margin: 0 0 6px;
+  font-size: 1.05rem;
+}
+
+.theme-panel-hint {
+  margin: 0 0 14px;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+.theme-output {
+  min-height: 72px;
+  margin-bottom: 10px;
+  padding: 14px;
+  background: var(--bg);
+  border: 1px solid var(--surface2);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.theme-placeholder {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+.theme-phrase {
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: #c5d8f0;
+}
+
+.theme-template {
+  margin: 0 0 12px;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+}
+
+.theme-btn {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.theme-copy-btn {
+  width: 100%;
+  font-size: 0.82rem !important;
+}
+
+.btn-toggle-songs,
+.btn-toggle-themes {
   display: none;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1100px) {
   .app-layout {
     grid-template-columns: 1fr;
   }
 
+  .theme-panel,
   .song-panel {
     display: none;
     position: fixed;
@@ -311,11 +379,13 @@ header.top {
     padding-top: 48px;
   }
 
+  .theme-panel.theme-panel-open,
   .song-panel.song-panel-open {
     display: block;
   }
 
-  .btn-toggle-songs {
+  .btn-toggle-songs,
+  .btn-toggle-themes {
     display: inline-block;
   }
 }

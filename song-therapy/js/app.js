@@ -1,6 +1,7 @@
 import { DAYS, QUICK_MODE, WRITE_REMINDERS } from "./program.js";
 import { initAuth, bindAuthUI, onSessionChange, getSession } from "./auth.js";
 import { renderSongPanel, updateSongPreview } from "./song-compiler.js";
+import { initThemeGenerator } from "./theme-generator.js";
 import {
   loadState,
   saveState,
@@ -54,6 +55,8 @@ const els = {
   syncStatus: $("#sync-status"),
   songPanel: $("#song-panel"),
   btnToggleSongs: $("#btn-toggle-songs"),
+  themePanel: $("#theme-panel"),
+  btnToggleThemes: $("#btn-toggle-themes"),
 };
 
 function updateSyncStatus(status, detail = "") {
@@ -451,7 +454,15 @@ function renderSongCompiler() {
 
 els.btnToggleSongs?.addEventListener("click", () => {
   els.songPanel?.classList.toggle("song-panel-open");
+  els.themePanel?.classList.remove("theme-panel-open");
 });
+
+els.btnToggleThemes?.addEventListener("click", () => {
+  els.themePanel?.classList.toggle("theme-panel-open");
+  els.songPanel?.classList.remove("song-panel-open");
+});
+
+initThemeGenerator(els.themePanel);
 
 function goNextPhase() {
   const phases = getPhases();
