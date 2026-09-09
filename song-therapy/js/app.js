@@ -58,7 +58,51 @@ const els = {
   btnToggleSongs: $("#btn-toggle-songs"),
   themePanel: $("#theme-panel"),
   btnToggleThemes: $("#btn-toggle-themes"),
+  mobileBtnThemes: $("#mobile-btn-themes"),
+  mobileBtnSongs: $("#mobile-btn-songs"),
 };
+
+function updateMobileDockState() {
+  const themeOpen = els.themePanel?.classList.contains("theme-panel-open");
+  const songOpen = els.songPanel?.classList.contains("song-panel-open");
+  els.mobileBtnThemes?.classList.toggle("active", themeOpen);
+  els.mobileBtnSongs?.classList.toggle("active", songOpen);
+  document.body.classList.toggle("mobile-panel-open", themeOpen || songOpen);
+}
+
+function closeSidePanels() {
+  els.songPanel?.classList.remove("song-panel-open");
+  els.themePanel?.classList.remove("theme-panel-open");
+  updateMobileDockState();
+}
+
+function openThemePanel() {
+  els.themePanel?.classList.add("theme-panel-open");
+  els.songPanel?.classList.remove("song-panel-open");
+  updateMobileDockState();
+}
+
+function openSongPanel() {
+  els.songPanel?.classList.add("song-panel-open");
+  els.themePanel?.classList.remove("theme-panel-open");
+  updateMobileDockState();
+}
+
+function toggleThemePanel() {
+  if (els.themePanel?.classList.contains("theme-panel-open")) {
+    closeSidePanels();
+  } else {
+    openThemePanel();
+  }
+}
+
+function toggleSongPanel() {
+  if (els.songPanel?.classList.contains("song-panel-open")) {
+    closeSidePanels();
+  } else {
+    openSongPanel();
+  }
+}
 
 function updateSyncStatus(status, detail = "") {
   const el = els.syncStatus;
@@ -453,15 +497,10 @@ function renderSongCompiler() {
   });
 }
 
-els.btnToggleSongs?.addEventListener("click", () => {
-  els.songPanel?.classList.toggle("song-panel-open");
-  els.themePanel?.classList.remove("theme-panel-open");
-});
-
-els.btnToggleThemes?.addEventListener("click", () => {
-  els.themePanel?.classList.toggle("theme-panel-open");
-  els.songPanel?.classList.remove("song-panel-open");
-});
+els.btnToggleSongs?.addEventListener("click", toggleSongPanel);
+els.btnToggleThemes?.addEventListener("click", toggleThemePanel);
+els.mobileBtnThemes?.addEventListener("click", toggleThemePanel);
+els.mobileBtnSongs?.addEventListener("click", toggleSongPanel);
 
 initThemeGenerator(els.themePanel);
 

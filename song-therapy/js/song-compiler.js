@@ -187,6 +187,7 @@ export function renderSongPanel(container, state, { onChange, getStanzas }) {
 
   container.innerHTML = `
     <div class="song-panel-inner">
+      <button type="button" class="panel-close" id="song-panel-close" aria-label="Закрыть">← Назад</button>
       <header class="song-panel-head">
         <h2>Сборка песни</h2>
         <p class="song-panel-lead">Все куплеты в одном месте. Отметь, где начинается новая песня.</p>
@@ -211,6 +212,12 @@ export function renderSongPanel(container, state, { onChange, getStanzas }) {
       <div class="song-stanza-list" id="song-stanza-list"></div>
     </div>
   `;
+
+  container.querySelector("#song-panel-close")?.addEventListener("click", () => {
+    container.classList.remove("song-panel-open");
+    document.getElementById("mobile-btn-songs")?.classList.remove("active");
+    document.body.classList.remove("mobile-panel-open");
+  });
 
   const listEl = container.querySelector("#song-stanza-list");
   const worksWrap = container.querySelector("#song-works-wrap");

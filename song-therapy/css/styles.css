@@ -363,6 +363,14 @@ header.top {
   display: none;
 }
 
+.mobile-dock {
+  display: none;
+}
+
+.panel-close {
+  display: none;
+}
+
 @media (max-width: 1100px) {
   .app-layout {
     grid-template-columns: 1fr;
@@ -376,7 +384,8 @@ header.top {
     z-index: 100;
     max-height: none;
     border-radius: 0;
-    padding-top: 48px;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
   }
 
   .theme-panel.theme-panel-open,
@@ -384,9 +393,60 @@ header.top {
     display: block;
   }
 
-  .btn-toggle-songs,
-  .btn-toggle-themes {
-    display: inline-block;
+  .panel-close {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin: 0 0 12px;
+    padding: 8px 12px;
+    font: inherit;
+    font-size: 0.9rem;
+    color: var(--accent);
+    background: transparent;
+    border: 1px solid var(--surface2);
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .panel-close:active {
+    background: var(--surface2);
+  }
+
+  .mobile-dock {
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 90;
+    gap: 8px;
+    padding: 10px 12px calc(10px + env(safe-area-inset-bottom, 0px));
+    background: rgba(20, 24, 32, 0.96);
+    border-top: 1px solid var(--surface2);
+    backdrop-filter: blur(8px);
+  }
+
+  .mobile-dock-btn {
+    flex: 1;
+    min-height: 48px;
+    font: inherit;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text);
+    background: var(--surface);
+    border: 1px solid var(--surface2);
+    border-radius: 12px;
+    cursor: pointer;
+  }
+
+  .mobile-dock-btn.active {
+    color: #fff;
+    background: var(--accent-soft);
+    border-color: var(--accent);
+  }
+
+  body.mobile-panel-open {
+    overflow: hidden;
   }
 }
 
