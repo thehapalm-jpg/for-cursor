@@ -87,9 +87,15 @@ export function bindAuthUI() {
 
   form?.addEventListener("submit", async (e) => {
     e.preventDefault();
+    const email = emailInput.value.trim();
+    const password = passwordInput.value;
+    if (!email || !password) {
+      showMessage("Введи email и пароль.", true);
+      return;
+    }
     showMessage("Вход…");
     try {
-      await signIn(emailInput.value.trim(), passwordInput.value);
+      await signIn(email, password);
       showMessage("");
       showApp();
       notifyAuthListeners(getSession());
@@ -99,9 +105,19 @@ export function bindAuthUI() {
   });
 
   btnRegister?.addEventListener("click", async () => {
+    const email = emailInput.value.trim();
+    const password = passwordInput.value;
+    if (!email || !password) {
+      showMessage("Введи email и пароль.", true);
+      return;
+    }
+    if (password.length < 6) {
+      showMessage("Пароль — минимум 6 символов.", true);
+      return;
+    }
     showMessage("Регистрация…");
     try {
-      const result = await signUp(emailInput.value.trim(), passwordInput.value);
+      const result = await signUp(email, password);
       if (result.session) {
         showMessage("");
         showApp();
