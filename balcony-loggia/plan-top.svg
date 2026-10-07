@@ -22,7 +22,7 @@
   <text x="5450" y="25" text-anchor="middle" font-size="32" fill="#060">0,8 ot torncevoj (x=5200)</text>
   <text x="3000" y="200" text-anchor="middle" font-size="36">korob vdol okon, vynos 0,06 ot steny</text>
   <text x="300" y="960" font-size="32">vhod iz kv.</text>
-  <text x="5850" y="960" font-size="32">tor?? + nisha</text>
+  <text x="5850" y="960" font-size="32">torec + nisha</text>
   <line x1="0" y1="-120" x2="6000" y2="-120" stroke="#111" stroke-width="3"/>
   <text x="3000" y="-135" text-anchor="middle" font-weight="bold">6000</text>
   <line x1="-120" y1="0" x2="-120" y2="1000" stroke="#111" stroke-width="3"/>
