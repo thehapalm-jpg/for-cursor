@@ -6,46 +6,48 @@
     .lbl { font-size: 36px; fill: #036; }
     .sub { font-size: 34px; fill: #666; }
   </style>
+  <!-- y=0 potolok, y=2470 pol; podokonnik 0,75 ot pola -> y=1720 -->
   <text x="3400" y="-200" text-anchor="middle" font-size="58" font-weight="bold">Stena kvartiry 6,80 m</text>
-  <text x="3400" y="-130" text-anchor="middle" class="sub">Odna betonnaya peremychka - odin verh u okna 0,99 i balkonnogo bloka</text>
-  <!-- wall -->
-  <rect x="0" y="0" width="6800" height="2470" fill="#eee" stroke="#111" stroke-width="14"/>
-  <!-- lintel line common -->
-  <line x1="0" y1="310" x2="6800" y2="310" stroke="#111" stroke-width="10"/>
-  <text x="6700" y="280" class="lbl">peremychka</text>
-  <!-- opening top at 310, height 2160 -> bottom 2470? 310+2160=2470 ok -->
-  <!-- niche 0-800 solid -->
-  <rect x="0" y="0" width="800" height="2470" fill="#ddd" stroke="#666" stroke-width="8"/>
+  <text x="3400" y="-130" text-anchor="middle" class="sub">Odna peremychka; podokonnik 0,75 ot pola (pod oknom)</text>
+  <rect x="0" y="0" width="7590" height="2470" fill="#eee" stroke="#111" stroke-width="14"/>
+  <!-- zona 0,25 do potolka nad proemami -->
+  <rect x="800" y="0" width="6790" height="310" fill="#ddd" stroke="none"/>
+  <line x1="800" y1="310" x2="7590" y2="310" stroke="#111" stroke-width="10"/>
+  <text x="7400" y="280" class="lbl">peremychka</text>
+  <rect x="0" y="0" width="800" height="2470" fill="#ccc" stroke="#666" stroke-width="8"/>
   <text x="400" y="1300" text-anchor="middle" class="sub">0,80 nisha</text>
-  <!-- wall 1710 -->
   <rect x="800" y="310" width="1710" height="2160" fill="#e5e5e5" stroke="none"/>
-  <!-- window 0.99 -->
-  <rect x="2510" y="750" width="990" height="1720" fill="#dff" stroke="#06c" stroke-width="12"/>
-  <text x="3005" y="1400" text-anchor="middle">okno 0,99</text>
-  <text x="3005" y="1460" text-anchor="middle" class="sub">verh = blok</text>
-  <!-- pier 400 -->
+  <!-- okno 0,99: steklo 310..1720, nizhe podokonnik -->
+  <rect x="2510" y="310" width="990" height="1410" fill="#dff" stroke="#06c" stroke-width="12"/>
+  <rect x="2510" y="1720" width="990" height="750" fill="#e8e8e8" stroke="#06c" stroke-width="8"/>
+  <text x="3005" y="1100" text-anchor="middle">okno 0,99</text>
+  <text x="3005" y="1160" text-anchor="middle" class="sub">verh = blok</text>
   <rect x="3500" y="310" width="400" height="2160" fill="#e5e5e5" stroke="none"/>
-  <!-- BALCONY BLOCK 2220 total -->
-  <rect x="3900" y="310" width="2220" height="2160" fill="#cfe8ff" stroke="#c60" stroke-width="14"/>
-  <line x1="4800" y1="310" x2="4800" y2="2470" stroke="#c60" stroke-width="8"/>
+  <!-- balkonnyj blok -->
+  <rect x="3900" y="310" width="2220" height="2160" fill="#f0f0f0" stroke="#c60" stroke-width="14"/>
+  <!-- dver na pol -->
+  <rect x="3900" y="310" width="900" height="2160" fill="#fed" stroke="#c60" stroke-width="8"/>
   <text x="4350" y="1400" text-anchor="middle" font-weight="bold">dver 0,90</text>
-  <text x="5550" y="1350" text-anchor="middle" font-weight="bold">okno</text>
-  <text x="5010" y="1200" text-anchor="middle" class="lbl">BALKONNYJ BLOK 2,22</text>
-  <line x1="3900" y1="750" x2="6120" y2="750" stroke="#888" stroke-width="4" stroke-dasharray="10 8"/>
-  <text x="5010" y="720" text-anchor="middle" class="dim">podok. 0,75</text>
-  <!-- wall 1470 -->
+  <!-- okno v bloke -->
+  <rect x="4800" y="310" width="1320" height="1410" fill="#cfe8ff" stroke="#c60" stroke-width="8"/>
+  <rect x="4800" y="1720" width="1320" height="750" fill="#ddd" stroke="#c60" stroke-width="6"/>
+  <text x="5460" y="1100" text-anchor="middle" font-weight="bold">okno (chast bloka)</text>
+  <text x="5010" y="500" text-anchor="middle" class="lbl">BALKONNYJ BLOK 2,22</text>
+  <!-- podokonnik - liniya POD oknami -->
+  <line x1="2510" y1="1720" x2="6120" y2="1720" stroke="#333" stroke-width="6" stroke-dasharray="12 8"/>
+  <text x="4300" y="1690" text-anchor="middle" class="dim">podokonnik 0,75 ot pola</text>
+  <line x1="0" y1="2470" x2="7590" y2="2470" stroke="#111" stroke-width="8"/>
+  <text x="200" y="2430" class="dim">pol</text>
   <rect x="6120" y="310" width="1470" height="2160" fill="#e5e5e5" stroke="none"/>
   <text x="6855" y="1300" text-anchor="middle" class="sub">1,47</text>
-  <!-- height dim -->
-  <text x="200" y="1300" text-anchor="middle" transform="rotate(-90 200 1300)" font-weight="bold">H 2,16</text>
-  <text x="200" y="500" text-anchor="middle" transform="rotate(-90 200 500)" class="dim">0,25</text>
-  <!-- bottom dims -->
+  <text x="200" y="1300" transform="rotate(-90 200 1300)" font-weight="bold">H proema 2,16</text>
+  <text x="200" y="150" transform="rotate(-90 200 150)" class="dim">0,25</text>
   <text x="400" y="2700" text-anchor="middle" class="dim">0,80</text>
   <text x="1655" y="2700" text-anchor="middle" class="dim">1,71</text>
   <text x="3005" y="2700" text-anchor="middle" class="dim">0,99</text>
   <text x="3700" y="2700" text-anchor="middle" class="dim">0,40</text>
   <text x="5010" y="2700" text-anchor="middle" class="dim">2,22</text>
-  <text x="6460" y="2700" text-anchor="middle" class="dim">1,47</text>
+  <text x="6855" y="2700" text-anchor="middle" class="dim">1,47</text>
   <line x1="0" y1="2900" x2="7590" y2="2900" stroke="#111" stroke-width="6"/>
-  <text x="3795" y="2980" text-anchor="middle" font-weight="bold">summa po eskizu 6,79 m (0,80+1,71+0,99+0,40+2,22+1,47)</text>
+  <text x="3795" y="2980" text-anchor="middle" font-weight="bold">6,79 m po eskizu</text>
 </svg>
