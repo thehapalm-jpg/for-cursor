@@ -20,7 +20,7 @@
 
   <!-- horizontal guides (seen in section as 40 mm depth) -->
   <rect x="130" y="730" width="40" height="40" fill="#8b4513" stroke="#532" stroke-width="2"/>
-  <text x="250" y="758" class="note">nizhnyaya napravlyayushchaya 20x40</text>
+  <text x="250" y="758" class="note">nizhnyaya napravlyayushchaya 20x30</text>
   <rect x="130" y="150" width="40" height="40" fill="#8b4513" stroke="#532" stroke-width="2"/>
   <text x="250" y="178" class="note">verh napravlyayushchej (0,89 ot pola)</text>
 
