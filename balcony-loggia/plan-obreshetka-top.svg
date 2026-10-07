@@ -14,7 +14,7 @@
   <text x="5600" y="600" text-anchor="middle" font-size="28">nisha 0,8</text>
   <text x="5600" y="650" text-anchor="middle" font-size="26" fill="#036">vnutri: shtukaturka</text>
   <text x="3000" y="-20" text-anchor="middle" fill="#06c" font-weight="bold">Fasad 6 m, paraet (vynos 60 mm)</text>
-  <text x="3000" y="1080" text-anchor="middle" fill="#c60" font-weight="bold">Stena kvartiry 6,8 m</text>
+  <text x="3000" y="1080" text-anchor="middle" fill="#c60" font-weight="bold">Stena kv 6 m oblicovka (6,8 razvertka s nishoj)</text>
   <g class="batten">
     <line x1="0" y1="50" x2="0" y2="950"/>
     <line x1="500" y1="50" x2="500" y2="950"/>
