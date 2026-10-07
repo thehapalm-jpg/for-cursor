@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-320 0 6800 3000" font-family="Arial,sans-serif">
+  <style>
+    text { font-size: 46px; fill: #111; }
+    .dim { font-size: 40px; fill: #333; }
+    .lbl { font-size: 38px; fill: #c00; font-weight: bold; }
+    .h { font-size: 44px; font-weight: bold; fill: #036; }
+  </style>
+  <!-- POL y=2600; vysota pomescheniya 2470 mm ot pola do verha perekrytiya y=130 -->
+  <text x="3000" y="70" text-anchor="middle" font-size="56" font-weight="bold">PERED — balkonnyj blok 6,00 m</text>
+  <rect x="0" y="130" width="6000" height="2470" fill="#eee" stroke="#111" stroke-width="14"/>
+  <line x1="0" y1="2600" x2="6000" y2="2600" stroke="#000" stroke-width="14"/>
+  <text x="250" y="2570" class="h">POL</text>
+  <!-- verh perekrytiya / geometriya 2,47 -->
+  <line x1="0" y1="130" x2="6000" y2="130" stroke="#111" stroke-width="8"/>
+  <text x="3000" y="115" text-anchor="middle" class="h">verh perekrytiya (2,47 ot POLA)</text>
+  <!-- penovoy shov 50 mm ot potolka -->
+  <rect x="0" y="130" width="6000" height="50" fill="#ffe0a0" stroke="#f80" stroke-width="8"/>
+  <text x="3000" y="168" text-anchor="middle" font-size="40" font-weight="bold">penovoy shov 5 sm (ot potolka)</text>
+  <!-- uroven opuschennogo potolka = niz shva -->
+  <line x1="0" y1="180" x2="6000" y2="180" stroke="#080" stroke-width="8" stroke-dasharray="16 10"/>
+  <text x="3000" y="240" text-anchor="middle" fill="#060" font-size="42" font-weight="bold">uroven potolka (opusk 5 sm)</text>
+  <!-- parapet -->
+  <rect x="0" y="1710" width="6000" height="890" fill="#ccc" stroke="#666" stroke-width="10"/>
+  <text x="3000" y="2200" text-anchor="middle">parapet / podokonnik 0,89 ot POLA</text>
+  <!-- osteklenie mezhdu podokonnikom i potolkom -->
+  <rect x="40" y="180" width="5920" height="1530" fill="#bfe8ff" stroke="#06c" stroke-width="12"/>
+  <text x="3000" y="950" text-anchor="middle" fill="#036" font-size="52">osteklenie</text>
+  <line x1="0" y1="1710" x2="6000" y2="1710" stroke="#e00" stroke-width="10"/>
+  <text x="3000" y="1660" text-anchor="middle" class="lbl">verh podokonnika</text>
+  <!-- vertikalnye razmery sleva -->
+  <line x1="-120" y1="2600" x2="-120" y2="130" stroke="#111" stroke-width="6"/>
+  <text x="-200" y="1370" transform="rotate(-90 -200 1370)" class="h">2470 (2,47)</text>
+  <line x1="-240" y1="130" x2="-240" y2="180" stroke="#f80" stroke-width="5"/>
+  <text x="-290" y="165" transform="rotate(-90 -290 165)" font-size="36">50</text>
+  <line x1="-240" y1="180" x2="-240" y2="1710" stroke="#06c" stroke-width="5"/>
+  <text x="-290" y="980" transform="rotate(-90 -290 980)" class="dim">1530</text>
+  <line x1="-120" y1="1710" x2="-120" y2="2600" stroke="#e00" stroke-width="5"/>
+  <text x="-200" y="2180" transform="rotate(-90 -200 2180)" class="lbl">890</text>
+  <line x1="0" y1="2820" x2="6000" y2="2820" stroke="#111" stroke-width="6"/>
+  <text x="3000" y="2900" text-anchor="middle" font-weight="bold">6000</text>
+</svg>

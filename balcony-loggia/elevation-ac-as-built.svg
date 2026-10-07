@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" font-family="Arial,sans-serif">
+  <style>
+    .pipe { fill: none; stroke: #1a1a1a; stroke-width: 14; stroke-linecap: round; }
+    .pipe2 { fill: none; stroke: #444; stroke-width: 10; stroke-linecap: round; }
+    .box { fill: rgba(80,140,80,0.25); stroke: #060; stroke-width: 4; stroke-dasharray:8 6; }
+    .chase { fill: none; stroke: #888; stroke-width: 3; stroke-dasharray:6 4; }
+  </style>
+  <text x="600" y="32" text-anchor="middle" font-size="24" font-weight="bold">Skhema po vashemu foto (vid na okno)</text>
+  <!-- pol -->
+  <line x1="40" y1="760" x2="1160" y2="760" stroke="#000" stroke-width="5"/>
+  <text x="60" y="752">POL</text>
+  <!-- bokovaya stena sprava + shtroba -->
+  <rect x="920" y="100" width="200" height="660" fill="#d8d8d8" stroke="#555" stroke-width="3"/>
+  <path d="M 980 140 L 1040 280 L 1040 520" class="chase"/>
+  <text x="1020" y="400" font-size="16" fill="#666">shtroba</text>
+  <!-- okno -->
+  <rect x="80" y="100" width="780" height="380" fill="#e6f2ff" stroke="#248" stroke-width="4"/>
+  <rect x="80" y="465" width="780" height="28" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="470" y="485" text-anchor="middle" font-size="16">beliy podokonnik</text>
+  <!-- trubki: iz shtroby diagonalno, potom pod podokonnik (KAK NA FOTO) -->
+  <path d="M 1040 200 L 900 420 L 820 493" class="pipe"/>
+  <path d="M 1040 240 L 880 450 L 800 505" class="pipe2"/>
+  <path d="M 1040 280 L 860 480 L 780 510" class="pipe2"/>
+  <!-- gorizont pod podokonnikom -->
+  <rect x="160" y="498" width="720" height="72" class="box"/>
+  <line x1="180" y1="534" x2="860" y2="534" class="pipe"/>
+  <line x1="180" y1="518" x2="860" y2="518" class="pipe2"/>
+  <line x1="180" y1="550" x2="860" y2="550" class="pipe2"/>
+  <text x="470" y="545" text-anchor="middle" font-size="17" fill="#060" font-weight="bold">budushchiy korob 0,07 x vynos 0,06</text>
+  <!-- 0,6 ot pola - urovень trassy / vyhod -->
+  <line x1="40" y1="760" x2="40" y2="498" stroke="#c00" stroke-width="3"/>
+  <text x="22" y="640" transform="rotate(-90 22 640)" fill="#c00" font-weight="bold" font-size="18">~0,6 ot pola</text>
+  <text x="600" y="790" text-anchor="middle" font-size="15" fill="#666">Sverhu v preview: vashe foto</text>
+</svg>
