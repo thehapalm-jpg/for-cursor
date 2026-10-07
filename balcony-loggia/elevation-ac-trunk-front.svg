@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-200 0 6600 2200" font-family="Arial,sans-serif">
+  <style>
+    text { font-size: 44px; fill: #111; }
+    .dim { font-size: 38px; fill: #333; }
+    .ac { fill: #2a2; stroke: #060; stroke-width: 8; }
+    .lbl { font-size: 40px; fill: #060; font-weight: bold; }
+  </style>
+  <text x="3000" y="60" text-anchor="middle" font-size="52" font-weight="bold">Kondicioner - fasad okna 6 m</text>
+  <text x="3000" y="110" text-anchor="middle" class="dim">korob pod chistovuyu obshivku</text>
+  <rect x="0" y="150" width="6000" height="1200" fill="#eee" stroke="#111" stroke-width="12"/>
+  <line x1="0" y1="1350" x2="6000" y2="1350" stroke="#000" stroke-width="12"/>
+  <text x="150" y="1320" font-weight="bold">POL</text>
+  <line x1="5200" y1="150" x2="5200" y2="1350" stroke="#f80" stroke-width="4" stroke-dasharray="12 8"/>
+  <text x="5600" y="200" class="dim">0,8 ot tornca</text>
+  <text x="5980" y="750" transform="rotate(90 5980 750)" class="dim">torec</text>
+  <rect x="200" y="680" width="5000" height="70" class="ac"/>
+  <text x="2600" y="640" text-anchor="middle" class="lbl">korob trubok h=0,07</text>
+  <line x1="100" y1="1350" x2="100" y2="750" stroke="#e00" stroke-width="5"/>
+  <text x="60" y="1050" transform="rotate(-90 60 1050)" class="lbl">600</text>
+  <line x1="100" y1="750" x2="200" y2="750" stroke="#e00" stroke-width="4"/>
+  <text x="350" y="770" class="dim">niz koroba</text>
+  <circle cx="5200" cy="715" r="50" fill="#f80" stroke="#c40" stroke-width="6"/>
+  <text x="5200" y="820" text-anchor="middle" font-weight="bold">vyhod na ulitsu</text>
+  <line x1="0" y1="1450" x2="6000" y2="1450" stroke="#111" stroke-width="4"/>
+  <text x="3000" y="1520" text-anchor="middle" font-weight="bold">6000</text>
+  <text x="3000" y="1650" text-anchor="middle" class="dim">vynos 0,06 - sm. section-ac-trunk</text>
+</svg>

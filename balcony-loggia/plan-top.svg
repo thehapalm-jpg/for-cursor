@@ -20,4 +20,10 @@
   <text x="3000" y="-105" text-anchor="middle" font-weight="bold">6000</text>
   <line x1="-90" y1="0" x2="-90" y2="1000" stroke="#111" stroke-width="3"/>
   <text x="-120" y="520" transform="rotate(-90 -120 520)" font-weight="bold">1000</text>
+  <!-- korob kondicionera: vdol steny kv, vynos 0,06 v logiyu -->
+  <rect x="300" y="930" width="4900" height="60" fill="#9e9" stroke="#060" stroke-width="6"/>
+  <text x="2600" y="915" text-anchor="middle" font-size="34" fill="#060">korob trubok (glub 0,06)</text>
+  <circle cx="5200" cy="960" r="40" fill="#f80" stroke="#840"/>
+  <text x="5200" y="890" text-anchor="middle" font-size="32">vyhod 0,8 ot tornca</text>
+  <text x="300" y="890" font-size="30" fill="#060">shirina puchka 0,07</text>
 </svg>
