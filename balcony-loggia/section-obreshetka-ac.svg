@@ -1,44 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 900" font-family="Arial,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 880" font-family="Arial,sans-serif">
   <style>
-    text { font-size: 22px; fill: #111; }
-    .h { font-size: 26px; font-weight: bold; }
+    text { font-size: 20px; fill: #111; }
+    .h { font-size: 24px; font-weight: bold; }
+    .note { font-size: 17px; fill: #444; }
   </style>
-  <text x="550" y="40" text-anchor="middle" class="h">Razrez: paraet pod oknom 6 m (vynos 60 mm)</text>
+  <text x="500" y="36" text-anchor="middle" class="h">Razrez paraeta (ploskost steny, sm. vdol balkona)</text>
+  <text x="500" y="62" text-anchor="middle" class="note">Vynos ploskosti panelej 60 mm ot shtukaturki</text>
+
   <!-- wall -->
-  <rect x="80" y="120" width="60" height="720" fill="#bbb" stroke="#333" stroke-width="3"/>
-  <text x="110" y="500" transform="rotate(-90 110 500)" text-anchor="middle">stena</text>
-  <!-- gap cavity -->
-  <rect x="140" y="480" width="60" height="70" fill="rgba(0,120,0,0.35)" stroke="#060" stroke-width="2"/>
-  <text x="170" y="475" text-anchor="middle" font-size="18" fill="#060">trubki</text>
-  <text x="170" y="565" text-anchor="middle" font-size="16">0,07</text>
-  <!-- 60mm offset dimension -->
-  <line x1="140" y1="800" x2="200" y2="800" stroke="#111" stroke-width="2"/>
-  <text x="170" y="830" text-anchor="middle" font-weight="bold">60</text>
-  <!-- horizontal guide at floor -->
-  <rect x="140" y="780" width="400" height="40" fill="#8b4513" stroke="#532" stroke-width="2"/>
-  <text x="340" y="770" text-anchor="middle" font-size="18">nizhnyaya napravlyayushchaya 20x40</text>
-  <!-- horizontal guide at 890 -->
-  <rect x="140" y="200" width="400" height="40" fill="#8b4513" stroke="#532" stroke-width="2"/>
-  <text x="340" y="190" text-anchor="middle" font-size="18">verh napravlyayushchej (0,89 ot pola)</text>
-  <!-- vertical battens -->
-  <rect x="200" y="240" width="40" height="540" fill="#a0522d" stroke="#532" stroke-width="2"/>
-  <rect x="340" y="240" width="40" height="540" fill="#a0522d" stroke="#532" stroke-width="2"/>
-  <rect x="480" y="240" width="40" height="540" fill="#a0522d" stroke="#532" stroke-width="2"/>
-  <text x="340" y="520" text-anchor="middle" fill="#532">stoiki 500 mm</text>
-  <!-- panel -->
-  <rect x="200" y="230" width="320" height="6" fill="#ddd" stroke="#666"/>
-  <rect x="200" y="460" width="320" height="6" fill="#ddd" stroke="#666"/>
-  <rect x="200" y="690" width="320" height="6" fill="#ddd" stroke="#666"/>
-  <text x="560" y="250" font-size="18">paneli gorizont.</text>
-  <text x="560" y="280" font-size="18">ryady (230 mm)</text>
-  <!-- floor line -->
-  <line x1="60" y1="820" x2="620" y2="820" stroke="#000" stroke-width="4"/>
-  <text x="70" y="860" font-weight="bold">POL</text>
-  <!-- height 890 -->
-  <line x1="620" y1="820" x2="620" y2="200" stroke="#06c" stroke-width="2"/>
-  <text x="650" y="520" fill="#06c" font-weight="bold">890</text>
-  <!-- height 600 ac -->
-  <line x1="700" y1="820" x2="700" y2="750" stroke="#060" stroke-width="2"/>
-  <text x="730" y="790" fill="#060">600 niz koroba</text>
+  <rect x="60" y="110" width="70" height="680" fill="#bbb" stroke="#333" stroke-width="2"/>
+  <text x="95" y="460" transform="rotate(-90 95 460)" text-anchor="middle">stena</text>
+
+  <!-- 60 mm cavity -->
+  <rect x="130" y="110" width="60" height="680" fill="#f8f8f8" stroke="#999" stroke-width="1" stroke-dasharray="6 4"/>
+  <rect x="135" y="455" width="50" height="55" fill="rgba(0,120,0,0.35)" stroke="#060" stroke-width="2"/>
+  <text x="160" y="448" text-anchor="middle" font-size="16" fill="#060">trubki</text>
+  <text x="160" y="525" text-anchor="middle" font-size="15">korob ~0,07</text>
+
+  <!-- horizontal guides (seen in section as 40 mm depth) -->
+  <rect x="130" y="730" width="40" height="40" fill="#8b4513" stroke="#532" stroke-width="2"/>
+  <text x="250" y="758" class="note">nizhnyaya napravlyayushchaya 20x40</text>
+  <rect x="130" y="150" width="40" height="40" fill="#8b4513" stroke="#532" stroke-width="2"/>
+  <text x="250" y="178" class="note">verh napravlyayushchej (0,89 ot pola)</text>
+
+  <!-- ONE batten: section cut through one stud (runs along 6 m window, into the drawing) -->
+  <rect x="130" y="190" width="40" height="540" fill="#a0522d" stroke="#532" stroke-width="2"/>
+  <text x="250" y="470" class="note">1 stoyka 20x40 (rez popadaet v odnu stoyku)</text>
+  <text x="250" y="498" class="note">Ostalnye stoiki — kazhdye 500 mm vdol okna, v etom razreze ne vidny</text>
+
+  <!-- panels on face -->
+  <rect x="170" y="110" width="6" height="680" fill="#e0e0e0" stroke="#666" stroke-width="1"/>
+  <line x1="176" y1="200" x2="320" y2="200" stroke="#06c" stroke-width="1"/>
+  <line x1="176" y1="430" x2="320" y2="430" stroke="#06c" stroke-width="1"/>
+  <line x1="176" y1="660" x2="320" y2="660" stroke="#06c" stroke-width="1"/>
+  <text x="330" y="200" font-size="16">ryad paneli</text>
+  <text x="330" y="430" font-size="16">ryad paneli</text>
+  <text x="330" y="660" font-size="16">ryad paneli</text>
+
+  <!-- dimensions -->
+  <line x1="130" y1="810" x2="190" y2="810" stroke="#111" stroke-width="2"/>
+  <text x="160" y="835" text-anchor="middle" font-weight="bold">60</text>
+  <line x1="520" y1="790" x2="520" y2="150" stroke="#06c" stroke-width="2"/>
+  <text x="545" y="480" fill="#06c" font-weight="bold">890</text>
+  <line x1="600" y1="790" x2="600" y2="735" stroke="#060" stroke-width="2"/>
+  <text x="625" y="768" fill="#060" font-size="16">600</text>
+
+  <line x1="40" y1="790" x2="560" y2="790" stroke="#000" stroke-width="3"/>
+  <text x="50" y="820" font-weight="bold">POL</text>
+
+  <!-- depth axis hint -->
+  <text x="500" y="865" text-anchor="middle" class="note">Vlevo — stena | zazor pod trubki | obreshetka | panel 6 mm</text>
 </svg>
