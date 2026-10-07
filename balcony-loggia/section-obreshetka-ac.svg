@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 900" font-family="Arial,sans-serif">
+  <style>
+    text { font-size: 22px; fill: #111; }
+    .h { font-size: 26px; font-weight: bold; }
+  </style>
+  <text x="550" y="40" text-anchor="middle" class="h">Razrez: paraet pod oknom 6 m (vynos 60 mm)</text>
+  <!-- wall -->
+  <rect x="80" y="120" width="60" height="720" fill="#bbb" stroke="#333" stroke-width="3"/>
+  <text x="110" y="500" transform="rotate(-90 110 500)" text-anchor="middle">stena</text>
+  <!-- gap cavity -->
+  <rect x="140" y="480" width="60" height="70" fill="rgba(0,120,0,0.35)" stroke="#060" stroke-width="2"/>
+  <text x="170" y="475" text-anchor="middle" font-size="18" fill="#060">trubki</text>
+  <text x="170" y="565" text-anchor="middle" font-size="16">0,07</text>
+  <!-- 60mm offset dimension -->
+  <line x1="140" y1="800" x2="200" y2="800" stroke="#111" stroke-width="2"/>
+  <text x="170" y="830" text-anchor="middle" font-weight="bold">60</text>
+  <!-- horizontal guide at floor -->
+  <rect x="140" y="780" width="400" height="40" fill="#8b4513" stroke="#532" stroke-width="2"/>
+  <text x="340" y="770" text-anchor="middle" font-size="18">nizhnyaya napravlyayushchaya 20x40</text>
+  <!-- horizontal guide at 890 -->
+  <rect x="140" y="200" width="400" height="40" fill="#8b4513" stroke="#532" stroke-width="2"/>
+  <text x="340" y="190" text-anchor="middle" font-size="18">verh napravlyayushchej (0,89 ot pola)</text>
+  <!-- vertical battens -->
+  <rect x="200" y="240" width="40" height="540" fill="#a0522d" stroke="#532" stroke-width="2"/>
+  <rect x="340" y="240" width="40" height="540" fill="#a0522d" stroke="#532" stroke-width="2"/>
+  <rect x="480" y="240" width="40" height="540" fill="#a0522d" stroke="#532" stroke-width="2"/>
+  <text x="340" y="520" text-anchor="middle" fill="#532">stoiki 500 mm</text>
+  <!-- panel -->
+  <rect x="200" y="230" width="320" height="6" fill="#ddd" stroke="#666"/>
+  <rect x="200" y="460" width="320" height="6" fill="#ddd" stroke="#666"/>
+  <rect x="200" y="690" width="320" height="6" fill="#ddd" stroke="#666"/>
+  <text x="560" y="250" font-size="18">paneli gorizont.</text>
+  <text x="560" y="280" font-size="18">ryady (230 mm)</text>
+  <!-- floor line -->
+  <line x1="60" y1="820" x2="620" y2="820" stroke="#000" stroke-width="4"/>
+  <text x="70" y="860" font-weight="bold">POL</text>
+  <!-- height 890 -->
+  <line x1="620" y1="820" x2="620" y2="200" stroke="#06c" stroke-width="2"/>
+  <text x="650" y="520" fill="#06c" font-weight="bold">890</text>
+  <!-- height 600 ac -->
+  <line x1="700" y1="820" x2="700" y2="750" stroke="#060" stroke-width="2"/>
+  <text x="730" y="790" fill="#060">600 niz koroba</text>
+</svg>
