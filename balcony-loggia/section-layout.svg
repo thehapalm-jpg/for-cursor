@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" font-family="Arial,sans-serif">
+  <style>
+    text { font-size: 22px; fill: #111; }
+    .h { font-size: 26px; font-weight: bold; }
+  </style>
+  <text x="450" y="40" text-anchor="middle" class="h">Foto i plan</text>
+  <rect x="80" y="80" width="740" height="120" fill="#f5f5f5" stroke="#111" stroke-width="3"/>
+  <rect x="720" y="95" width="85" height="90" fill="#ccc" stroke="#444"/>
+  <text x="450" y="145" text-anchor="middle">6 m okna</text>
+  <text x="762" y="150" text-anchor="middle" font-size="16">nisha</text>
+  <line x1="80" y1="200" x2="820" y2="200" stroke="#c60" stroke-width="4"/>
+  <text x="450" y="230" text-anchor="middle">stena kv 6,8</text>
+  <text x="450" y="280" text-anchor="middle" class="h">Foto 2: okna sleva, kvartira sprava</text>
+  <text x="40" y="340" class="h">Razmery:</text>
+  <text x="40" y="380">6,00 - balkonnyj blok</text>
+  <text x="40" y="415">1,00 - glubina</text>
+  <text x="40" y="450">6,80 - stena kvartiry</text>
+  <text x="40" y="485">0,89 podokonnik; 2,47 vysota</text>
+  <text x="40" y="540" fill="#c00">Proverit shirinu bolshogo okna</text>
+</svg>

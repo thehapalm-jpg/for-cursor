@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-200 -200 6600 3000" font-family="Arial,sans-serif">
+  <style> text { font-size: 50px; fill: #111; } </style>
+  <text x="3000" y="-80" text-anchor="middle" font-size="58" font-weight="bold">PERED — balkonnyj blok 6,00</text>
+  <rect x="0" y="0" width="6000" height="2470" fill="#eee" stroke="#111" stroke-width="14"/>
+  <rect x="0" y="0" width="6000" height="890" fill="#ddd" stroke="#666" stroke-width="8"/>
+  <text x="3000" y="480" text-anchor="middle">podokonnik 0,89</text>
+  <rect x="60" y="890" width="5880" height="1580" fill="#cfe8ff" stroke="#06c" stroke-width="12"/>
+  <text x="3000" y="1680" text-anchor="middle" fill="#036">osteklenie</text>
+  <line x1="0" y1="2600" x2="6000" y2="2600" stroke="#111" stroke-width="5"/>
+  <text x="3000" y="2680" text-anchor="middle" font-weight="bold">6000</text>
+  <line x1="-120" y1="0" x2="-120" y2="2470" stroke="#111" stroke-width="5"/>
+  <text x="-160" y="1235" text-anchor="middle" transform="rotate(-90 -160 1235)" font-weight="bold">2470</text>
+</svg>
