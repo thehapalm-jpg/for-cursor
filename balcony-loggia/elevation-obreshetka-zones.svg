@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-200 0 6600 2400" font-family="Arial,sans-serif">
+  <style>
+    text { font-size: 44px; fill: #111; }
+    .zone60 { fill: rgba(200,80,80,0.2); stroke: #c00; stroke-width: 8; }
+    .zone0 { fill: rgba(100,100,200,0.15); stroke: #66c; stroke-width: 6; }
+    .glass { fill: #bfe8ff; stroke:#06c; stroke-width:6; }
+  </style>
+  <text x="3000" y="60" text-anchor="middle" font-size="52" font-weight="bold">Fasad 6 m: zony obreshetki (vid iz logii)</text>
+  <rect x="0" y="150" width="6000" height="2000" fill="#eee" stroke="#111" stroke-width="12"/>
+  <line x1="0" y1="2150" x2="6000" y2="2150" stroke="#000" stroke-width="14"/>
+  <text x="180" y="2120" font-weight="bold">POL</text>
+  <rect x="40" y="150" width="5920" height="890" class="zone60"/>
+  <text x="3000" y="620" text-anchor="middle" font-weight="bold" fill="#c00">ZONA A: vynos 60 mm (paraet + korob AC)</text>
+  <text x="3000" y="680" text-anchor="middle" font-size="36">13 stoek x 890 mm + 2 napravlyayushchie x 6 m</text>
+  <rect x="40" y="1040" width="5920" height="1110" class="glass"/>
+  <text x="3000" y="1600" text-anchor="middle">osteklenie (paneli obychno ne zdes)</text>
+  <line x1="40" y1="1040" x2="5920" y2="1040" stroke="#c00" stroke-width="6"/>
+  <text x="3000" y="1000" text-anchor="middle" fill="#c00">otmetka 0,89 m</text>
+  <rect x="40" y="150" width="5920" height="120" class="zone0"/>
+  <text x="3000" y="230" text-anchor="middle" fill="#66c">ZONA B: 5 cm do potolka / shov</text>
+</svg>

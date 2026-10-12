@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-200 -220 6600 1500" font-family="Arial,sans-serif">
+  <style>
+    text { font-size: 42px; fill: #111; }
+    .dim { font-size: 36px; fill: #333; }
+    .pipe { fill: none; stroke: #111; stroke-width: 14; stroke-linecap: round; }
+    .box { fill: rgba(100,160,100,0.4); stroke: #060; stroke-width: 5; }
+  </style>
+  <rect x="0" y="0" width="6000" height="1000" fill="#f5f5f5" stroke="#111" stroke-width="12"/>
+  <path d="M 5200 1000 L 5200 200 L 6000 200 L 6000 1000 Z" fill="#ccc" stroke="#444" stroke-width="6"/>
+  <text x="5600" y="620" text-anchor="middle">nisha 0,8</text>
+  <line x1="0" y1="0" x2="6000" y2="0" stroke="#06c" stroke-width="16"/>
+  <text x="3000" y="-50" text-anchor="middle" fill="#06c" font-weight="bold">OKNA 6,00 (vneshnyaya stena)</text>
+  <line x1="0" y1="1000" x2="6000" y2="1000" stroke="#c60" stroke-width="12"/>
+  <text x="3000" y="1080" text-anchor="middle" fill="#c60">stena kvartiry</text>
+  <!-- trassa po foto logii: iz nishi po uglu, vdol okon, vyhod 0,8 ot torna -->
+  <path d="M 5800 900 L 5800 80 L 5280 80" class="pipe"/>
+  <path d="M 5820 920 L 5820 100 L 5300 100" class="pipe"/>
+  <rect x="5280" y="35" width="720" height="70" class="box"/>
+  <circle cx="5200" cy="70" r="35" fill="#f80" stroke="#840" stroke-width="4"/>
+  <text x="5200" y="160" text-anchor="middle" font-size="34" fill="#c40">vyhod na ulitsu</text>
+  <text x="5450" y="25" text-anchor="middle" font-size="32" fill="#060">0,8 ot torncevoj (x=5200)</text>
+  <text x="3000" y="200" text-anchor="middle" font-size="36">korob vdol okon, vynos 0,06 ot steny</text>
+  <text x="300" y="960" font-size="32">vhod iz kv.</text>
+  <text x="5850" y="960" font-size="32">torec + nisha</text>
+  <line x1="0" y1="-120" x2="6000" y2="-120" stroke="#111" stroke-width="3"/>
+  <text x="3000" y="-135" text-anchor="middle" font-weight="bold">6000</text>
+  <line x1="-120" y1="0" x2="-120" y2="1000" stroke="#111" stroke-width="3"/>
+  <text x="-150" y="520" transform="rotate(-90 -150 520)" font-weight="bold">1000</text>
+  <rect x="1710" y="988" width="990" height="24" fill="#dff" stroke="#06c"/>
+  <rect x="3900" y="988" width="2220" height="24" fill="#cfe8ff" stroke="#c60" stroke-width="4"/>
+</svg>

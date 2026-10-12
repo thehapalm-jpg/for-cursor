@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-200 0 6600 2400" font-family="Arial,sans-serif">
+  <style>
+    text { font-size: 44px; fill: #111; }
+    .pipe { fill: none; stroke: #111; stroke-width: 12; stroke-linecap: round; }
+    .box { fill: rgba(100,160,100,0.35); stroke: #060; stroke-width: 6; }
+  </style>
+  <text x="3000" y="60" text-anchor="middle" font-size="52" font-weight="bold">Logiya: vneshnyaya stena 6 m (vid iznutri)</text>
+  <text x="3000" y="110" text-anchor="middle" fill="#666">trubki pod zonoj okna, ne u potolka</text>
+  <rect x="0" y="150" width="6000" height="2000" fill="#eee" stroke="#111" stroke-width="12"/>
+  <line x1="0" y1="2150" x2="6000" y2="2150" stroke="#000" stroke-width="14"/>
+  <text x="180" y="2120" font-weight="bold">POL</text>
+  <!-- okno / parapet 0,89 -->
+  <rect x="40" y="150" width="5920" height="890" fill="#ddd" stroke="#666" stroke-width="8"/>
+  <text x="3000" y="620" text-anchor="middle">paraet / okno (podok. naruzhu 0,89)</text>
+  <line x1="40" y1="1040" x2="5920" y2="1040" stroke="#06c" stroke-width="4"/>
+  <!-- korob s trubkami na 0,6 ot pola -->
+  <rect x="200" y="1480" width="4800" height="70" class="box"/>
+  <line x1="250" y1="1515" x2="4950" y2="1515" class="pipe"/>
+  <line x1="250" y1="1495" x2="4950" y2="1495" class="pipe"/>
+  <line x1="100" y1="2150" x2="100" y2="1480" stroke="#e00" stroke-width="5"/>
+  <text x="55" y="1820" transform="rotate(-90 55 1820)" fill="#c00" font-weight="bold">600</text>
+  <text x="2500" y="1460" text-anchor="middle" fill="#060" font-weight="bold">korob 0,07, vynos 0,06</text>
+  <!-- vyhod 0,8 ot torna -->
+  <line x1="5200" y1="150" x2="5200" y2="2150" stroke="#f80" stroke-width="3" stroke-dasharray="10 8"/>
+  <circle cx="5200" cy="1515" r="45" fill="#f80" stroke="#840" stroke-width="6"/>
+  <text x="5550" y="200" class="dim">0,8 ot tornca</text>
+  <text x="5200" y="1620" text-anchor="middle" font-weight="bold">vyhod</text>
+  <line x1="0" y1="2280" x2="6000" y2="2280" stroke="#111" stroke-width="4"/>
+  <text x="3000" y="2350" text-anchor="middle" font-weight="bold">6000</text>
+</svg>
