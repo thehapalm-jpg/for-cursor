@@ -1,6 +1,7 @@
 """
 Анкета для Насти: выбираем ноутбук без гигабайтов и прочей магии.
 Язык — обывательский, тон — как у продавца, который рад помочь.
+Достаточно вопросов, чтобы понять реальную потребность — не «для галочки».
 """
 
 from __future__ import annotations
@@ -28,6 +29,8 @@ class Question:
     mode: AnswerMode
     options: tuple[Option, ...]
     multi_hint: str | None = None
+    # Для multi: лимит выбранных вариантов (None = без лимита)
+    max_choices: int | None = None
 
 
 QUESTIONS: tuple[Question, ...] = (
@@ -44,6 +47,42 @@ QUESTIONS: tuple[Question, ...] = (
             Option("family", "Для всей семьи, общий", tags=("shared",)),
             Option("kids", "В основном детям / школьникам", tags=("kids_primary",)),
             Option("work", "Для работы / учёбы, серьёзное лицо", tags=("work",)),
+            Option(
+                "couple",
+                "На двоих с мужем/партнёром — по очереди",
+                tags=("shared", "adults"),
+            ),
+        ),
+    ),
+    Question(
+        id="experience",
+        title="Уровень дружбы с компьютером",
+        prompt=(
+            "Как ты обычно себя чувствуешь рядом с компьютером? "
+            "(Чтобы не подсунуть «зверя», с которым придётся воевать.)"
+        ),
+        mode="single",
+        options=(
+            Option(
+                "beginner",
+                "Новичок: лишь бы кнопки были понятные",
+                tags=("beginner", "simple_ui", "need_explain"),
+            ),
+            Option(
+                "normal",
+                "Обычный пользователь: сайт, Word, Zoom — ок",
+                tags=("user_normal",),
+            ),
+            Option(
+                "confident",
+                "Уверенно: сама разберусь, если что",
+                tags=("user_confident",),
+            ),
+            Option(
+                "helper",
+                "Рядом есть «свой айтишник» (Сергей и компания)",
+                tags=("has_helper",),
+            ),
         ),
     ),
     Question(
@@ -69,6 +108,11 @@ QUESTIONS: tuple[Question, ...] = (
                 "home",
                 "Живёт дома. Выезжает только на дачу раз в год",
                 tags=("desktop_like", "big_ok"),
+            ),
+            Option(
+                "travel",
+                "Частые поездки / перелёты / работа из разных мест",
+                tags=("portable", "light", "battery_great", "compact"),
             ),
             Option(
                 "unsure",
@@ -109,6 +153,37 @@ QUESTIONS: tuple[Question, ...] = (
         ),
     ),
     Question(
+        id="weight",
+        title="Вес в рюкзаке",
+        prompt=(
+            "Представь, что несёшь его весь день. "
+            "Какой вес готов простить ноутбуку?"
+        ),
+        mode="single",
+        options=(
+            Option(
+                "feather",
+                "Как лёгкий журнал — почти не чувствуется",
+                tags=("light", "ultrabook"),
+            ),
+            Option(
+                "normal",
+                "Обычный ноутбук — не пушинка, но терпимо",
+                tags=("weight_ok",),
+            ),
+            Option(
+                "heavy_ok",
+                "Можно и потяжелее, если зато мощный / большой экран",
+                tags=("heavy_ok", "perf"),
+            ),
+            Option(
+                "home_only",
+                "Почти не ношу — вес не важен",
+                tags=("desktop_like", "heavy_ok"),
+            ),
+        ),
+    ),
+    Question(
         id="battery",
         title="Жизнь без розетки",
         prompt=(
@@ -144,7 +219,7 @@ QUESTIONS: tuple[Question, ...] = (
         title="Чем будем заниматься",
         prompt=(
             "Выбери всё, что реально будете делать "
-            "(можно несколько — это важно!)."
+            "(можно несколько — это самый важный вопрос!)."
         ),
         mode="multi",
         multi_hint="Жми варианты, в конце — «Готово».",
@@ -166,7 +241,7 @@ QUESTIONS: tuple[Question, ...] = (
             ),
             Option(
                 "study",
-                "Учёба / онлайн-курсы / Zoom",
+                "Учёба / онлайн-курсы / Zoom и созвоны",
                 tags=("office", "camera", "battery_good"),
             ),
             Option(
@@ -180,6 +255,11 @@ QUESTIONS: tuple[Question, ...] = (
                 tags=("creative_high", "gpu_mid", "ram_high"),
             ),
             Option(
+                "draw",
+                "Рисование / дизайн «для себя» (не студия)",
+                tags=("creative_mid", "screen_nice"),
+            ),
+            Option(
                 "kids_games",
                 "Детские игры / простые игры «поиграть вечером»",
                 tags=("kids_games", "gpu_low"),
@@ -188,6 +268,42 @@ QUESTIONS: tuple[Question, ...] = (
                 "hard_games",
                 "Серьёзные игры как на приставке (тяжёлые новинки)",
                 tags=("gaming", "gpu_high", "cooling"),
+            ),
+            Option(
+                "code",
+                "Программирование / «что-то техническое»",
+                tags=("dev", "ram_mid", "keyboard"),
+            ),
+        ),
+    ),
+    Question(
+        id="intensity",
+        title="Сколько всего открыто сразу",
+        prompt=(
+            "Честно: как обычно выглядит экран в конце дня? "
+            "(От этого зависит, нужен ли «с запасом» или хватит скромного.)"
+        ),
+        mode="single",
+        options=(
+            Option(
+                "few",
+                "Пара вкладок и одно окошко — минимализм",
+                tags=("light_use",),
+            ),
+            Option(
+                "medium",
+                "Десять вкладок + почта + мессенджер — нормально",
+                tags=("ram_mid",),
+            ),
+            Option(
+                "chaos",
+                "Хаос: куча вкладок, Zoom, таблица и ещё «где мой файл»",
+                tags=("ram_high", "perf"),
+            ),
+            Option(
+                "kids_chaos",
+                "Дети открывают всё подряд, пока мама не видит",
+                tags=("ram_mid", "durable", "kids_heavy"),
             ),
         ),
     ),
@@ -207,6 +323,250 @@ QUESTIONS: tuple[Question, ...] = (
                 "often",
                 "Да, часто — игры, уроки, «мама можно ещё пять минут»",
                 tags=("kids_heavy", "durable", "kids_games"),
+            ),
+            Option(
+                "school",
+                "Школа: дневник, презентации, онлайн-уроки",
+                tags=("kids_school", "office", "camera", "durable_nice"),
+            ),
+        ),
+    ),
+    Question(
+        id="storage_feel",
+        title="Куда складываем жизнь",
+        prompt=(
+            "Фото, фильмы, учебники, скачанное «на всякий случай» — "
+            "где всё это будет жить?"
+        ),
+        mode="single",
+        options=(
+            Option(
+                "cloud",
+                "В основном в облаке / на телефоне — на ноуте мало",
+                tags=("storage_small",),
+            ),
+            Option(
+                "normal",
+                "Обычный набор: документы + немного фото/видео",
+                tags=("storage_mid",),
+            ),
+            Option(
+                "lots",
+                "Много своего: семейный архив, курсы, фильмы офлайн",
+                tags=("storage_large",),
+            ),
+            Option(
+                "huge",
+                "Гора всего, и ещё будет расти",
+                tags=("storage_large", "expandable_nice"),
+            ),
+        ),
+    ),
+    Question(
+        id="calls",
+        title="Лицо в кадре",
+        prompt="Как часто будут созвоны (работа, учёба, родственники)?",
+        mode="single",
+        options=(
+            Option(
+                "rare",
+                "Редко / почти никогда",
+                tags=("camera_low",),
+            ),
+            Option(
+                "sometimes",
+                "Иногда — раз в неделю нормально",
+                tags=("camera",),
+            ),
+            Option(
+                "often",
+                "Часто — хочется нормальную камеру и микрофон",
+                tags=("camera", "mic_good", "battery_good"),
+            ),
+            Option(
+                "critical",
+                "Это важная часть жизни — созвоны почти каждый день",
+                tags=("camera", "mic_good", "quiet", "battery_great"),
+            ),
+        ),
+    ),
+    Question(
+        id="typing",
+        title="Клавиатура и пальцы",
+        prompt="Будешь ли много печатать (работа, учёба, длинные тексты)?",
+        mode="single",
+        options=(
+            Option(
+                "little",
+                "Мало — в основном тыкаю и смотрю",
+                tags=("keyboard_low",),
+            ),
+            Option(
+                "medium",
+                "Средне — письма, чаты, иногда документы",
+                tags=("keyboard",),
+            ),
+            Option(
+                "lots",
+                "Много — удобная клавиатура очень важна",
+                tags=("keyboard", "keyboard_good"),
+            ),
+            Option(
+                "numpad",
+                "Ещё и циферки справа хочется (как на большом компе)",
+                tags=("keyboard", "numpad", "size_15_16"),
+            ),
+        ),
+    ),
+    Question(
+        id="screen_place",
+        title="Где смотрим на экран",
+        prompt="В каких условиях чаще всего будешь смотреть на экран?",
+        mode="single",
+        options=(
+            Option(
+                "room",
+                "Обычная комната, свет нормальный",
+                tags=("screen_ok",),
+            ),
+            Option(
+                "bright",
+                "У окна / на балконе / днём ярко",
+                tags=("screen_bright", "screen_nice"),
+            ),
+            Option(
+                "evening",
+                "Чаще вечером, в полумраке, фильмы",
+                tags=("screen_nice", "media"),
+            ),
+            Option(
+                "cafe",
+                "Кафе, поезд, разные места — свет разный",
+                tags=("screen_bright", "portable", "battery_good"),
+            ),
+        ),
+    ),
+    Question(
+        id="touch_flip",
+        title="Сенсор и «перевёртыш»",
+        prompt=(
+            "Нужен ли экран, по которому можно водить пальцем, "
+            "или ноут-«трансформер» (как большой планшет)?"
+        ),
+        mode="single",
+        options=(
+            Option(
+                "no",
+                "Нет, обычный ноутбук с мышкой/тачпадом",
+                tags=("classic_clamshell",),
+            ),
+            Option(
+                "touch_nice",
+                "Сенсор был бы приятным бонусом",
+                tags=("touch_nice",),
+            ),
+            Option(
+                "touch_need",
+                "Да, хочу тыкать пальцем / рисовать",
+                tags=("touch", "creative_mid"),
+            ),
+            Option(
+                "flip",
+                "Хочу переворачивать экран как планшет (мультики детям)",
+                tags=("convertible", "touch", "kids_light"),
+            ),
+        ),
+    ),
+    Question(
+        id="ports_stuff",
+        title="Провода и флешки",
+        prompt=(
+            "Что из этого реально понадобится часто? "
+            "(Можно несколько.)"
+        ),
+        mode="multi",
+        multi_hint="Выбери всё нужное, потом «Готово».",
+        options=(
+            Option(
+                "usb",
+                "Флешки, мышка, внешний диск — втыкать легко",
+                tags=("ports_usb",),
+            ),
+            Option(
+                "hdmi",
+                "Подключать к телевизору / проектору",
+                tags=("ports_hdmi", "media"),
+            ),
+            Option(
+                "headphone",
+                "Обычный разъём для наушников",
+                tags=("ports_audio",),
+            ),
+            Option(
+                "one_cable",
+                "Одна зарядка на телефон и ноут — мечта",
+                tags=("usbc_charge", "modern"),
+            ),
+            Option(
+                "minimal",
+                "Почти ничего — Wi‑Fi и всё",
+                tags=("ports_minimal",),
+            ),
+        ),
+    ),
+    Question(
+        id="lifespan",
+        title="На сколько лет берём",
+        prompt="На какой срок жизни ноутбука рассчитываете?",
+        mode="single",
+        options=(
+            Option(
+                "short",
+                "На 2–3 года — потом обновим",
+                tags=("lifespan_short", "value"),
+            ),
+            Option(
+                "mid",
+                "На 4–5 лет — нормальный цикл",
+                tags=("lifespan_mid", "ram_mid"),
+            ),
+            Option(
+                "long",
+                "Как можно дольше — берём с запасом",
+                tags=("lifespan_long", "perf", "ram_high", "budget_upper"),
+            ),
+            Option(
+                "unsure",
+                "Не думала об этом — посоветуйте",
+                tags=("lifespan_mid", "need_explain"),
+            ),
+        ),
+    ),
+    Question(
+        id="brand",
+        title="Имена на крышке",
+        prompt="Есть ли предпочтения по «марке»? (Без фанатизма.)",
+        mode="single",
+        options=(
+            Option(
+                "any",
+                "Без разницы — лишь бы хороший отзыв и сервис",
+                tags=("brand_any",),
+            ),
+            Option(
+                "apple",
+                "Хочется яблоко (если впишется в бюджет)",
+                tags=("macos", "brand_apple"),
+            ),
+            Option(
+                "known",
+                "Известные имена: Lenovo, ASUS, Acer, HP, Huawei…",
+                tags=("brand_pc_known", "windows"),
+            ),
+            Option(
+                "avoid_no_name",
+                "Главное — не «ноунейм с Авито без гарантии»",
+                tags=("brand_warranty", "retail"),
             ),
         ),
     ),
@@ -250,11 +610,12 @@ QUESTIONS: tuple[Question, ...] = (
         id="priorities",
         title="Что важнее всего",
         prompt=(
-            "Выбери до двух «хотелок», без которых будет обидно. "
-            "(Если всё важно — выбери самое-самое.)"
+            "Выбери до трёх «хотелок», без которых будет обидно. "
+            "(Если всё важно — оставь самое-самое.)"
         ),
         mode="multi",
-        multi_hint="До двух пунктов, потом «Готово».",
+        multi_hint="До трёх пунктов, потом «Готово».",
+        max_choices=3,
         options=(
             Option(
                 "light",
@@ -286,6 +647,16 @@ QUESTIONS: tuple[Question, ...] = (
                 "Чтобы выглядел стильно (цвет, тонкий корпус)",
                 tags=("design",),
             ),
+            Option(
+                "durable",
+                "Чтобы переживал детей / поездки / жизнь",
+                tags=("durable",),
+            ),
+            Option(
+                "service",
+                "Чтобы легко сдать в гарантию в большом магазине",
+                tags=("retail", "brand_warranty"),
+            ),
         ),
     ),
     Question(
@@ -313,6 +684,34 @@ QUESTIONS: tuple[Question, ...] = (
                 "unsure",
                 "Не знаю, объясните потом на пальцах",
                 tags=("windows", "need_explain"),
+            ),
+        ),
+    ),
+    Question(
+        id="where_buy",
+        title="Где удобнее забирать",
+        prompt="Как удобнее покупать? (Чтобы я искал там, где вам ок.)",
+        mode="single",
+        options=(
+            Option(
+                "dns_mvideo",
+                "Крупные сети: DNS, М.Видео, Эльдорадо — забрать самому",
+                tags=("retail", "dns", "mvideo"),
+            ),
+            Option(
+                "ozon_wb",
+                "Озон / Wildberries — доставка к двери",
+                tags=("ozon", "wb", "delivery"),
+            ),
+            Option(
+                "any_shop",
+                "Везде ок — главное цена и наличие",
+                tags=("retail", "ozon", "flexible_shop"),
+            ),
+            Option(
+                "see_first",
+                "Хочется сначала потрогать в магазине",
+                tags=("retail", "touch_in_store"),
             ),
         ),
     ),
@@ -366,12 +765,13 @@ def format_human_summary(answers: dict[str, list[str]], user_name: str) -> str:
     lines = [
         "🧾 Анкета заполнена!",
         f"Кто отвечал: {user_name}",
+        f"Вопросов отвечено: {sum(1 for q in QUESTIONS if answers.get(q.id))}"
+        f" из {len(QUESTIONS)}",
         "",
         "Перешли это сообщение тому умному человеку, "
         "который обещал подобрать 3 ноутбука 👇",
         "",
     ]
-    by_id = {q.id: q for q in QUESTIONS}
     for q in QUESTIONS:
         chosen = answers.get(q.id, [])
         if not chosen:
@@ -400,7 +800,6 @@ def format_share_card(answers: dict[str, list[str]], user_name: str) -> str:
         f"📋 Ответы Насти (или {user_name}) для подбора ноутбука:",
         "",
     ]
-    by_id = {q.id: q for q in QUESTIONS}
     for q in QUESTIONS:
         chosen = answers.get(q.id, [])
         if not chosen:

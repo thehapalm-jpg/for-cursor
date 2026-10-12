@@ -38,7 +38,6 @@ logger = logging.getLogger("nastya-laptop-bot")
 sessions: dict[int, QuizState] = {}
 
 DONE_CB = "multi:done"
-MAX_PRIORITIES = 2
 
 
 def _load_env() -> None:
@@ -53,7 +52,6 @@ def keyboard_for(state: QuizState) -> InlineKeyboardMarkup:
     for opt in q.options:
         if q.mode == "multi":
             mark = "✅ " if opt.id in state.multi_buffer else ""
-            # Для «приоритетов» ограничиваем выбор двумя
             label = f"{mark}{opt.text}"
             rows.append(
                 [
@@ -94,8 +92,8 @@ def question_text(state: QuizState) -> str:
     body = q.prompt
     if q.mode == "multi" and q.multi_hint:
         body += f"\n\n💬 {q.multi_hint}"
-    if q.id == "priorities":
-        body += f"\n\nСейчас выбрано: {len(state.multi_buffer)}/{MAX_PRIORITIES}"
+    if q.mode == "multi" and q.max_choices:
+        body += f"\n\nСейчас выбрано: {len(state.multi_buffer)}/{q.max_choices}"
     return header + body
 
 
@@ -135,7 +133,7 @@ def register_handlers(dp: Dispatcher) -> None:
             "👋 Привет! Я виртуальный продавец из «Ноутбучной».\n\n"
             "Настя (или кто ты там), не надо знать про гигабайты, "
             "терабайты и прочие страшные слова.\n"
-            "Ответь на пару простых вопросов — как в игре — "
+            f"Впереди {len(QUESTIONS)} простых вопросов — как в игре — "
             "и мы поймём, какой ноутбук тебе реально нужен.\n\n"
             "Поехали? 🚀"
         )
@@ -171,9 +169,9 @@ def register_handlers(dp: Dispatcher) -> None:
             await callback.answer("Выбери хотя бы один вариант 🙂", show_alert=True)
             return
 
-        if q.id == "priorities" and len(state.multi_buffer) > MAX_PRIORITIES:
+        if q.max_choices and len(state.multi_buffer) > q.max_choices:
             await callback.answer(
-                f"Оставь не больше {MAX_PRIORITIES} приоритетов",
+                f"Оставь не больше {q.max_choices}",
                 show_alert=True,
             )
             return
@@ -225,9 +223,9 @@ def register_handlers(dp: Dispatcher) -> None:
             if opt_id in state.multi_buffer:
                 state.multi_buffer.discard(opt_id)
             else:
-                if q.id == "priorities" and len(state.multi_buffer) >= MAX_PRIORITIES:
+                if q.max_choices and len(state.multi_buffer) >= q.max_choices:
                     await callback.answer(
-                        f"Максимум {MAX_PRIORITIES}. Сними лишнее или жми «Готово».",
+                        f"Максимум {q.max_choices}. Сними лишнее или жми «Готово».",
                         show_alert=True,
                     )
                     return
