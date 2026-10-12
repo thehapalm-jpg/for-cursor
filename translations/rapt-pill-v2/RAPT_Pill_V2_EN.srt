@@ -1,0 +1,1679 @@
+1
+00:00:00,080 --> 00:00:02,080
+Hey guys and gals, we're here today to
+
+2
+00:00:02,080 --> 00:00:03,679
+talk about the KegLand RAPT Pill.
+
+3
+00:00:03,679 --> 00:00:05,680
+This has been out for ages. It's
+
+4
+00:00:05,680 --> 00:00:07,440
+incredibly popular. It's a brilliant
+
+5
+00:00:07,440 --> 00:00:10,000
+little Wi-Fi Bluetooth capable
+
+6
+00:00:10,000 --> 00:00:12,480
+hydrometer and thermometer. It's about
+
+7
+00:00:12,480 --> 00:00:15,679
+to get the biggest update of its life.
+
+8
+00:00:15,679 --> 00:00:17,039
+We haven't changed the pill at all.
+
+9
+00:00:17,039 --> 00:00:18,560
+It's still the same cool form
+
+10
+00:00:18,560 --> 00:00:20,400
+factor. It's easy to clean. It's easy to
+
+11
+00:00:20,400 --> 00:00:22,480
+use. It's got a lithium-ion battery that
+
+12
+00:00:22,480 --> 00:00:24,960
+will last for ages. What is changing is
+
+13
+00:00:24,960 --> 00:00:27,359
+the firmware it's running on and how it
+
+14
+00:00:27,359 --> 00:00:29,359
+gets used. These have been incredibly
+
+15
+00:00:29,359 --> 00:00:31,039
+popular, but since we've been selling
+
+16
+00:00:31,039 --> 00:00:32,320
+them, there's been a bunch of things
+
+17
+00:00:32,320 --> 00:00:34,640
+that people have wanted. People want to
+
+18
+00:00:34,640 --> 00:00:36,960
+be able to connect to the pill directly.
+
+19
+00:00:36,960 --> 00:00:38,879
+People want to be able to calibrate the
+
+20
+00:00:38,879 --> 00:00:41,840
+pill easily, even if they chuck it in a
+
+21
+00:00:41,840 --> 00:00:44,079
+fermenter and forget to calibrate it.
+
+22
+00:00:44,079 --> 00:00:46,160
+You want to be able to update it easily.
+
+23
+00:00:46,160 --> 00:00:48,000
+You want to be able to access it. You
+
+24
+00:00:48,000 --> 00:00:49,680
+want to be able to change telemetry.
+
+25
+00:00:49,680 --> 00:00:52,399
+Until today, none of that was possible
+
+26
+00:00:52,399 --> 00:00:54,640
+unless you fished the pill out. You
+
+27
+00:00:54,640 --> 00:00:57,120
+plugged it into power. They then had to
+
+28
+00:00:57,120 --> 00:00:59,280
+clean it, sanitize it, chuck it back in
+
+29
+00:00:59,280 --> 00:01:01,520
+in the fermenter. Massive pain,
+
+30
+00:01:01,520 --> 00:01:04,400
+definite risk of infection, and no more.
+
+31
+00:01:04,400 --> 00:01:06,720
+So, these are getting updated to a brand
+
+32
+00:01:06,720 --> 00:01:08,560
+new firmware. And this brand new
+
+33
+00:01:08,560 --> 00:01:11,119
+firmware means a couple of things. It
+
+34
+00:01:11,119 --> 00:01:14,240
+means you can always connect directly to
+
+35
+00:01:14,240 --> 00:01:17,360
+the pill from your phone using Bluetooth
+
+36
+00:01:17,360 --> 00:01:19,200
+using the new RAPT Brew app. We're
+
+37
+00:01:19,200 --> 00:01:21,040
+introducing what's called smart mode for
+
+38
+00:01:21,040 --> 00:01:22,880
+the pills, and the update will put them
+
+39
+00:01:22,880 --> 00:01:25,280
+in smart mode by default. Smart mode
+
+40
+00:01:25,280 --> 00:01:27,600
+means if your pill's in smart mode, you
+
+41
+00:01:27,600 --> 00:01:30,320
+can connect to it. It might take up to
+
+42
+00:01:30,320 --> 00:01:32,479
+30 seconds. It's going to impact the
+
+43
+00:01:32,479 --> 00:01:34,880
+battery life, but by a negligible
+
+44
+00:01:34,880 --> 00:01:36,479
+amount. Unless your fermentation is
+
+45
+00:01:36,479 --> 00:01:37,840
+going for 6 months, you're not going to
+
+46
+00:01:37,840 --> 00:01:40,880
+feel it. The big difference is you will
+
+47
+00:01:40,880 --> 00:01:44,079
+need to use the new RAPT Brew app to
+
+48
+00:01:44,079 --> 00:01:46,079
+connect to your pill now. So, the new
+
+49
+00:01:46,079 --> 00:01:49,119
+firmware means this will not talk to the
+
+50
+00:01:49,119 --> 00:01:50,880
+old RAPT portal anymore. You've just got
+
+51
+00:01:50,880 --> 00:01:52,960
+to update to the RAPT Brew app. The RAPT
+
+52
+00:01:52,960 --> 00:01:55,520
+Brew app's been out for about 9 months
+
+53
+00:01:55,520 --> 00:01:57,280
+now and we've been working on it
+
+54
+00:01:57,280 --> 00:02:00,960
+continually. It is stable. It's mature.
+
+55
+00:02:00,960 --> 00:02:03,759
+It's a fantastic platform. Updating the
+
+56
+00:02:03,759 --> 00:02:06,320
+firmware of the pill means we can
+
+57
+00:02:06,320 --> 00:02:08,720
+unleash the new back end basically which
+
+58
+00:02:08,720 --> 00:02:10,239
+is what gives us access to these
+
+59
+00:02:10,239 --> 00:02:12,239
+features which is what makes this more
+
+60
+00:02:12,239 --> 00:02:14,480
+powerful. It's got some great features.
+
+61
+00:02:14,480 --> 00:02:16,319
+What you'll see here is what we call the
+
+62
+00:02:16,319 --> 00:02:18,160
+down under double tap. If you hold it
+
+63
+00:02:18,160 --> 00:02:20,879
+down under, so upside down, the LED will
+
+64
+00:02:20,879 --> 00:02:23,520
+start pulsing to show it's ready to go.
+
+65
+00:02:23,520 --> 00:02:25,840
+Double tap it, it'll flash to say, "Hey,
+
+66
+00:02:25,840 --> 00:02:27,599
+I got that." And then it will start
+
+67
+00:02:27,599 --> 00:02:30,080
+blinking. Those regular flashes mean it
+
+68
+00:02:30,080 --> 00:02:32,800
+broadcasting a Bluetooth signal. If this
+
+69
+00:02:32,800 --> 00:02:35,040
+is a brand new pill, which this is,
+
+70
+00:02:35,040 --> 00:02:37,040
+that's all you need to do to connect to
+
+71
+00:02:37,040 --> 00:02:39,440
+it. As soon as that happens, you don't
+
+72
+00:02:39,440 --> 00:02:41,440
+need to plug it in. You just open the
+
+73
+00:02:41,440 --> 00:02:43,920
+RAPT Brew app on your phone, click add
+
+74
+00:02:43,920 --> 00:02:46,720
+device, click pill hydrometer, and it
+
+75
+00:02:46,720 --> 00:02:48,480
+will be registered and connected to your
+
+76
+00:02:48,480 --> 00:02:51,680
+Wi-Fi in a couple of minutes incredibly
+
+77
+00:02:51,680 --> 00:02:54,239
+easily. It's a huge upgrade. I can also
+
+78
+00:02:54,239 --> 00:02:56,959
+just chuck this in a bucket for now.
+
+79
+00:02:56,959 --> 00:03:00,680
+Pretend this is a fermenter.
+
+80
+00:03:01,760 --> 00:03:03,280
+If I chuck it in there and think to
+
+81
+00:03:03,280 --> 00:03:05,599
+myself, I forgot to calibrate it.
+
+82
+00:03:05,599 --> 00:03:08,640
+Absolutely no drama. Pull out my phone,
+
+83
+00:03:08,640 --> 00:03:11,200
+open the app, navigate to my pill, click
+
+84
+00:03:11,200 --> 00:03:13,599
+connect, and in a couple of seconds, I
+
+85
+00:03:13,599 --> 00:03:15,280
+can calibrate it automatically.
+
+86
+00:03:15,280 --> 00:03:17,920
+Calibration is much easier now. It's
+
+87
+00:03:17,920 --> 00:03:19,519
+simpler, but all the action that's
+
+88
+00:03:19,519 --> 00:03:21,120
+happening behind the scenes. It's more
+
+89
+00:03:21,120 --> 00:03:23,120
+powerful. There's no time limits on it.
+
+90
+00:03:23,120 --> 00:03:25,040
+There's no you've got to get to the pill
+
+91
+00:03:25,040 --> 00:03:27,519
+before it times out. It's just easy.
+
+92
+00:03:27,519 --> 00:03:29,840
+Registration is much, much easier.
+
+93
+00:03:29,840 --> 00:03:31,120
+There's a whole bunch of other cool
+
+94
+00:03:31,120 --> 00:03:32,799
+stuff. What we're going to do is go
+
+95
+00:03:32,799 --> 00:03:33,760
+through and talk about those
+
+96
+00:03:33,760 --> 00:03:35,920
+individually. So, Pill version two or
+
+97
+00:03:35,920 --> 00:03:38,000
+software version two is ready to rock
+
+98
+00:03:38,000 --> 00:03:40,400
+and it makes the registration process
+
+99
+00:03:40,400 --> 00:03:42,879
+much much easier. There is a wrinkle.
+
+100
+00:03:42,879 --> 00:03:45,040
+The wrinkle is there's a lot of pills
+
+101
+00:03:45,040 --> 00:03:46,799
+out there already on shelves waiting to
+
+102
+00:03:46,799 --> 00:03:49,280
+be sold. They are going to be running an
+
+103
+00:03:49,280 --> 00:03:51,840
+older firmware that's not yet compatible
+
+104
+00:03:51,840 --> 00:03:54,000
+with the new RAPT back end. It's easy to fix.
+
+105
+00:03:54,000 --> 00:03:56,000
+It's easy to do. When you buy a pill,
+
+106
+00:03:56,000 --> 00:03:58,080
+you may or may not get one with the
+
+107
+00:03:58,080 --> 00:04:00,879
+version two firmware. It's hard to tell.
+
+108
+00:04:00,879 --> 00:04:03,200
+Easy to figure out, though. If you grab
+
+109
+00:04:03,200 --> 00:04:05,200
+your pill when the battery is fully
+
+110
+00:04:05,200 --> 00:04:07,680
+charged and go down under double tap
+
+111
+00:04:07,680 --> 00:04:10,000
+mode. So you turn it upside down. If
+
+112
+00:04:10,000 --> 00:04:13,200
+it's running the new firmware, it will
+
+113
+00:04:13,200 --> 00:04:15,760
+pulse green for a couple of seconds.
+
+114
+00:04:15,760 --> 00:04:17,919
+if you double tap that, it will start
+
+115
+00:04:17,919 --> 00:04:20,959
+flashing and that with a fully charged
+
+116
+00:04:20,959 --> 00:04:23,199
+battery is all you need to do to
+
+117
+00:04:23,199 --> 00:04:25,280
+register it. You then just open the app,
+
+118
+00:04:25,280 --> 00:04:28,880
+hit add device, and hit pill hydrometer.
+
+119
+00:04:28,880 --> 00:04:30,240
+It will talk you through it. It'll
+
+120
+00:04:30,240 --> 00:04:32,560
+show up straight away. We'll go through
+
+121
+00:04:32,560 --> 00:04:34,320
+that in a minute. However, that might
+
+122
+00:04:34,320 --> 00:04:36,080
+not be the case and it probably won't be
+
+123
+00:04:36,080 --> 00:04:37,440
+the case for a couple of months from the
+
+124
+00:04:37,440 --> 00:04:38,880
+date of this video as we sell through
+
+125
+00:04:38,880 --> 00:04:40,800
+pills that are already on the shelf. So,
+
+126
+00:04:40,800 --> 00:04:42,479
+if you've got a new pill, this is
+
+127
+00:04:42,479 --> 00:04:44,400
+one of the wireless ones. You turn it
+
+128
+00:04:44,400 --> 00:04:46,800
+upside down with a fully charged battery
+
+129
+00:04:46,800 --> 00:04:48,880
+and nothing happens. It means you need
+
+130
+00:04:48,880 --> 00:04:50,800
+to update the firmware before you can
+
+131
+00:04:50,800 --> 00:04:52,479
+register it. Again, that's pretty quick
+
+132
+00:04:52,479 --> 00:04:54,479
+and simple. So, what you need to do is
+
+133
+00:04:54,479 --> 00:04:56,320
+put the pill on a charge. So, if it's
+
+134
+00:04:56,320 --> 00:04:57,680
+wireless, you just put it on the
+
+135
+00:04:57,680 --> 00:04:59,600
+charging base. If it's not wireless, you
+
+136
+00:04:59,600 --> 00:05:02,240
+just plug it into USB-C. You'll see very
+
+137
+00:05:02,240 --> 00:05:04,080
+quickly the red light will go on to show
+
+138
+00:05:04,080 --> 00:05:06,000
+that the battery is charging and the
+
+139
+00:05:06,000 --> 00:05:08,160
+green LED will start flashing. That
+
+140
+00:05:08,160 --> 00:05:10,320
+shows that it's broadcasting. You then
+
+141
+00:05:10,320 --> 00:05:14,240
+open your mobile phone and go to Wi-Fi.
+
+142
+00:05:14,240 --> 00:05:17,840
+Your pill will pop up in your Wi-Fi
+
+143
+00:05:17,840 --> 00:05:21,120
+network. So it'll say RAPT Pill xxx.
+
+144
+00:05:21,120 --> 00:05:22,479
+So RAPT Pill whatever the last four
+
+145
+00:05:22,479 --> 00:05:24,560
+digits of the MAC address are. You click
+
+146
+00:05:24,560 --> 00:05:26,160
+on that to connect to it. Wait a couple
+
+147
+00:05:26,160 --> 00:05:28,800
+of seconds. That will pop up the captive
+
+148
+00:05:28,800 --> 00:05:31,440
+portal. When the captive portal opens,
+
+149
+00:05:31,440 --> 00:05:33,520
+it basically opens on the Wi-Fi network
+
+150
+00:05:33,520 --> 00:05:35,440
+screen. You'll see a list of all
+
+151
+00:05:35,440 --> 00:05:37,919
+available Wi-Fi networks. All you need
+
+152
+00:05:37,919 --> 00:05:42,000
+to do is select your Wi-Fi network and
+
+153
+00:05:42,000 --> 00:05:44,880
+enter the password. I have my password
+
+154
+00:05:44,880 --> 00:05:47,680
+saved, then hit join. Just wait a
+
+155
+00:05:47,680 --> 00:05:50,479
+couple of seconds. The pill will connect
+
+156
+00:05:50,479 --> 00:05:53,199
+to your Wi-Fi network. It'll pop up a
+
+157
+00:05:53,199 --> 00:05:55,840
+little success message. Say okay. And
+
+158
+00:05:55,840 --> 00:05:57,199
+straight away, you're going to see a
+
+159
+00:05:57,199 --> 00:05:58,479
+little green banner that says checking
+
+160
+00:05:58,479 --> 00:06:00,800
+for firmware update. What's going to
+
+161
+00:06:00,800 --> 00:06:02,400
+happen is the pill's just going to check
+
+162
+00:06:02,400 --> 00:06:03,919
+to see if it's ever been registered or
+
+163
+00:06:03,919 --> 00:06:05,440
+not. You just bought it. It's not been
+
+164
+00:06:05,440 --> 00:06:07,680
+registered. It's going to automatically
+
+165
+00:06:07,680 --> 00:06:09,680
+download and install the new firmware
+
+166
+00:06:09,680 --> 00:06:11,199
+update. You don't have to do anything
+
+167
+00:06:11,199 --> 00:06:14,000
+more. You can close the captive
+
+168
+00:06:14,000 --> 00:06:16,960
+portal. Go have a cup of tea or have
+
+169
+00:06:16,960 --> 00:06:18,800
+a quick beer while you wait for the
+
+170
+00:06:18,800 --> 00:06:20,639
+firmware to update. As soon as the
+
+171
+00:06:20,639 --> 00:06:22,880
+firmware update is updated, you'll be in
+
+172
+00:06:22,880 --> 00:06:26,000
+version two and you'll be able to see
+
+173
+00:06:26,000 --> 00:06:28,479
+the pulsing when it's in down under mode
+
+174
+00:06:28,479 --> 00:06:30,319
+and you can go through the registration
+
+175
+00:06:30,319 --> 00:06:32,160
+process which we'll go through now. All
+
+176
+00:06:32,160 --> 00:06:33,919
+right, so now we just need to register
+
+177
+00:06:33,919 --> 00:06:36,319
+it. So here's my pill. Still on a
+
+178
+00:06:36,319 --> 00:06:37,840
+charge.
+
+179
+00:06:37,840 --> 00:06:39,600
+It's finished updating now. So it's
+
+180
+00:06:39,600 --> 00:06:40,960
+ready to rock and we can check that
+
+181
+00:06:40,960 --> 00:06:43,120
+quite easily.
+
+182
+00:06:43,120 --> 00:06:45,680
+We can't go into down under mode
+
+183
+00:06:45,680 --> 00:06:47,199
+because when it's flashing green like
+
+184
+00:06:47,199 --> 00:06:48,960
+that, what it means is it's
+
+185
+00:06:48,960 --> 00:06:50,960
+broadcasting. So, it's actually ready to
+
+186
+00:06:50,960 --> 00:06:53,039
+rock. So, all we need to do, we open up
+
+187
+00:06:53,039 --> 00:06:55,280
+the app. We click on the sidebar. We
+
+188
+00:06:55,280 --> 00:06:58,240
+click add device. Pill hydrometer's at
+
+189
+00:06:58,240 --> 00:07:00,720
+the top. Scanned. It's already found
+
+190
+00:07:00,720 --> 00:07:02,160
+the pill. We've got signal strength
+
+191
+00:07:02,160 --> 00:07:03,919
+ripper, which is very good. So, we click
+
+192
+00:07:03,919 --> 00:07:06,319
+on the pill and we click connect. Secure
+
+193
+00:07:06,319 --> 00:07:09,440
+setup is in progress. So, it talks you
+
+194
+00:07:09,440 --> 00:07:11,120
+through it. It will pop up a Bluetooth
+
+195
+00:07:11,120 --> 00:07:13,039
+pairing request. Obviously, hit pair.
+
+196
+00:07:13,039 --> 00:07:14,479
+You're going to communicate with your
+
+197
+00:07:14,479 --> 00:07:15,840
+pill by Bluetooth. So, you must
+
+198
+00:07:15,840 --> 00:07:18,479
+authorize that. Now, this one is already
+
+199
+00:07:18,479 --> 00:07:20,479
+connected to Wi-Fi because we had to do
+
+200
+00:07:20,479 --> 00:07:22,319
+that to get it on the new firmware. Your
+
+201
+00:07:22,319 --> 00:07:24,160
+pill when you register may not be
+
+202
+00:07:24,160 --> 00:07:25,840
+connected to Wi-Fi. Don't worry about
+
+203
+00:07:25,840 --> 00:07:28,720
+it. The app will prompt you on how to
+
+204
+00:07:28,720 --> 00:07:30,960
+connect it. It's very, very easy. You
+
+205
+00:07:30,960 --> 00:07:32,800
+don't need to go out of the app to do
+
+206
+00:07:32,800 --> 00:07:35,840
+it. It's quite seamless. And any network
+
+207
+00:07:35,840 --> 00:07:37,360
+credentials that you enter through the
+
+208
+00:07:37,360 --> 00:07:40,240
+app will be saved securely for use on
+
+209
+00:07:40,240 --> 00:07:42,240
+other devices later. So we'll just hit
+
+210
+00:07:42,240 --> 00:07:44,720
+keep current network. And now we're
+
+211
+00:07:44,720 --> 00:07:46,880
+going to name the device. This one is my
+
+212
+00:07:46,880 --> 00:07:48,479
+red pill. So we're going to call that
+
+213
+00:07:48,479 --> 00:07:52,160
+RAPT Pill Red and hit register. Again
+
+214
+00:07:52,160 --> 00:07:55,599
+it's automatic. It will name the device.
+
+215
+00:07:55,599 --> 00:07:58,160
+It will send the credentials off to it.
+
+216
+00:07:58,160 --> 00:08:00,080
+So it will be registered to your
+
+217
+00:08:00,080 --> 00:08:02,639
+account. It gives you a little countdown
+
+218
+00:08:02,639 --> 00:08:05,039
+which is charging through at the moment.
+
+219
+00:08:05,039 --> 00:08:08,240
+Nearly 50% of the way there and we are
+
+220
+00:08:08,240 --> 00:08:10,800
+almost good to go. Once it's updated to
+
+221
+00:08:10,800 --> 00:08:12,800
+the new firmware, it's absolutely
+
+222
+00:08:12,800 --> 00:08:14,720
+seamless. You don't have to ever open
+
+223
+00:08:14,720 --> 00:08:16,720
+the captive portal again. Any changes
+
+224
+00:08:16,720 --> 00:08:18,960
+you need to make to the pill can be done
+
+225
+00:08:18,960 --> 00:08:22,560
+directly through the app. Full stop. So,
+
+226
+00:08:22,560 --> 00:08:24,960
+we are done. Just waiting for that to
+
+227
+00:08:24,960 --> 00:08:26,960
+finish setup.
+
+228
+00:08:26,960 --> 00:08:29,599
+And hit finish setup. It will take you
+
+229
+00:08:29,599 --> 00:08:31,759
+to the device. Now, what you're going to
+
+230
+00:08:31,759 --> 00:08:34,240
+see, we've also released a pretty major
+
+231
+00:08:34,240 --> 00:08:36,320
+update to the RAPT Brew app, which
+
+232
+00:08:36,320 --> 00:08:39,200
+introduces a whole bunch of cool stuff
+
+233
+00:08:39,200 --> 00:08:41,200
+for the pill. And we'll go through
+
+234
+00:08:41,200 --> 00:08:43,919
+those quickly, one by one. All right, so
+
+235
+00:08:43,919 --> 00:08:46,880
+we've got our pill. We've registered it
+
+236
+00:08:46,880 --> 00:08:49,040
+to the new RAPT Brew app, and we're
+
+237
+00:08:49,040 --> 00:08:51,440
+looking at the devices screen for the
+
+238
+00:08:51,440 --> 00:08:53,920
+RAPT Pill, the red one. And we
+
+239
+00:08:53,920 --> 00:08:55,279
+can see a whole bunch of really cool
+
+240
+00:08:55,279 --> 00:08:57,279
+things. So the overview, it shows
+
+241
+00:08:57,279 --> 00:08:58,480
+the current temperature. It shows the
+
+242
+00:08:58,480 --> 00:08:59,760
+current gravity, which is not super
+
+243
+00:08:59,760 --> 00:09:00,959
+accurate because this thing's currently
+
+244
+00:09:00,959 --> 00:09:02,880
+standing upright on a charge. So, what
+
+245
+00:09:02,880 --> 00:09:04,640
+we're going to do is calibrate it. This
+
+246
+00:09:04,640 --> 00:09:06,800
+is still in broadcast mode because we've
+
+247
+00:09:06,800 --> 00:09:09,200
+only just registered it. If your pill's
+
+248
+00:09:09,200 --> 00:09:12,000
+not in broadcast mode, it doesn't matter
+
+249
+00:09:12,000 --> 00:09:15,600
+because these pills will all default to
+
+250
+00:09:15,600 --> 00:09:17,839
+smart mode when they are registered. So,
+
+251
+00:09:17,839 --> 00:09:19,920
+you can connect to it any time. If
+
+252
+00:09:19,920 --> 00:09:22,240
+you're not in smart mode and you want to
+
+253
+00:09:22,240 --> 00:09:25,040
+connect to it, it's easy. We just do the
+
+254
+00:09:25,040 --> 00:09:27,200
+down under double tap. Hold it upright
+
+255
+00:09:27,200 --> 00:09:29,360
+upside down. The pill will start
+
+256
+00:09:29,360 --> 00:09:33,200
+pulsing. Double tap and it will start
+
+257
+00:09:33,200 --> 00:09:35,200
+broadcasting. You can connect to it. Now
+
+258
+00:09:35,200 --> 00:09:36,880
+we haven't registered this guy. We can't
+
+259
+00:09:36,880 --> 00:09:38,800
+connect to it. So this one we want to
+
+260
+00:09:38,800 --> 00:09:41,360
+calibrate it. We'll chuck it in some
+
+261
+00:09:41,360 --> 00:09:44,000
+water. Now calibration's on the far
+
+262
+00:09:44,000 --> 00:09:46,399
+left. And you can see if you just open
+
+263
+00:09:46,399 --> 00:09:48,240
+calibration, it's grayed out. And the
+
+264
+00:09:48,240 --> 00:09:49,519
+reason for that is you need to connect
+
+265
+00:09:49,519 --> 00:09:51,279
+to the pill first. So you go to your
+
+266
+00:09:51,279 --> 00:09:53,360
+overview, hit connect to pill. It will
+
+267
+00:09:53,360 --> 00:09:55,440
+attempt to connect. Basically, what the
+
+268
+00:09:55,440 --> 00:09:58,560
+new pill firmware does is it does a tiny
+
+269
+00:09:58,560 --> 00:10:01,120
+little Bluetooth ping every 30 seconds,
+
+270
+00:10:01,120 --> 00:10:04,080
+which uses negligible power, but it
+
+271
+00:10:04,080 --> 00:10:07,040
+means your phone will always be able to
+
+272
+00:10:07,040 --> 00:10:08,640
+connect to it if you're close enough
+
+273
+00:10:08,640 --> 00:10:10,959
+when it's in smart mode. And if it's not
+
+274
+00:10:10,959 --> 00:10:13,200
+in smart mode, down under double tap.
+
+275
+00:10:13,200 --> 00:10:15,120
+So, we're now connected. So, we can go
+
+276
+00:10:15,120 --> 00:10:17,279
+to calibration and we can see we've got
+
+277
+00:10:17,279 --> 00:10:19,279
+water calibration or set known gravity.
+
+278
+00:10:19,279 --> 00:10:21,120
+This is water. Most of the time you're
+
+279
+00:10:21,120 --> 00:10:22,399
+going to be putting it in a jug of
+
+280
+00:10:22,399 --> 00:10:24,079
+sanitizer. So you can just take it from
+
+281
+00:10:24,079 --> 00:10:25,440
+there and chuck it directly into your
+
+282
+00:10:25,440 --> 00:10:26,959
+fermenter. So we're going to hit water
+
+283
+00:10:26,959 --> 00:10:29,360
+calibration. We're going to hit confirm.
+
+284
+00:10:29,360 --> 00:10:31,680
+That's all you need to do. The pill will
+
+285
+00:10:31,680 --> 00:10:34,560
+automatically connect and register. You can
+
+286
+00:10:34,560 --> 00:10:37,040
+see it's going. It's calibrating. It
+
+287
+00:10:37,040 --> 00:10:39,760
+gives you a timer to count it down. And
+
+288
+00:10:39,760 --> 00:10:42,959
+we're nearly there. And
+
+289
+00:10:42,959 --> 00:10:45,600
+calibration successful. The gravity is
+
+290
+00:10:45,600 --> 00:10:47,680
+obviously 1.000.
+
+291
+00:10:47,680 --> 00:10:50,480
+It's in water. Now, what you can do now,
+
+292
+00:10:50,480 --> 00:10:52,800
+I don't have a fermenter to hand, but if
+
+293
+00:10:52,800 --> 00:10:54,320
+you've got a fermenter filled with wort
+
+294
+00:10:54,320 --> 00:10:56,320
+and you know the gravity of the wort, you
+
+295
+00:10:56,320 --> 00:10:58,480
+take the pill out of the sanitizer, you
+
+296
+00:10:58,480 --> 00:11:00,240
+go back to calibrate and you hit set
+
+297
+00:11:00,240 --> 00:11:02,399
+known gravity. You enter the gravity of
+
+298
+00:11:02,399 --> 00:11:04,959
+your wort and hit calibrate. Exactly the
+
+299
+00:11:04,959 --> 00:11:07,040
+same process. It's similar but different
+
+300
+00:11:07,040 --> 00:11:09,279
+to how it used to work. The reason it's
+
+301
+00:11:09,279 --> 00:11:11,360
+similar is because you've got a twopoint
+
+302
+00:11:11,360 --> 00:11:12,880
+calibration.
+
+303
+00:11:12,880 --> 00:11:14,320
+The reason it's different is because
+
+304
+00:11:14,320 --> 00:11:17,839
+it's so easy to do. And that second
+
+305
+00:11:17,839 --> 00:11:19,519
+point of calibration where you enter the
+
+306
+00:11:19,519 --> 00:11:22,240
+known gravity, you can change that
+
+307
+00:11:22,240 --> 00:11:24,560
+whenever you want. So every time you
+
+308
+00:11:24,560 --> 00:11:26,959
+chuck it in wort, you can do an enter
+
+309
+00:11:26,959 --> 00:11:30,240
+known gravity calibration. It will keep
+
+310
+00:11:30,240 --> 00:11:32,800
+the previously saved water calibration
+
+311
+00:11:32,800 --> 00:11:34,000
+at 1.000
+
+312
+00:11:34,000 --> 00:11:36,959
+and use the new wort gravity,
+
+313
+00:11:36,959 --> 00:11:39,200
+which means it's incredibly quick and
+
+314
+00:11:39,200 --> 00:11:41,200
+easy to have fantastically accurate
+
+315
+00:11:41,200 --> 00:11:44,000
+calibration every single time. All
+
+316
+00:11:44,000 --> 00:11:46,079
+right, so I've got my pill. I've chucked
+
+317
+00:11:46,079 --> 00:11:47,680
+it in my fermenter. The jug is
+
+318
+00:11:47,680 --> 00:11:50,000
+standing in for a fermenter. And then I
+
+319
+00:11:50,000 --> 00:11:52,079
+realize I've put my fermenter in my
+
+320
+00:11:52,079 --> 00:11:54,079
+RAPT chamber and I want to connect the
+
+321
+00:11:54,079 --> 00:11:56,640
+pill by Bluetooth to my RAPT chamber for
+
+322
+00:11:56,640 --> 00:11:58,480
+better control of temperature. I forgot
+
+323
+00:11:58,480 --> 00:11:59,839
+to put it in Bluetooth mode before I
+
+324
+00:11:59,839 --> 00:12:01,120
+chucked it in. Probably because I was so
+
+325
+00:12:01,120 --> 00:12:02,880
+excited about this firmware update. Not
+
+326
+00:12:02,880 --> 00:12:05,600
+a problem. We just go to setup and we
+
+327
+00:12:05,600 --> 00:12:07,760
+can see in setup you've got a few
+
+328
+00:12:07,760 --> 00:12:09,680
+toggles. You can toggle smart mode on or
+
+329
+00:12:09,680 --> 00:12:12,399
+off. Strongly recommend leaving smart
+
+330
+00:12:12,399 --> 00:12:14,560
+mode on. It will have a very small
+
+331
+00:12:14,560 --> 00:12:17,680
+effect on battery, but it increases the
+
+332
+00:12:17,680 --> 00:12:20,720
+usability and ease of use of the pill
+
+333
+00:12:20,720 --> 00:12:22,800
+massively. Just leave it on. You can
+
+334
+00:12:22,800 --> 00:12:25,360
+also change your telemetry from Wi-Fi to
+
+335
+00:12:25,360 --> 00:12:26,880
+Bluetooth. And you can set your
+
+336
+00:12:26,880 --> 00:12:29,279
+telemetry frequency directly from the
+
+337
+00:12:29,279 --> 00:12:31,519
+app and talk directly to the pill. What
+
+338
+00:12:31,519 --> 00:12:34,399
+we want to do though is go to overview.
+
+339
+00:12:34,399 --> 00:12:36,880
+You can see it says refresh reading.
+
+340
+00:12:36,880 --> 00:12:39,600
+What that means is the app is currently
+
+341
+00:12:39,600 --> 00:12:41,680
+connected directly to the pill. If in
+
+342
+00:12:41,680 --> 00:12:44,320
+fact it says connect to pill, it means
+
+343
+00:12:44,320 --> 00:12:45,920
+you're not connected and just hit that
+
+344
+00:12:45,920 --> 00:12:47,839
+first. It doesn't actually matter
+
+345
+00:12:47,839 --> 00:12:50,000
+whether you do that before or after. If
+
+346
+00:12:50,000 --> 00:12:51,360
+you're not connected and you make a
+
+347
+00:12:51,360 --> 00:12:53,279
+change in setup, it will just queue the
+
+348
+00:12:53,279 --> 00:12:54,560
+change. But we want it to happen
+
+349
+00:12:54,560 --> 00:12:56,720
+straight away. So, we're connected. So,
+
+350
+00:12:56,720 --> 00:12:58,240
+we're just going to change Wi-Fi to
+
+351
+00:12:58,240 --> 00:13:00,560
+Bluetooth. That defaults to 5 minutes.
+
+352
+00:13:00,560 --> 00:13:02,240
+Look, I've actually done a lot of
+
+353
+00:13:02,240 --> 00:13:04,399
+testing on this, and 5 minutes is the
+
+354
+00:13:04,399 --> 00:13:06,000
+perfect telemetry frequency for
+
+355
+00:13:06,000 --> 00:13:08,720
+Bluetooth. It's well and truly fast
+
+356
+00:13:08,720 --> 00:13:10,959
+enough, but it also gives you great
+
+357
+00:13:10,959 --> 00:13:12,399
+battery life. So, I'm just going to
+
+358
+00:13:12,399 --> 00:13:14,399
+leave it there. So, I just set apply and
+
+359
+00:13:14,399 --> 00:13:15,760
+it's going to send it to the pill.
+
+360
+00:13:15,760 --> 00:13:17,200
+Settings applied to the pill by
+
+361
+00:13:17,200 --> 00:13:19,920
+Bluetooth. That is already done. All
+
+362
+00:13:19,920 --> 00:13:22,560
+right. So, that is pretty much it. This
+
+363
+00:13:22,560 --> 00:13:25,200
+is the old pill. Same as the new
+
+364
+00:13:25,200 --> 00:13:26,959
+pill, it's the new pill. This firmware
+
+365
+00:13:26,959 --> 00:13:29,040
+update is going to roll out. Now, look,
+
+366
+00:13:29,040 --> 00:13:31,040
+something I haven't mentioned yet. If
+
+367
+00:13:31,040 --> 00:13:33,440
+you already have a RAPT account and
+
+368
+00:13:33,440 --> 00:13:35,760
+you already have a pill, you need to
+
+369
+00:13:35,760 --> 00:13:37,680
+update it. You don't need to, I guess,
+
+370
+00:13:37,680 --> 00:13:39,440
+but you really want to update it. So,
+
+371
+00:13:39,440 --> 00:13:42,800
+what you need to do is get your phone,
+
+372
+00:13:42,800 --> 00:13:45,200
+go to your App Store or your Google Play
+
+373
+00:13:45,200 --> 00:13:47,519
+Store, and download the RAPT Brew app.
+
+374
+00:13:47,519 --> 00:13:50,240
+Register a RAPT Brew app account. It
+
+375
+00:13:50,240 --> 00:13:51,760
+will, if you've already got an existing
+
+376
+00:13:51,760 --> 00:13:53,760
+RAPT portal account, it will prompt you
+
+377
+00:13:53,760 --> 00:13:56,480
+to migrate your devices. So, any devices
+
+378
+00:13:56,480 --> 00:13:58,079
+you've got registered to the old portal
+
+379
+00:13:58,079 --> 00:13:59,760
+come across automatically. You don't
+
+380
+00:13:59,760 --> 00:14:01,519
+lose a thing. It's a really quick and
+
+381
+00:14:01,519 --> 00:14:04,959
+easy process. As soon as your pill has
+
+382
+00:14:04,959 --> 00:14:07,199
+been migrated or any of your devices are
+
+383
+00:14:07,199 --> 00:14:09,040
+migrated to the new app, the rest is
+
+384
+00:14:09,040 --> 00:14:11,680
+easy. If you want to know how to get the
+
+385
+00:14:11,680 --> 00:14:14,399
+firmware update on a pill that you
+
+386
+00:14:14,399 --> 00:14:16,959
+already own, all you have to do is make
+
+387
+00:14:16,959 --> 00:14:18,720
+sure you've got a RAPT Brew account and
+
+388
+00:14:18,720 --> 00:14:20,720
+then you need to put it on charge. Your
+
+389
+00:14:20,720 --> 00:14:23,120
+pill will already be connected to Wi-Fi.
+
+390
+00:14:23,120 --> 00:14:24,959
+As soon as you plug it into charge, it's
+
+391
+00:14:24,959 --> 00:14:26,880
+going to download the new firmware
+
+392
+00:14:26,880 --> 00:14:28,880
+automatically. You don't have to do
+
+393
+00:14:28,880 --> 00:14:30,880
+anything. The RAPT app itself will
+
+394
+00:14:30,880 --> 00:14:32,480
+update to show you all the new pill
+
+395
+00:14:32,480 --> 00:14:34,240
+features. It's incredibly
+
+396
+00:14:34,240 --> 00:14:36,959
+straightforward. It's designed to be as
+
+397
+00:14:36,959 --> 00:14:39,680
+seamless as possible. What we believe is
+
+398
+00:14:39,680 --> 00:14:42,079
+this is a very significant update. The
+
+399
+00:14:42,079 --> 00:14:45,279
+ability to update the firmware to use
+
+400
+00:14:45,279 --> 00:14:47,199
+the new backend which talks directly to
+
+401
+00:14:47,199 --> 00:14:49,519
+the RAPT Brew app gives us an incredible
+
+402
+00:14:49,519 --> 00:14:52,399
+amount of flexibility and power to
+
+403
+00:14:52,399 --> 00:14:54,560
+introduce features that you guys want.
+
+404
+00:14:54,560 --> 00:14:56,079
+Things like being able to calibrate when
+
+405
+00:14:56,079 --> 00:14:58,160
+the pill's in the fermenter is probably
+
+406
+00:14:58,160 --> 00:15:00,160
+the most requested feature we've ever
+
+407
+00:15:00,160 --> 00:15:02,720
+had for pills. We can now do it. This
+
+408
+00:15:02,720 --> 00:15:04,480
+means that as we update the firmware for
+
+409
+00:15:04,480 --> 00:15:06,480
+your BrewZillas, for your fermentation
+
+410
+00:15:06,480 --> 00:15:08,480
+chambers, and for your temp controllers,
+
+411
+00:15:08,480 --> 00:15:11,360
+we will be introducing really cool new
+
+412
+00:15:11,360 --> 00:15:13,279
+features. A lot of them are already in
+
+413
+00:15:13,279 --> 00:15:16,480
+the works. So, now is the time to go to
+
+414
+00:15:16,480 --> 00:15:18,880
+the App Store or the Play Store and get
+
+415
+00:15:18,880 --> 00:15:21,519
+on the RAPT Brew app. If you do it in
+
+416
+00:15:21,519 --> 00:15:23,680
+advance and migrate your devices as and
+
+417
+00:15:23,680 --> 00:15:26,079
+when firmwares are updated, the rest is
+
+418
+00:15:26,079 --> 00:15:28,639
+going to be completely seamless. So, if
+
+419
+00:15:28,639 --> 00:15:30,320
+you already have a pill and you don't
+
+420
+00:15:30,320 --> 00:15:33,360
+have the RAPT Brew app,
