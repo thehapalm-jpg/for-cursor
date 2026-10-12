@@ -3,11 +3,11 @@ EN: Hey guys and gals, we're here today to
 RU: Всем привет! Сегодня мы
 
 2  00:00:02,080 --> 00:00:03,679
-EN: talk about the Kegland [music] Rap Pill.
+EN: talk about the KegLand RAPT Pill.
 RU: поговорим про RAPT Pill от KegLand.
 
 3  00:00:03,679 --> 00:00:05,680
-EN: This has been out for ages. Uh it's
+EN: This has been out for ages. It's
 RU: Он продаётся уже давно и
 
 4  00:00:05,680 --> 00:00:07,440
@@ -15,7 +15,7 @@ EN: incredibly popular. It's a brilliant
 RU: пользуется огромной популярностью. Это отличный
 
 5  00:00:07,440 --> 00:00:10,000
-EN: little uh Wi-Fi Bluetooth capable
+EN: little Wi-Fi Bluetooth capable
 RU: компактный цифровой ареометр-термометр
 
 6  00:00:10,000 --> 00:00:12,480
@@ -27,11 +27,11 @@ EN: to get the biggest update of its life.
 RU: он получит самое крупное обновление за всю свою историю.
 
 8  00:00:15,679 --> 00:00:17,039
-EN: We haven't changed the pillar at all.
+EN: We haven't changed the pill at all.
 RU: Сам ареометр мы не меняли.
 
 9  00:00:17,039 --> 00:00:18,560
-EN: It's still the the same cool form
+EN: It's still the same cool form
 RU: У него всё тот же удобный
 
 10  00:00:18,560 --> 00:00:20,400
@@ -79,7 +79,7 @@ EN: pill easily, even if they chuck it in a
 RU: ареометр, даже если закинули его
 
 21  00:00:41,840 --> 00:00:44,079
-EN: fermenttor and forget to calibrate it.
+EN: fermenter and forget to calibrate it.
 RU: в ферментер и забыли откалибровать.
 
 22  00:00:44,079 --> 00:00:46,160
@@ -111,7 +111,7 @@ EN: clean it, sanitize it, chuck it back in
 RU: помыть, продезинфицировать и закинуть обратно
 
 29  00:00:59,280 --> 00:01:01,520
-EN: in the fermenttor. Massive pain,
+EN: in the fermenter. Massive pain,
 RU: в ферментер. Сплошная морока
 
 30  00:01:01,520 --> 00:01:04,400
@@ -139,7 +139,7 @@ EN: the pill from your phone using Bluetooth
 RU: к ареометру напрямую с телефона по Bluetooth
 
 36  00:01:17,360 --> 00:01:19,200
-EN: using the new Rapt Brew app. We're
+EN: using the new RAPT Brew app. We're
 RU: через новое приложение RAPT Brew. Мы
 
 37  00:01:19,200 --> 00:01:21,040
@@ -155,7 +155,7 @@ EN: in smart mode by default. Smart mode
 RU: по умолчанию работать в смарт-режиме. Смарт-режим
 
 40  00:01:25,280 --> 00:01:27,600
-EN: means if your pills in smart mode, you
+EN: means if your pill's in smart mode, you
 RU: означает, что если ареометр в этом режиме,
 
 41  00:01:27,600 --> 00:01:30,320
@@ -183,7 +183,7 @@ EN: feel it. The big difference is you will
 RU: не заметите. Главное отличие: теперь
 
 47  00:01:40,880 --> 00:01:44,079
-EN: need to use the new wrap brew app to
+EN: need to use the new RAPT Brew app to
 RU: для подключения к ареометру нужно
 
 48  00:01:44,079 --> 00:01:46,079
@@ -195,11 +195,11 @@ EN: firmware means this will not talk to the
 RU: прошивкой ареометр больше не будет работать
 
 50  00:01:49,119 --> 00:01:50,880
-EN: old rap portal anymore. You've just got
+EN: old RAPT portal anymore. You've just got
 RU: со старым RAPT порталом. Нужно просто
 
 51  00:01:50,880 --> 00:01:52,960
-EN: to update to the rap brew app. The Rap
+EN: to update to the RAPT Brew app. The RAPT
 RU: перейти на приложение RAPT Brew.
 
 52  00:01:52,960 --> 00:01:55,520
@@ -287,7 +287,7 @@ EN: need to plug it in. You just open the
 RU: на зарядку ставить не надо. Просто откройте
 
 73  00:02:41,440 --> 00:02:43,920
-EN: Rap Brew app on your phone, click add
+EN: RAPT Brew app on your phone, click add
 RU: приложение RAPT Brew на телефоне, нажмите
 
 74  00:02:43,920 --> 00:02:46,720
@@ -307,11 +307,11 @@ EN: easily. It's a huge upgrade. I can also
 RU: просто. Это огромный шаг вперёд. А ещё я могу
 
 78  00:02:54,239 --> 00:02:56,959
-EN: just chuck this in in a bucket for now.
+EN: just chuck this in a bucket for now.
 RU: для примера закинуть его в ведро.
 
 79  00:02:56,959 --> 00:03:00,680
-EN: Pretend this is a fermenttor.
+EN: Pretend this is a fermenter.
 RU: Представим, что это ферментер.
 
 80  00:03:01,760 --> 00:03:03,280
@@ -323,7 +323,7 @@ EN: myself, I forgot to calibrate it.
 RU: вспомнил, что забыл откалибровать.
 
 82  00:03:05,599 --> 00:03:08,640
-EN: Absolutely no drama. pull out my phone,
+EN: Absolutely no drama. Pull out my phone,
 RU: Вообще не проблема. Достаю телефон,
 
 83  00:03:08,640 --> 00:03:11,200
@@ -411,7 +411,7 @@ EN: older firmware that's not yet compatible
 RU: старая прошивка, ещё не совместимая
 
 104  00:03:51,840 --> 00:03:54,000
-EN: with the new ratback. It's easy to fix.
+EN: with the new RAPT back end. It's easy to fix.
 RU: с новой серверной частью RAPT. Это легко исправить.
 
 105  00:03:54,000 --> 00:03:56,000
@@ -419,7 +419,7 @@ EN: It's easy to do. When you buy a pill,
 RU: Это несложно. Купив ареометр,
 
 106  00:03:56,000 --> 00:03:58,080
-EN: you may or may not get one with with the
+EN: you may or may not get one with the
 RU: вы можете получить экземпляр как с
 
 107  00:03:58,080 --> 00:04:00,879
@@ -447,7 +447,7 @@ EN: it's running the new firmware, it will
 RU: на нём новая прошивка, он
 
 113  00:04:13,200 --> 00:04:15,760
-EN: pulse green for a couple of seconds. Um
+EN: pulse green for a couple of seconds.
 RU: пару секунд будет плавно мигать зелёным.
 
 114  00:04:15,760 --> 00:04:17,919
@@ -471,7 +471,7 @@ EN: hit add device, and hit pill hydrometer.
 RU: нажмите «Добавить устройство» и выберите ареометр Pill.
 
 119  00:04:28,880 --> 00:04:30,240
-EN: It will talk you through it. It'll be
+EN: It will talk you through it. It'll
 RU: Приложение всё подскажет. Ареометр
 
 120  00:04:30,240 --> 00:04:32,560
@@ -499,7 +499,7 @@ EN: pills that are already on the shelf. So,
 RU: ареометры, которые уже на полках. Итак,
 
 126  00:04:40,800 --> 00:04:42,479
-EN: if you've got a new pill, um, this is
+EN: if you've got a new pill, this is
 RU: если у вас новый ареометр — это
 
 127  00:04:42,479 --> 00:04:44,400
@@ -539,7 +539,7 @@ EN: charging base. If it's not wireless, you
 RU: зарядную станцию. Если нет —
 
 136  00:04:59,600 --> 00:05:02,240
-EN: just plug it into USBC. You'll see very
+EN: just plug it into USB-C. You'll see very
 RU: подключите кабель USB-C. Очень скоро
 
 137  00:05:02,240 --> 00:05:04,080
@@ -567,11 +567,11 @@ EN: Your pill will pop up in your Wi-Fi
 RU: Ваш ареометр появится в списке
 
 143  00:05:17,840 --> 00:05:21,120
-EN: network. So it'll say wrapped pill xxx.
+EN: network. So it'll say RAPT Pill xxx.
 RU: сетей Wi-Fi под именем RAPT Pill и четыре символа,
 
 144  00:05:21,120 --> 00:05:22,479
-EN: So rap pill whatever the last four
+EN: So RAPT Pill whatever the last four
 RU: то есть RAPT Pill и последние четыре
 
 145  00:05:22,479 --> 00:05:24,560
@@ -611,7 +611,7 @@ EN: enter the password. I have my password
 RU: ввести пароль. У меня пароль
 
 154  00:05:44,880 --> 00:05:47,680
-EN: saved, then hit join. Uh just wait a
+EN: saved, then hit join. Just wait a
 RU: сохранён, жму «Подключиться». Подождите
 
 155  00:05:47,680 --> 00:05:50,479
@@ -619,7 +619,7 @@ EN: couple of seconds. The pill will connect
 RU: пару секунд. Ареометр подключится
 
 156  00:05:50,479 --> 00:05:53,199
-EN: to your Wi-Fi network. Uh it'll pop up a
+EN: to your Wi-Fi network. It'll pop up a
 RU: к вашей сети Wi-Fi. Появится
 
 157  00:05:53,199 --> 00:05:55,840
@@ -663,11 +663,11 @@ EN: update. You don't have to do anything
 RU: Больше ничего делать
 
 167  00:06:11,199 --> 00:06:14,000
-EN: more. You can close the um captive
+EN: more. You can close the captive
 RU: не нужно. Можно закрыть страницу
 
 168  00:06:14,000 --> 00:06:16,960
-EN: portal. Um go have a cup of tea or have
+EN: portal. Go have a cup of tea or have
 RU: настроек. Сходите выпейте чаю или
 
 169  00:06:16,960 --> 00:06:18,800
@@ -703,7 +703,7 @@ EN: right, so now we just need to register
 RU: Итак, теперь осталось только зарегистрировать
 
 177  00:06:33,919 --> 00:06:36,319
-EN: it. So here's my pill. Um, still on a
+EN: it. So here's my pill. Still on a
 RU: его. Вот мой ареометр, он всё ещё на
 
 178  00:06:36,319 --> 00:06:37,840
@@ -723,7 +723,7 @@ EN: quite easily.
 RU: проверить.
 
 182  00:06:43,120 --> 00:06:45,680
-EN: Um, we can't go into down under mode
+EN: We can't go into down under mode
 RU: Перевернуть его сейчас не получится,
 
 183  00:06:45,680 --> 00:06:47,199
@@ -747,11 +747,11 @@ EN: the app. We click on the sidebar. We
 RU: приложение. Открываем боковое меню.
 
 188  00:06:55,280 --> 00:06:58,240
-EN: click add device. Pill hydrometers at
+EN: click add device. Pill hydrometer's at
 RU: Жмём «Добавить устройство». Ареометр Pill —
 
 189  00:06:58,240 --> 00:07:00,720
-EN: the top. Uh, scanned. It's already found
+EN: the top. Scanned. It's already found
 RU: в самом верху. Поиск — и он уже нашёл
 
 190  00:07:00,720 --> 00:07:02,160
@@ -847,7 +847,7 @@ EN: red pill. So we're going to call that
 RU: красный ареометр, так что назовём его
 
 213  00:07:48,479 --> 00:07:52,160
-EN: wrapped pill red and hit register. Again
+EN: RAPT Pill Red and hit register. Again
 RU: «RAPT Pill Red» и жмём «Зарегистрировать». Опять же,
 
 214  00:07:52,160 --> 00:07:55,599
@@ -907,7 +907,7 @@ EN: finish setup.
 RU: завершится настройка.
 
 228  00:08:26,960 --> 00:08:29,599
-EN: And hit finish setup. it will take you
+EN: And hit finish setup. It will take you
 RU: Жмём «Завершить настройку», и приложение
 
 229  00:08:29,599 --> 00:08:31,759
@@ -919,7 +919,7 @@ EN: see, we've also released a pretty major
 RU: увидите, мы также выпустили крупное
 
 231  00:08:34,240 --> 00:08:36,320
-EN: update to the Wrapped Brew app, which
+EN: update to the RAPT Brew app, which
 RU: обновление приложения RAPT Brew, в котором
 
 232  00:08:36,320 --> 00:08:39,200
@@ -927,7 +927,7 @@ EN: introduces a whole bunch of cool stuff
 RU: появилось много классных функций
 
 233  00:08:39,200 --> 00:08:41,200
-EN: for the pill. Um, and we'll go through
+EN: for the pill. And we'll go through
 RU: для ареометра. Мы быстро пройдёмся
 
 234  00:08:41,200 --> 00:08:43,919
@@ -939,7 +939,7 @@ EN: we've got our pill. We've registered it
 RU: вот наш ареометр. Мы зарегистрировали его
 
 236  00:08:46,880 --> 00:08:49,040
-EN: to the new Wrapped Brew app, and we're
+EN: to the new RAPT Brew app, and we're
 RU: в новом приложении RAPT Brew и
 
 237  00:08:49,040 --> 00:08:51,440
@@ -947,7 +947,7 @@ EN: looking at the devices screen for the
 RU: смотрим на экран устройства
 
 238  00:08:51,440 --> 00:08:53,920
-EN: Wrapped Pill, the red one. Um, and we
+EN: RAPT Pill, the red one. And we
 RU: RAPT Pill, того самого красного. И мы
 
 239  00:08:53,920 --> 00:08:55,279
@@ -955,7 +955,7 @@ EN: can see a whole bunch of really cool
 RU: видим много действительно классных
 
 240  00:08:55,279 --> 00:08:57,279
-EN: things. Uh, so the overview, it shows
+EN: things. So the overview, it shows
 RU: вещей. Во вкладке «Обзор» показана
 
 241  00:08:57,279 --> 00:08:58,480
@@ -967,7 +967,7 @@ EN: current gravity, which is not super
 RU: текущая плотность, правда, не очень
 
 243  00:08:59,760 --> 00:09:00,959
-EN: accurate cuz this thing's currently
+EN: accurate because this thing's currently
 RU: точная, ведь ареометр сейчас
 
 244  00:09:00,959 --> 00:09:02,880
@@ -979,7 +979,7 @@ EN: we're going to do is calibrate it. This
 RU: мы его откалибруем. Он
 
 246  00:09:04,640 --> 00:09:06,800
-EN: is still in broadcast mode cuz we've
+EN: is still in broadcast mode because we've
 RU: всё ещё в режиме трансляции, потому что мы
 
 247  00:09:06,800 --> 00:09:09,200
@@ -1059,7 +1059,7 @@ EN: to the pill first. So you go to your
 RU: подключиться к ареометру. Заходим в
 
 266  00:09:51,279 --> 00:09:53,360
-EN: overview, hit connect to pill. it will
+EN: overview, hit connect to pill. It will
 RU: «Обзор», жмём «Подключиться к ареометру». Он
 
 267  00:09:53,360 --> 00:09:55,440
@@ -1123,7 +1123,7 @@ EN: there and chuck it directly into your
 RU: и закинуть прямо в
 
 282  00:10:25,440 --> 00:10:26,959
-EN: fermenttor. So we're going to hit water
+EN: fermenter. So we're going to hit water
 RU: ферментер. Выбираем калибровку
 
 283  00:10:26,959 --> 00:10:29,360
@@ -1135,7 +1135,7 @@ EN: That's all you need to do. The pill will
 RU: Больше ничего не нужно. Ареометр
 
 285  00:10:31,680 --> 00:10:34,560
-EN: automatically connect register. You can
+EN: automatically connect and register. You can
 RU: автоматически подключится и всё зафиксирует. Видно,
 
 286  00:10:34,560 --> 00:10:37,040
@@ -1147,7 +1147,7 @@ EN: gives you a timer to count it down. And
 RU: Показывается таймер обратного отсчёта. И
 
 288  00:10:39,760 --> 00:10:42,959
-EN: we're nearly there. And [screaming]
+EN: we're nearly there. And
 RU: мы почти у цели. И вот —
 
 289  00:10:42,959 --> 00:10:45,600
@@ -1155,7 +1155,7 @@ EN: calibration successful. The gravity is
 RU: калибровка успешна. Плотность,
 
 290  00:10:45,600 --> 00:10:47,680
-EN: obviously 1.0000.
+EN: obviously 1.000.
 RU: разумеется, 1,000.
 
 291  00:10:47,680 --> 00:10:50,480
@@ -1163,15 +1163,15 @@ EN: It's in water. Now, what you can do now,
 RU: Он же в воде. Дальше можно сделать так.
 
 292  00:10:50,480 --> 00:10:52,800
-EN: I don't have a fermented to hand, but if
+EN: I don't have a fermenter to hand, but if
 RU: Ферментера под рукой у меня нет, но если
 
 293  00:10:52,800 --> 00:10:54,320
-EN: you've got a fermenttor filled with W
+EN: you've got a fermenter filled with wort
 RU: у вас есть ферментер с суслом
 
 294  00:10:54,320 --> 00:10:56,320
-EN: and you know the gravity of the W, you
+EN: and you know the gravity of the wort, you
 RU: и вы знаете плотность сусла,
 
 295  00:10:56,320 --> 00:10:58,480
@@ -1187,7 +1187,7 @@ EN: known gravity. You enter the gravity of
 RU: «Задать известную плотность». Введите плотность
 
 298  00:11:02,399 --> 00:11:04,959
-EN: your word and hit calibrate. Exactly the
+EN: your wort and hit calibrate. Exactly the
 RU: вашего сусла и нажмите «Калибровать». Точно такой же
 
 299  00:11:04,959 --> 00:11:07,040
@@ -1227,7 +1227,7 @@ EN: whenever you want. So every time you
 RU: когда угодно. Каждый раз, когда вы
 
 308  00:11:24,560 --> 00:11:26,959
-EN: chuck it in word, you can do an enter
+EN: chuck it in wort, you can do an enter
 RU: закидываете его в сусло, можно сделать калибровку
 
 309  00:11:26,959 --> 00:11:30,240
@@ -1239,11 +1239,11 @@ EN: the previously saved water calibration
 RU: ранее записанная калибровка по воде —
 
 311  00:11:32,800 --> 00:11:34,000
-EN: at 1.0 n 0 n 0 n 0 n 0 n 0 n 0 n 0 n 0 n
+EN: at 1.000
 RU: 1,000 —
 
 312  00:11:34,000 --> 00:11:36,959
-EN: 0 n 0 and use the new word gravity,
+EN: and use the new wort gravity,
 RU: и будет использована новая плотность сусла,
 
 313  00:11:36,959 --> 00:11:39,200
@@ -1263,23 +1263,23 @@ EN: right, so I've got my pill. I've chucked
 RU: вот мой ареометр. Я закинул
 
 317  00:11:46,079 --> 00:11:47,680
-EN: it in my fermenttor. The jugger is
+EN: it in my fermenter. The jug is
 RU: его в ферментер. Кувшин
 
 318  00:11:47,680 --> 00:11:50,000
-EN: standing in for a fermenttor. And then I
+EN: standing in for a fermenter. And then I
 RU: у нас вместо ферментера. И тут я
 
 319  00:11:50,000 --> 00:11:52,079
-EN: realize I've put my fermenttor in my
+EN: realize I've put my fermenter in my
 RU: понимаю, что поставил ферментер в
 
 320  00:11:52,079 --> 00:11:54,079
-EN: wraps chamber and I want to connect the
+EN: RAPT chamber and I want to connect the
 RU: ферментационную камеру RAPT и хочу подключить
 
 321  00:11:54,079 --> 00:11:56,640
-EN: pill by Bluetooth to my wrap chamber for
+EN: pill by Bluetooth to my RAPT chamber for
 RU: ареометр к камере по Bluetooth, чтобы
 
 322  00:11:56,640 --> 00:11:58,480
@@ -1291,7 +1291,7 @@ EN: to put it in Bluetooth mode before I
 RU: переключить его на Bluetooth, прежде чем
 
 324  00:11:59,839 --> 00:12:01,120
-EN: chucked it in. Probably cuz I was so
+EN: chucked it in. Probably because I was so
 RU: закинуть. Наверное, потому что так
 
 325  00:12:01,120 --> 00:12:02,880
@@ -1383,7 +1383,7 @@ EN: you're not connected and you make a
 RU: подключения нет, а вы что-то
 
 347  00:12:51,360 --> 00:12:53,279
-EN: change in setup, it will just cue the
+EN: change in setup, it will just queue the
 RU: меняете в настройке, изменение просто встанет
 
 348  00:12:53,279 --> 00:12:54,560
@@ -1447,7 +1447,7 @@ EN: right. So, that is pretty much it. This
 RU: Ну вот, в общем-то, и всё. Это
 
 363  00:13:22,560 --> 00:13:25,200
-EN: is um the old pill. Same as the new
+EN: is the old pill. Same as the new
 RU: старый ареометр. Такой же, как новый —
 
 364  00:13:25,200 --> 00:13:26,959
@@ -1463,7 +1463,7 @@ EN: something I haven't mentioned yet. If
 RU: что я пока не сказал. Если
 
 367  00:13:31,040 --> 00:13:33,440
-EN: you already have a wrapped account and
+EN: you already have a RAPT account and
 RU: у вас уже есть аккаунт RAPT и
 
 368  00:13:33,440 --> 00:13:35,760
@@ -1487,11 +1487,11 @@ EN: go to your App Store or your Google Play
 RU: заходите в App Store или Google Play
 
 373  00:13:45,200 --> 00:13:47,519
-EN: Store, and download the Raps Brew app.
+EN: Store, and download the RAPT Brew app.
 RU: и скачиваете приложение RAPT Brew.
 
 374  00:13:47,519 --> 00:13:50,240
-EN: Register a Raps Brew app account. It
+EN: Register a RAPT Brew app account. It
 RU: Регистрируете аккаунт RAPT Brew.
 
 375  00:13:50,240 --> 00:13:51,760
@@ -1499,7 +1499,7 @@ EN: will, if you've already got an existing
 RU: Если у вас уже есть аккаунт
 
 376  00:13:51,760 --> 00:13:53,760
-EN: Rap Portal account, it will prompt you
+EN: RAPT portal account, it will prompt you
 RU: на RAPT портале, приложение предложит
 
 377  00:13:53,760 --> 00:13:56,480
@@ -1511,7 +1511,7 @@ EN: you've got registered to the old portal
 RU: зарегистрированные на старом портале,
 
 379  00:13:58,079 --> 00:13:59,760
-EN: come across automatically. you don't
+EN: come across automatically. You don't
 RU: перенесутся автоматически. Вы ничего
 
 380  00:13:59,760 --> 00:14:01,519
@@ -1543,7 +1543,7 @@ EN: already own, all you have to do is make
 RU: уже есть, — достаточно убедиться,
 
 387  00:14:16,959 --> 00:14:18,720
-EN: sure you've got a Rap Brew account and
+EN: sure you've got a RAPT Brew account and
 RU: что у вас есть аккаунт RAPT Brew, и
 
 388  00:14:18,720 --> 00:14:20,720
@@ -1567,7 +1567,7 @@ EN: automatically. You don't have to do
 RU: автоматически. Вам ничего не нужно
 
 393  00:14:28,880 --> 00:14:30,880
-EN: anything. The wrapped app itself will
+EN: anything. The RAPT app itself will
 RU: делать. Само приложение RAPT
 
 394  00:14:30,880 --> 00:14:32,480
@@ -1599,7 +1599,7 @@ EN: the new backend which talks directly to
 RU: на новую серверную часть, работающую напрямую с
 
 401  00:14:47,199 --> 00:14:49,519
-EN: the Rap Brew app gives us an incredible
+EN: the RAPT Brew app gives us an incredible
 RU: приложением RAPT Brew, даёт нам огромную
 
 402  00:14:49,519 --> 00:14:52,399
@@ -1615,7 +1615,7 @@ EN: Things like being able to calibrate when
 RU: Например, калибровка, когда
 
 405  00:14:56,079 --> 00:14:58,160
-EN: the pills in the fermenttor is probably
+EN: the pill's in the fermenter is probably
 RU: ареометр уже в ферментере, — это, пожалуй,
 
 406  00:14:58,160 --> 00:15:00,160
@@ -1631,7 +1631,7 @@ EN: means that as we update the firmware for
 RU: по мере того как мы будем обновлять прошивки
 
 409  00:15:04,480 --> 00:15:06,480
-EN: your bruisers, for your fermentation
+EN: your BrewZillas, for your fermentation
 RU: ваших сусловарен BrewZilla, ферментационных
 
 410  00:15:06,480 --> 00:15:08,480
@@ -1655,7 +1655,7 @@ EN: the App Store or the Play Store and get
 RU: App Store или Google Play и
 
 415  00:15:18,880 --> 00:15:21,519
-EN: on the Wrapped Brew app. If you do it in
+EN: on the RAPT Brew app. If you do it in
 RU: установить приложение RAPT Brew. Если сделать это
 
 416  00:15:21,519 --> 00:15:23,680
@@ -1675,5 +1675,5 @@ EN: you already have a pill and you don't
 RU: у вас уже есть ареометр, но нет
 
 420  00:15:30,320 --> 00:15:33,360
-EN: have the rep brew app,
+EN: have the RAPT Brew app,
 RU: приложения RAPT Brew,

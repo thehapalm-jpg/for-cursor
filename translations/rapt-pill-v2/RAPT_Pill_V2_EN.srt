@@ -4,11 +4,11 @@ Hey guys and gals, we're here today to
 
 2
 00:00:02,080 --> 00:00:03,679
-talk about the Kegland [music] Rap Pill.
+talk about the KegLand RAPT Pill.
 
 3
 00:00:03,679 --> 00:00:05,680
-This has been out for ages. Uh it's
+This has been out for ages. It's
 
 4
 00:00:05,680 --> 00:00:07,440
@@ -16,7 +16,7 @@ incredibly popular. It's a brilliant
 
 5
 00:00:07,440 --> 00:00:10,000
-little uh Wi-Fi Bluetooth capable
+little Wi-Fi Bluetooth capable
 
 6
 00:00:10,000 --> 00:00:12,480
@@ -28,11 +28,11 @@ to get the biggest update of its life.
 
 8
 00:00:15,679 --> 00:00:17,039
-We haven't changed the pillar at all.
+We haven't changed the pill at all.
 
 9
 00:00:17,039 --> 00:00:18,560
-It's still the the same cool form
+It's still the same cool form
 
 10
 00:00:18,560 --> 00:00:20,400
@@ -80,7 +80,7 @@ pill easily, even if they chuck it in a
 
 21
 00:00:41,840 --> 00:00:44,079
-fermenttor and forget to calibrate it.
+fermenter and forget to calibrate it.
 
 22
 00:00:44,079 --> 00:00:46,160
@@ -112,7 +112,7 @@ clean it, sanitize it, chuck it back in
 
 29
 00:00:59,280 --> 00:01:01,520
-in the fermenttor. Massive pain,
+in the fermenter. Massive pain,
 
 30
 00:01:01,520 --> 00:01:04,400
@@ -140,7 +140,7 @@ the pill from your phone using Bluetooth
 
 36
 00:01:17,360 --> 00:01:19,200
-using the new Rapt Brew app. We're
+using the new RAPT Brew app. We're
 
 37
 00:01:19,200 --> 00:01:21,040
@@ -156,7 +156,7 @@ in smart mode by default. Smart mode
 
 40
 00:01:25,280 --> 00:01:27,600
-means if your pills in smart mode, you
+means if your pill's in smart mode, you
 
 41
 00:01:27,600 --> 00:01:30,320
@@ -184,7 +184,7 @@ feel it. The big difference is you will
 
 47
 00:01:40,880 --> 00:01:44,079
-need to use the new wrap brew app to
+need to use the new RAPT Brew app to
 
 48
 00:01:44,079 --> 00:01:46,079
@@ -196,11 +196,11 @@ firmware means this will not talk to the
 
 50
 00:01:49,119 --> 00:01:50,880
-old rap portal anymore. You've just got
+old RAPT portal anymore. You've just got
 
 51
 00:01:50,880 --> 00:01:52,960
-to update to the rap brew app. The Rap
+to update to the RAPT Brew app. The RAPT
 
 52
 00:01:52,960 --> 00:01:55,520
@@ -288,7 +288,7 @@ need to plug it in. You just open the
 
 73
 00:02:41,440 --> 00:02:43,920
-Rap Brew app on your phone, click add
+RAPT Brew app on your phone, click add
 
 74
 00:02:43,920 --> 00:02:46,720
@@ -308,11 +308,11 @@ easily. It's a huge upgrade. I can also
 
 78
 00:02:54,239 --> 00:02:56,959
-just chuck this in in a bucket for now.
+just chuck this in a bucket for now.
 
 79
 00:02:56,959 --> 00:03:00,680
-Pretend this is a fermenttor.
+Pretend this is a fermenter.
 
 80
 00:03:01,760 --> 00:03:03,280
@@ -324,7 +324,7 @@ myself, I forgot to calibrate it.
 
 82
 00:03:05,599 --> 00:03:08,640
-Absolutely no drama. pull out my phone,
+Absolutely no drama. Pull out my phone,
 
 83
 00:03:08,640 --> 00:03:11,200
@@ -412,7 +412,7 @@ older firmware that's not yet compatible
 
 104
 00:03:51,840 --> 00:03:54,000
-with the new ratback. It's easy to fix.
+with the new RAPT back end. It's easy to fix.
 
 105
 00:03:54,000 --> 00:03:56,000
@@ -420,7 +420,7 @@ It's easy to do. When you buy a pill,
 
 106
 00:03:56,000 --> 00:03:58,080
-you may or may not get one with with the
+you may or may not get one with the
 
 107
 00:03:58,080 --> 00:04:00,879
@@ -448,7 +448,7 @@ it's running the new firmware, it will
 
 113
 00:04:13,200 --> 00:04:15,760
-pulse green for a couple of seconds. Um
+pulse green for a couple of seconds.
 
 114
 00:04:15,760 --> 00:04:17,919
@@ -472,7 +472,7 @@ hit add device, and hit pill hydrometer.
 
 119
 00:04:28,880 --> 00:04:30,240
-It will talk you through it. It'll be
+It will talk you through it. It'll
 
 120
 00:04:30,240 --> 00:04:32,560
@@ -500,7 +500,7 @@ pills that are already on the shelf. So,
 
 126
 00:04:40,800 --> 00:04:42,479
-if you've got a new pill, um, this is
+if you've got a new pill, this is
 
 127
 00:04:42,479 --> 00:04:44,400
@@ -540,7 +540,7 @@ charging base. If it's not wireless, you
 
 136
 00:04:59,600 --> 00:05:02,240
-just plug it into USBC. You'll see very
+just plug it into USB-C. You'll see very
 
 137
 00:05:02,240 --> 00:05:04,080
@@ -568,11 +568,11 @@ Your pill will pop up in your Wi-Fi
 
 143
 00:05:17,840 --> 00:05:21,120
-network. So it'll say wrapped pill xxx.
+network. So it'll say RAPT Pill xxx.
 
 144
 00:05:21,120 --> 00:05:22,479
-So rap pill whatever the last four
+So RAPT Pill whatever the last four
 
 145
 00:05:22,479 --> 00:05:24,560
@@ -612,7 +612,7 @@ enter the password. I have my password
 
 154
 00:05:44,880 --> 00:05:47,680
-saved, then hit join. Uh just wait a
+saved, then hit join. Just wait a
 
 155
 00:05:47,680 --> 00:05:50,479
@@ -620,7 +620,7 @@ couple of seconds. The pill will connect
 
 156
 00:05:50,479 --> 00:05:53,199
-to your Wi-Fi network. Uh it'll pop up a
+to your Wi-Fi network. It'll pop up a
 
 157
 00:05:53,199 --> 00:05:55,840
@@ -664,11 +664,11 @@ update. You don't have to do anything
 
 167
 00:06:11,199 --> 00:06:14,000
-more. You can close the um captive
+more. You can close the captive
 
 168
 00:06:14,000 --> 00:06:16,960
-portal. Um go have a cup of tea or have
+portal. Go have a cup of tea or have
 
 169
 00:06:16,960 --> 00:06:18,800
@@ -704,7 +704,7 @@ right, so now we just need to register
 
 177
 00:06:33,919 --> 00:06:36,319
-it. So here's my pill. Um, still on a
+it. So here's my pill. Still on a
 
 178
 00:06:36,319 --> 00:06:37,840
@@ -724,7 +724,7 @@ quite easily.
 
 182
 00:06:43,120 --> 00:06:45,680
-Um, we can't go into down under mode
+We can't go into down under mode
 
 183
 00:06:45,680 --> 00:06:47,199
@@ -748,11 +748,11 @@ the app. We click on the sidebar. We
 
 188
 00:06:55,280 --> 00:06:58,240
-click add device. Pill hydrometers at
+click add device. Pill hydrometer's at
 
 189
 00:06:58,240 --> 00:07:00,720
-the top. Uh, scanned. It's already found
+the top. Scanned. It's already found
 
 190
 00:07:00,720 --> 00:07:02,160
@@ -848,7 +848,7 @@ red pill. So we're going to call that
 
 213
 00:07:48,479 --> 00:07:52,160
-wrapped pill red and hit register. Again
+RAPT Pill Red and hit register. Again
 
 214
 00:07:52,160 --> 00:07:55,599
@@ -908,7 +908,7 @@ finish setup.
 
 228
 00:08:26,960 --> 00:08:29,599
-And hit finish setup. it will take you
+And hit finish setup. It will take you
 
 229
 00:08:29,599 --> 00:08:31,759
@@ -920,7 +920,7 @@ see, we've also released a pretty major
 
 231
 00:08:34,240 --> 00:08:36,320
-update to the Wrapped Brew app, which
+update to the RAPT Brew app, which
 
 232
 00:08:36,320 --> 00:08:39,200
@@ -928,7 +928,7 @@ introduces a whole bunch of cool stuff
 
 233
 00:08:39,200 --> 00:08:41,200
-for the pill. Um, and we'll go through
+for the pill. And we'll go through
 
 234
 00:08:41,200 --> 00:08:43,919
@@ -940,7 +940,7 @@ we've got our pill. We've registered it
 
 236
 00:08:46,880 --> 00:08:49,040
-to the new Wrapped Brew app, and we're
+to the new RAPT Brew app, and we're
 
 237
 00:08:49,040 --> 00:08:51,440
@@ -948,7 +948,7 @@ looking at the devices screen for the
 
 238
 00:08:51,440 --> 00:08:53,920
-Wrapped Pill, the red one. Um, and we
+RAPT Pill, the red one. And we
 
 239
 00:08:53,920 --> 00:08:55,279
@@ -956,7 +956,7 @@ can see a whole bunch of really cool
 
 240
 00:08:55,279 --> 00:08:57,279
-things. Uh, so the overview, it shows
+things. So the overview, it shows
 
 241
 00:08:57,279 --> 00:08:58,480
@@ -968,7 +968,7 @@ current gravity, which is not super
 
 243
 00:08:59,760 --> 00:09:00,959
-accurate cuz this thing's currently
+accurate because this thing's currently
 
 244
 00:09:00,959 --> 00:09:02,880
@@ -980,7 +980,7 @@ we're going to do is calibrate it. This
 
 246
 00:09:04,640 --> 00:09:06,800
-is still in broadcast mode cuz we've
+is still in broadcast mode because we've
 
 247
 00:09:06,800 --> 00:09:09,200
@@ -1060,7 +1060,7 @@ to the pill first. So you go to your
 
 266
 00:09:51,279 --> 00:09:53,360
-overview, hit connect to pill. it will
+overview, hit connect to pill. It will
 
 267
 00:09:53,360 --> 00:09:55,440
@@ -1124,7 +1124,7 @@ there and chuck it directly into your
 
 282
 00:10:25,440 --> 00:10:26,959
-fermenttor. So we're going to hit water
+fermenter. So we're going to hit water
 
 283
 00:10:26,959 --> 00:10:29,360
@@ -1136,7 +1136,7 @@ That's all you need to do. The pill will
 
 285
 00:10:31,680 --> 00:10:34,560
-automatically connect register. You can
+automatically connect and register. You can
 
 286
 00:10:34,560 --> 00:10:37,040
@@ -1148,7 +1148,7 @@ gives you a timer to count it down. And
 
 288
 00:10:39,760 --> 00:10:42,959
-we're nearly there. And [screaming]
+we're nearly there. And
 
 289
 00:10:42,959 --> 00:10:45,600
@@ -1156,7 +1156,7 @@ calibration successful. The gravity is
 
 290
 00:10:45,600 --> 00:10:47,680
-obviously 1.0000.
+obviously 1.000.
 
 291
 00:10:47,680 --> 00:10:50,480
@@ -1164,15 +1164,15 @@ It's in water. Now, what you can do now,
 
 292
 00:10:50,480 --> 00:10:52,800
-I don't have a fermented to hand, but if
+I don't have a fermenter to hand, but if
 
 293
 00:10:52,800 --> 00:10:54,320
-you've got a fermenttor filled with W
+you've got a fermenter filled with wort
 
 294
 00:10:54,320 --> 00:10:56,320
-and you know the gravity of the W, you
+and you know the gravity of the wort, you
 
 295
 00:10:56,320 --> 00:10:58,480
@@ -1188,7 +1188,7 @@ known gravity. You enter the gravity of
 
 298
 00:11:02,399 --> 00:11:04,959
-your word and hit calibrate. Exactly the
+your wort and hit calibrate. Exactly the
 
 299
 00:11:04,959 --> 00:11:07,040
@@ -1228,7 +1228,7 @@ whenever you want. So every time you
 
 308
 00:11:24,560 --> 00:11:26,959
-chuck it in word, you can do an enter
+chuck it in wort, you can do an enter
 
 309
 00:11:26,959 --> 00:11:30,240
@@ -1240,11 +1240,11 @@ the previously saved water calibration
 
 311
 00:11:32,800 --> 00:11:34,000
-at 1.0 n 0 n 0 n 0 n 0 n 0 n 0 n 0 n 0 n
+at 1.000
 
 312
 00:11:34,000 --> 00:11:36,959
-0 n 0 and use the new word gravity,
+and use the new wort gravity,
 
 313
 00:11:36,959 --> 00:11:39,200
@@ -1264,23 +1264,23 @@ right, so I've got my pill. I've chucked
 
 317
 00:11:46,079 --> 00:11:47,680
-it in my fermenttor. The jugger is
+it in my fermenter. The jug is
 
 318
 00:11:47,680 --> 00:11:50,000
-standing in for a fermenttor. And then I
+standing in for a fermenter. And then I
 
 319
 00:11:50,000 --> 00:11:52,079
-realize I've put my fermenttor in my
+realize I've put my fermenter in my
 
 320
 00:11:52,079 --> 00:11:54,079
-wraps chamber and I want to connect the
+RAPT chamber and I want to connect the
 
 321
 00:11:54,079 --> 00:11:56,640
-pill by Bluetooth to my wrap chamber for
+pill by Bluetooth to my RAPT chamber for
 
 322
 00:11:56,640 --> 00:11:58,480
@@ -1292,7 +1292,7 @@ to put it in Bluetooth mode before I
 
 324
 00:11:59,839 --> 00:12:01,120
-chucked it in. Probably cuz I was so
+chucked it in. Probably because I was so
 
 325
 00:12:01,120 --> 00:12:02,880
@@ -1384,7 +1384,7 @@ you're not connected and you make a
 
 347
 00:12:51,360 --> 00:12:53,279
-change in setup, it will just cue the
+change in setup, it will just queue the
 
 348
 00:12:53,279 --> 00:12:54,560
@@ -1448,7 +1448,7 @@ right. So, that is pretty much it. This
 
 363
 00:13:22,560 --> 00:13:25,200
-is um the old pill. Same as the new
+is the old pill. Same as the new
 
 364
 00:13:25,200 --> 00:13:26,959
@@ -1464,7 +1464,7 @@ something I haven't mentioned yet. If
 
 367
 00:13:31,040 --> 00:13:33,440
-you already have a wrapped account and
+you already have a RAPT account and
 
 368
 00:13:33,440 --> 00:13:35,760
@@ -1488,11 +1488,11 @@ go to your App Store or your Google Play
 
 373
 00:13:45,200 --> 00:13:47,519
-Store, and download the Raps Brew app.
+Store, and download the RAPT Brew app.
 
 374
 00:13:47,519 --> 00:13:50,240
-Register a Raps Brew app account. It
+Register a RAPT Brew app account. It
 
 375
 00:13:50,240 --> 00:13:51,760
@@ -1500,7 +1500,7 @@ will, if you've already got an existing
 
 376
 00:13:51,760 --> 00:13:53,760
-Rap Portal account, it will prompt you
+RAPT portal account, it will prompt you
 
 377
 00:13:53,760 --> 00:13:56,480
@@ -1512,7 +1512,7 @@ you've got registered to the old portal
 
 379
 00:13:58,079 --> 00:13:59,760
-come across automatically. you don't
+come across automatically. You don't
 
 380
 00:13:59,760 --> 00:14:01,519
@@ -1544,7 +1544,7 @@ already own, all you have to do is make
 
 387
 00:14:16,959 --> 00:14:18,720
-sure you've got a Rap Brew account and
+sure you've got a RAPT Brew account and
 
 388
 00:14:18,720 --> 00:14:20,720
@@ -1568,7 +1568,7 @@ automatically. You don't have to do
 
 393
 00:14:28,880 --> 00:14:30,880
-anything. The wrapped app itself will
+anything. The RAPT app itself will
 
 394
 00:14:30,880 --> 00:14:32,480
@@ -1600,7 +1600,7 @@ the new backend which talks directly to
 
 401
 00:14:47,199 --> 00:14:49,519
-the Rap Brew app gives us an incredible
+the RAPT Brew app gives us an incredible
 
 402
 00:14:49,519 --> 00:14:52,399
@@ -1616,7 +1616,7 @@ Things like being able to calibrate when
 
 405
 00:14:56,079 --> 00:14:58,160
-the pills in the fermenttor is probably
+the pill's in the fermenter is probably
 
 406
 00:14:58,160 --> 00:15:00,160
@@ -1632,7 +1632,7 @@ means that as we update the firmware for
 
 409
 00:15:04,480 --> 00:15:06,480
-your bruisers, for your fermentation
+your BrewZillas, for your fermentation
 
 410
 00:15:06,480 --> 00:15:08,480
@@ -1656,7 +1656,7 @@ the App Store or the Play Store and get
 
 415
 00:15:18,880 --> 00:15:21,519
-on the Wrapped Brew app. If you do it in
+on the RAPT Brew app. If you do it in
 
 416
 00:15:21,519 --> 00:15:23,680
@@ -1676,4 +1676,4 @@ you already have a pill and you don't
 
 420
 00:15:30,320 --> 00:15:33,360
-have the rep brew app,
+have the RAPT Brew app,

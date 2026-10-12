@@ -4,7 +4,10 @@ Video: [RAPT Pill Hydrometer: Brand New Firmware Update and RAPT Brew App Integr
 Product reference: [Beermachines.ru — RAPT Pill](https://www.beermachines.ru/catalog/equipment/testing-measuring/rapt-pill-hydrometer-thermometer-wifi-bluetooth/)
 Terminology base: the client's earlier translation «Как настраивать Bluetooth соединение устройств с системой RAPT».
 
-English source is YouTube auto-generated SRT (420 cues, ends at 15:33 mid-sentence).
+`RAPT_Pill_V2_EN_auto.srt` is the untouched YouTube auto-generated SRT (420 cues; the source
+video itself is cut off at 15:33 mid-sentence). `RAPT_Pill_V2_EN.srt` is the corrected English
+with the fixes below applied, same cue numbers and timings; fillers (uh, um) and doubled words
+(the the, with with) are removed there as well.
 Speaker differs from earlier KegLand videos: fast, Australian slang ("ripper", "chuck it in", "no drama").
 
 ## ASR / mishear fixes
